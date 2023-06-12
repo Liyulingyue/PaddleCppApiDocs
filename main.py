@@ -24,10 +24,10 @@ def analysis_file(path):
 # 生成文件
 # 根据给定的list内容，生成对应的文档信息
 def generate_docs(
-    all_funcs, all_class, cpp2py_api_list, save_dir, LANGUAGE="cn"
+    all_funcs, all_class, cpp2py_api_list, save_dir, root_dir, LANGUAGE="cn"
 ):
     for item in all_funcs:
-        path = item["filename"].replace("../", "").replace(".h", "")
+        path = item["filename"].replace(root_dir+'\\include\\paddle\\phi\\api\\', "", 1).replace(".h", "")
         dir_path = os.path.join(save_dir, LANGUAGE, path)
         if not os.path.exists(dir_path):
             os.makedirs(dir_path)
@@ -81,7 +81,7 @@ def cpp2py(data: dict):
 # 3. 生成文档
 if __name__ == "__main__":
     root_dir = ''
-    save_dir = '.'  # 默认保存在当前目录
+    save_dir = './docs/source'  # 保存在source目录
     if len(sys.argv) == 3:
         root_dir = sys.argv[1]
         save_dir = sys.argv[2]
@@ -95,7 +95,7 @@ if __name__ == "__main__":
         except:
             # for simple run
             root_dir = '../paddle'
-            save_dir = '.'  # 默认保存在当前目录
+            save_dir = './docs/source'  # 默认保存在当前目录
 
     all_funcs = []
     all_class = []
@@ -137,8 +137,8 @@ if __name__ == "__main__":
             )
 
     # 生成文档
-    generate_docs(all_funcs, all_class, cpp2py_api_list, save_dir, "cn")
-    generate_docs(all_funcs, all_class, cpp2py_api_list, save_dir, "en")
+    generate_docs(all_funcs, all_class, cpp2py_api_list, save_dir, root_dir, "cn")
+    generate_docs(all_funcs, all_class, cpp2py_api_list, save_dir, root_dir, "en")
 
     # 生成 overview
     generate_overview(overview_list, save_dir, "cn")

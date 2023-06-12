@@ -1,0 +1,22 @@
+.. _en_api_paddle_experimental_rrelu:
+
+rrelu
+-------------------------------
+
+..cpp: function::Tensor rrelu ( const Tensor & x , float lower , float upper , bool is_test ) ;
+
+
+Path
+:::::::::::::::::::::
+D:\Codes\PaddleCppApiDocs\venv\lib\site-packages\paddle\include\paddle\phi\api\include\api.h
+
+Parameters
+:::::::::::::::::::::
+	- **x** (const Tensor&)
+	- **lower** (float)
+	- **upper** (float)
+	- **is_test** (bool)
+
+Returns
+:::::::::::::::::::::
+Tensor

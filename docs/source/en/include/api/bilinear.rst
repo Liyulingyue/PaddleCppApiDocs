@@ -1,0 +1,22 @@
+.. _en_api_paddle_experimental_bilinear:
+
+bilinear
+-------------------------------
+
+..cpp: function::Tensor bilinear ( const Tensor & x , const Tensor & y , const Tensor & weight , const paddle::optional<Tensor> & bias ) ;
+
+
+Path
+:::::::::::::::::::::
+D:\Codes\PaddleCppApiDocs\venv\lib\site-packages\paddle\include\paddle\phi\api\include\api.h
+
+Parameters
+:::::::::::::::::::::
+	- **x** (const Tensor&)
+	- **y** (const Tensor&)
+	- **weight** (const Tensor&)
+	- **bias** (const paddle::optional<Tensor>&)
+
+Returns
+:::::::::::::::::::::
+Tensor

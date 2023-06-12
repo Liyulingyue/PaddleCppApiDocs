@@ -1,0 +1,20 @@
+.. _en_api_paddle_experimental_reverse:
+
+reverse
+-------------------------------
+
+..cpp: function::Tensor reverse ( const Tensor & x , const IntArray & axis ) ;
+
+
+Path
+:::::::::::::::::::::
+D:\Codes\PaddleCppApiDocs\venv\lib\site-packages\paddle\include\paddle\phi\api\include\api.h
+
+Parameters
+:::::::::::::::::::::
+	- **x** (const Tensor&)
+	- **axis** (const IntArray&)
+
+Returns
+:::::::::::::::::::::
+Tensor

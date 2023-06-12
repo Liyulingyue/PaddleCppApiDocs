@@ -1,0 +1,20 @@
+.. _en_api_paddle_experimental_logical_and:
+
+logical_and
+-------------------------------
+
+..cpp: function::Tensor logical_and ( const Tensor & x , const Tensor & y ) ;
+
+
+Path
+:::::::::::::::::::::
+D:\Codes\PaddleCppApiDocs\venv\lib\site-packages\paddle\include\paddle\phi\api\include\api.h
+
+Parameters
+:::::::::::::::::::::
+	- **x** (const Tensor&)
+	- **y** (const Tensor&)
+
+Returns
+:::::::::::::::::::::
+Tensor

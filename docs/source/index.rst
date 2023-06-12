@@ -20,3 +20,5 @@ Contents
 
    usage
    api
+   cn/index
+   en/index
