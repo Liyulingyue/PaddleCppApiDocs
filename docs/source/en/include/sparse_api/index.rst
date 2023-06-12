@@ -1,6 +1,7 @@
 sparse_api
 ----------------------------------------------------------
 .. toctree::
+  :maxdepth: 1
   abs
   acos
   acosh
