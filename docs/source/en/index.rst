@@ -1,6 +1,6 @@
 en
 ----------------------------------------------------------
 .. toctree::
-  ext\index
-  include\index
+  ext/index
+  include/index
   Overview

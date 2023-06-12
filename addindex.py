@@ -16,7 +16,7 @@ def add_index_loop(root_dir):
                 else:
                     sub_file_dir = os.path.join(root_dir, item)
                     if os.path.isdir(sub_file_dir):
-                        f.write(f'  {item}\index\n')
+                        f.write(f'  {item}/index\n')
     for item in item_list:
         file_dir = os.path.join(root_dir, item)
         if os.path.isdir(file_dir):
