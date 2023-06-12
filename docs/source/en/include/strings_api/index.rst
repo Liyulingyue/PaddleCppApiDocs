@@ -1,6 +1,7 @@
 strings_api
 ----------------------------------------------------------
-empty
-empty_like
-lower
-upper
+.. toctree::
+  empty
+  empty_like
+  lower
+  upper

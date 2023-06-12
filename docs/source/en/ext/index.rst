@@ -1,3 +1,4 @@
 ext
 ----------------------------------------------------------
-op_meta_info\index
+.. toctree::
+  op_meta_info\index

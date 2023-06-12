@@ -1,4 +1,5 @@
 context_pool
 ----------------------------------------------------------
-GetAllocator
-GetCurrentCUDAStream
+.. toctree::
+  GetAllocator
+  GetCurrentCUDAStream

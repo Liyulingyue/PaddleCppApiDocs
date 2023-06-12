@@ -448,7 +448,7 @@ def generate_overview_cn(overview_list, root_dir, LANGUAGE):
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
 
-    rst_dir = os.path.join(dir_path, 'index.rst')
+    rst_dir = os.path.join(dir_path, 'Overview.rst')
     with open(rst_dir, 'w', encoding='utf8') as f:
         head_text = (
             f'# C++ 文档\n'
@@ -516,7 +516,7 @@ def generate_overview_en(overview_list, root_dir, LANGUAGE):
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
 
-    rst_dir = os.path.join(dir_path, 'index.rst')
+    rst_dir = os.path.join(dir_path, 'Overview.rst')
     with open(rst_dir, 'w', encoding='utf8') as f:
         head_text = (
             f'# C++ API Reference\n'
