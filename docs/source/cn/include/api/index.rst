@@ -1,7 +1,7 @@
 api
 ----------------------------------------------------------
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
   abs
   accuracy
   acos

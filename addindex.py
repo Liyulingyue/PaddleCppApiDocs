@@ -10,7 +10,7 @@ def add_index_loop(root_dir):
             f.write(f'{os.path.basename(root_dir)}\n'
                     f'----------------------------------------------------------\n'
                     f'.. toctree::\n'
-                    f'  :maxdepth: 1\n')
+                    f'  :maxdepth: 2\n')
             for item in item_list:
                 if item.endswith('.rst'):
                     f.write(f'  {item[:-4]}\n')

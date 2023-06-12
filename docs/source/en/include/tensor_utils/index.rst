@@ -1,5 +1,5 @@
 tensor_utils
 ----------------------------------------------------------
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
   from_blob

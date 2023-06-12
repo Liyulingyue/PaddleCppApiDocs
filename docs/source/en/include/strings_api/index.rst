@@ -1,7 +1,7 @@
 strings_api
 ----------------------------------------------------------
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
   empty
   empty_like
   lower

@@ -1,6 +1,6 @@
 context_pool
 ----------------------------------------------------------
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
   GetAllocator
   GetCurrentCUDAStream

@@ -1,7 +1,7 @@
 en
 ----------------------------------------------------------
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
   ext/index
   include/index
   Overview

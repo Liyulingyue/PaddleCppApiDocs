@@ -9,6 +9,5 @@ Contents
 .. toctree::
 
    usage
-   api
    cn/index
    en/index

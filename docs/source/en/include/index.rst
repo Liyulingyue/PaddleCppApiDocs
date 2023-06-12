@@ -1,7 +1,7 @@
 include
 ----------------------------------------------------------
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
   api/index
   context_pool/index
   fused_api/index
