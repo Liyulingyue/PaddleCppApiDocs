@@ -2,6 +2,7 @@ cn
 ----------
 .. toctree::
    ext/index
+   include/index
 
 # C++ 文档
 欢迎使用飞桨框架（PaddlePaddle），PaddlePaddle 是一个易用、高效、灵活、可扩展的深度学习框架，致力于让深度学习技术的创新与应用更简单。
