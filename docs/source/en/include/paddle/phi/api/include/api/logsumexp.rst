@@ -3,7 +3,7 @@
 logsumexp
 -------------------------------
 
-..cpp: function::Tensor logsumexp ( const Tensor & x , const std::vector<int64_t> & axis , bool keepdim , bool reduce_all ) ;
+.. cpp:function:: Tensor logsumexp ( const Tensor & x , const std::vector<int64_t> & axis , bool keepdim , bool reduce_all ) ;
 
 
 Path

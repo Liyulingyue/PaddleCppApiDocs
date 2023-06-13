@@ -3,7 +3,7 @@
 batch_norm_
 -------------------------------
 
-..cpp: function::std::tuple<Tensor , Tensor & , Tensor & , Tensor , Tensor , Tensor> batch_norm_ ( const Tensor & x , Tensor & mean , Tensor & variance , const Tensor & scale , const Tensor & bias , bool is_test , float momentum , float epsilon , const std::string & data_layout , bool use_global_stats , bool trainable_statistics ) ;
+.. cpp:function:: std::tuple<Tensor , Tensor & , Tensor & , Tensor , Tensor , Tensor> batch_norm_ ( const Tensor & x , Tensor & mean , Tensor & variance , const Tensor & scale , const Tensor & bias , bool is_test , float momentum , float epsilon , const std::string & data_layout , bool use_global_stats , bool trainable_statistics ) ;
 
 
 Path

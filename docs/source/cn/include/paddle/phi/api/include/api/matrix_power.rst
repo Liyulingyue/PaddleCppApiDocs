@@ -3,7 +3,7 @@
 matrix_power
 -------------------------------
 
-..cpp: function::Tensor matrix_power ( const Tensor & x , int n ) ;
+.. cpp:function:: Tensor matrix_power ( const Tensor & x , int n ) ;
 
 
 本 API 与 Python API 对齐，详细用法可参考链接：[paddle.matrix_power](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/matrix_power_cn.html)

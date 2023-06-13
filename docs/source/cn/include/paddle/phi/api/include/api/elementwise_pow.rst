@@ -3,7 +3,7 @@
 elementwise_pow
 -------------------------------
 
-..cpp: function::Tensor elementwise_pow ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor elementwise_pow ( const Tensor & x , const Tensor & y ) ;
 
 
 定义目录

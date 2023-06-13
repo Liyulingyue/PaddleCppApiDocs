@@ -3,7 +3,7 @@
 round_
 -------------------------------
 
-..cpp: function::Tensor & round_ ( Tensor & x ) ;
+.. cpp:function:: Tensor & round_ ( Tensor & x ) ;
 
 
 定义目录

@@ -3,7 +3,7 @@
 trans_layout
 -------------------------------
 
-..cpp: function::Tensor trans_layout ( const Tensor & x , const std::vector<int> & perm ) ;
+.. cpp:function:: Tensor trans_layout ( const Tensor & x , const std::vector<int> & perm ) ;
 
 
 Path

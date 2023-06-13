@@ -3,7 +3,7 @@
 cast
 -------------------------------
 
-..cpp: function::Tensor cast ( const Tensor & x , DataType index_dtype = DataType::UNDEFINED , DataType value_dtype = DataType::UNDEFINED ) ;
+.. cpp:function:: Tensor cast ( const Tensor & x , DataType index_dtype = DataType::UNDEFINED , DataType value_dtype = DataType::UNDEFINED ) ;
 
 
 Path

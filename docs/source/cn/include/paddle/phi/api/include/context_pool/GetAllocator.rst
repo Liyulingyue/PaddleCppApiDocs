@@ -3,7 +3,7 @@
 GetAllocator
 -------------------------------
 
-..cpp: function::phi::Allocator * GetAllocator ( const phi::Place & place ) ;
+.. cpp:function:: phi::Allocator * GetAllocator ( const phi::Place & place ) ;
  Get the Allocator for the passed place.
 
 

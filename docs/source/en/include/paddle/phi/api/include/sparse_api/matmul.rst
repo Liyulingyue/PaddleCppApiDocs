@@ -3,7 +3,7 @@
 matmul
 -------------------------------
 
-..cpp: function::Tensor matmul ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor matmul ( const Tensor & x , const Tensor & y ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.matmul](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/matmul_en.html)

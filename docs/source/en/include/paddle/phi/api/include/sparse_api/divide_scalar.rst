@@ -3,7 +3,7 @@
 divide_scalar
 -------------------------------
 
-..cpp: function::Tensor divide_scalar ( const Tensor & x , float scalar ) ;
+.. cpp:function:: Tensor divide_scalar ( const Tensor & x , float scalar ) ;
 
 
 Path

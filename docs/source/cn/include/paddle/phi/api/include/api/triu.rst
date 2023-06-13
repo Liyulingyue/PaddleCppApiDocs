@@ -3,7 +3,7 @@
 triu
 -------------------------------
 
-..cpp: function::Tensor triu ( const Tensor & x , int diagonal ) ;
+.. cpp:function:: Tensor triu ( const Tensor & x , int diagonal ) ;
 
 
 定义目录

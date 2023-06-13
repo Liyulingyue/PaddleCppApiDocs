@@ -3,7 +3,7 @@
 sigmoid_
 -------------------------------
 
-..cpp: function::Tensor & sigmoid_ ( Tensor & x ) ;
+.. cpp:function:: Tensor & sigmoid_ ( Tensor & x ) ;
 
 
 定义目录

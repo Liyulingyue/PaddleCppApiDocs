@@ -3,7 +3,7 @@
 relu6
 -------------------------------
 
-..cpp: function::Tensor relu6 ( const Tensor & x ) ;
+.. cpp:function:: Tensor relu6 ( const Tensor & x ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.relu6](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/relu6_en.html)

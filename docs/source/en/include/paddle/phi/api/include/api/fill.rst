@@ -3,7 +3,7 @@
 fill
 -------------------------------
 
-..cpp: function::Tensor fill ( const Tensor & x , const Scalar & value ) ;
+.. cpp:function:: Tensor fill ( const Tensor & x , const Scalar & value ) ;
 
 
 Path

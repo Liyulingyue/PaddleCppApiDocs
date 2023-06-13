@@ -3,7 +3,7 @@
 triu_indices
 -------------------------------
 
-..cpp: function::Tensor triu_indices ( int row , int col , int offset , DataType dtype , const Place & place = { } ) ;
+.. cpp:function:: Tensor triu_indices ( int row , int col , int offset , DataType dtype , const Place & place = { } ) ;
 
 
 Path

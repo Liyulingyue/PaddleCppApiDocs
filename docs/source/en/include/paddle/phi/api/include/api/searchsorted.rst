@@ -3,7 +3,7 @@
 searchsorted
 -------------------------------
 
-..cpp: function::Tensor searchsorted ( const Tensor & sorted_sequence , const Tensor & values , bool out_int32 = false , bool right = false ) ;
+.. cpp:function:: Tensor searchsorted ( const Tensor & sorted_sequence , const Tensor & values , bool out_int32 = false , bool right = false ) ;
 
 
 Path

@@ -3,7 +3,7 @@
 softmax
 -------------------------------
 
-..cpp: function::Tensor softmax ( const Tensor & x , int axis ) ;
+.. cpp:function:: Tensor softmax ( const Tensor & x , int axis ) ;
 
 
 定义目录

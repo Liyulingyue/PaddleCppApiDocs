@@ -3,7 +3,7 @@
 sqrt
 -------------------------------
 
-..cpp: function::Tensor sqrt ( const Tensor & x ) ;
+.. cpp:function:: Tensor sqrt ( const Tensor & x ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.sqrt](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/sqrt_en.html)

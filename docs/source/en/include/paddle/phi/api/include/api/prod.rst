@@ -3,7 +3,7 @@
 prod
 -------------------------------
 
-..cpp: function::Tensor prod ( const Tensor & x , const IntArray & dims , bool keep_dim , bool reduce_all ) ;
+.. cpp:function:: Tensor prod ( const Tensor & x , const IntArray & dims , bool keep_dim , bool reduce_all ) ;
 
 
 Path

@@ -3,7 +3,7 @@
 logical_or
 -------------------------------
 
-..cpp: function::Tensor logical_or ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor logical_or ( const Tensor & x , const Tensor & y ) ;
 
 
 Path

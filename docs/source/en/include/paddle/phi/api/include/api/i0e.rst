@@ -3,7 +3,7 @@
 i0e
 -------------------------------
 
-..cpp: function::Tensor i0e ( const Tensor & x ) ;
+.. cpp:function:: Tensor i0e ( const Tensor & x ) ;
 
 
 Path

@@ -3,7 +3,7 @@
 AssignTensorImpl
 -------------------------------
 
-..cpp: function::void AssignTensorImpl ( const Tensor & src , Tensor * dst ) ;
+.. cpp:function:: void AssignTensorImpl ( const Tensor & src , Tensor * dst ) ;
 
 
 Path

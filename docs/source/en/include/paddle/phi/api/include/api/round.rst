@@ -3,7 +3,7 @@
 round
 -------------------------------
 
-..cpp: function::Tensor round ( const Tensor & x ) ;
+.. cpp:function:: Tensor round ( const Tensor & x ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.round](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/round_en.html)

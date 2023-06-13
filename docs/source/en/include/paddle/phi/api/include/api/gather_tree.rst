@@ -3,7 +3,7 @@
 gather_tree
 -------------------------------
 
-..cpp: function::Tensor gather_tree ( const Tensor & ids , const Tensor & parents ) ;
+.. cpp:function:: Tensor gather_tree ( const Tensor & ids , const Tensor & parents ) ;
 
 
 Path

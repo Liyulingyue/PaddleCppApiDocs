@@ -3,7 +3,7 @@
 relu_
 -------------------------------
 
-..cpp: function::Tensor & relu_ ( Tensor & x ) ;
+.. cpp:function:: Tensor & relu_ ( Tensor & x ) ;
 
 
 Path

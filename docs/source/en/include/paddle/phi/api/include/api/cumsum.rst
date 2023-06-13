@@ -3,7 +3,7 @@
 cumsum
 -------------------------------
 
-..cpp: function::Tensor cumsum ( const Tensor & x , const Scalar & axis , bool flatten , bool exclusive , bool reverse ) ;
+.. cpp:function:: Tensor cumsum ( const Tensor & x , const Scalar & axis , bool flatten , bool exclusive , bool reverse ) ;
 
 
 Path

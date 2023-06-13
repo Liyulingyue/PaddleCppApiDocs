@@ -3,7 +3,7 @@
 softsign
 -------------------------------
 
-..cpp: function::Tensor softsign ( const Tensor & x ) ;
+.. cpp:function:: Tensor softsign ( const Tensor & x ) ;
 
 
 Path

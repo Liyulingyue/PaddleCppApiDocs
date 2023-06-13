@@ -3,7 +3,7 @@
 rsqrt_
 -------------------------------
 
-..cpp: function::Tensor & rsqrt_ ( Tensor & x ) ;
+.. cpp:function:: Tensor & rsqrt_ ( Tensor & x ) ;
 
 
 定义目录

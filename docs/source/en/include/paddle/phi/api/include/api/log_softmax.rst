@@ -3,7 +3,7 @@
 log_softmax
 -------------------------------
 
-..cpp: function::Tensor log_softmax ( const Tensor & x , int axis = - 1 ) ;
+.. cpp:function:: Tensor log_softmax ( const Tensor & x , int axis = - 1 ) ;
 
 
 Path

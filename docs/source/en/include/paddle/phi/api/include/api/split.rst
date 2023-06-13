@@ -3,7 +3,7 @@
 split
 -------------------------------
 
-..cpp: function::std::vector<Tensor> split ( const Tensor & x , const IntArray & sections , const Scalar & axis ) ;
+.. cpp:function:: std::vector<Tensor> split ( const Tensor & x , const IntArray & sections , const Scalar & axis ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.split](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/split_en.html)

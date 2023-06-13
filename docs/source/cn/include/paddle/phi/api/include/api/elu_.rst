@@ -3,7 +3,7 @@
 elu_
 -------------------------------
 
-..cpp: function::Tensor & elu_ ( Tensor & x , float alpha = 1.0 f ) ;
+.. cpp:function:: Tensor & elu_ ( Tensor & x , float alpha = 1.0 f ) ;
 
 
 定义目录

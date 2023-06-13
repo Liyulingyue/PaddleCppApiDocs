@@ -3,7 +3,7 @@
 tanh
 -------------------------------
 
-..cpp: function::Tensor tanh ( const Tensor & x ) ;
+.. cpp:function:: Tensor tanh ( const Tensor & x ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.tanh](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/tanh_en.html)

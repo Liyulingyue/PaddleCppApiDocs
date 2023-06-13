@@ -3,7 +3,7 @@
 inverse
 -------------------------------
 
-..cpp: function::Tensor inverse ( const Tensor & x ) ;
+.. cpp:function:: Tensor inverse ( const Tensor & x ) ;
 
 
 Path

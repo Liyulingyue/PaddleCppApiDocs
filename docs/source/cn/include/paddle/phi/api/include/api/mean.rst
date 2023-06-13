@@ -3,7 +3,7 @@
 mean
 -------------------------------
 
-..cpp: function::Tensor mean ( const Tensor & x , const IntArray & axis = { } , bool keepdim = false ) ;
+.. cpp:function:: Tensor mean ( const Tensor & x , const IntArray & axis = { } , bool keepdim = false ) ;
 
 
 定义目录

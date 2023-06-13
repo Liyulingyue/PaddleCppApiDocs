@@ -3,7 +3,7 @@
 rrelu
 -------------------------------
 
-..cpp: function::Tensor rrelu ( const Tensor & x , float lower , float upper , bool is_test ) ;
+.. cpp:function:: Tensor rrelu ( const Tensor & x , float lower , float upper , bool is_test ) ;
 
 
 定义目录

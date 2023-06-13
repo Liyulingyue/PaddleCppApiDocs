@@ -3,7 +3,7 @@
 repeat_interleave
 -------------------------------
 
-..cpp: function::Tensor repeat_interleave ( const Tensor & x , int repeats , int axis ) ;
+.. cpp:function:: Tensor repeat_interleave ( const Tensor & x , int repeats , int axis ) ;
 
 
 Path

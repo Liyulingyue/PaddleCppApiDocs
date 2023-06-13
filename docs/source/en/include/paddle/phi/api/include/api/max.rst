@@ -3,7 +3,7 @@
 max
 -------------------------------
 
-..cpp: function::Tensor max ( const Tensor & x , const IntArray & axis = { } , bool keepdim = false ) ;
+.. cpp:function:: Tensor max ( const Tensor & x , const IntArray & axis = { } , bool keepdim = false ) ;
 
 
 Path

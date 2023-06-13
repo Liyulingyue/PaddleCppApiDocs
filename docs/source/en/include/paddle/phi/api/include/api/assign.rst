@@ -3,7 +3,7 @@
 assign
 -------------------------------
 
-..cpp: function::Tensor assign ( const Tensor & x ) ;
+.. cpp:function:: Tensor assign ( const Tensor & x ) ;
 
 
 Path

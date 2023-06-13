@@ -3,7 +3,7 @@
 kthvalue
 -------------------------------
 
-..cpp: function::std::tuple<Tensor , Tensor> kthvalue ( const Tensor & x , int k = 1 , int axis = - 1 , bool keepdim = false ) ;
+.. cpp:function:: std::tuple<Tensor , Tensor> kthvalue ( const Tensor & x , int k = 1 , int axis = - 1 , bool keepdim = false ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.kthvalue](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/kthvalue_en.html)

@@ -3,7 +3,7 @@
 lu
 -------------------------------
 
-..cpp: function::std::tuple<Tensor , Tensor , Tensor> lu ( const Tensor & x , bool pivot = true ) ;
+.. cpp:function:: std::tuple<Tensor , Tensor , Tensor> lu ( const Tensor & x , bool pivot = true ) ;
 
 
 Path

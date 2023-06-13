@@ -3,7 +3,7 @@
 slogdet
 -------------------------------
 
-..cpp: function::Tensor slogdet ( const Tensor & x ) ;
+.. cpp:function:: Tensor slogdet ( const Tensor & x ) ;
 
 
 Path

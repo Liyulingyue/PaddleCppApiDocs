@@ -3,7 +3,7 @@
 nll_loss
 -------------------------------
 
-..cpp: function::std::tuple<Tensor , Tensor> nll_loss ( const Tensor & input , const Tensor & label , const paddle::optional<Tensor> & weight , int64_t ignore_index = - 100 , const std::string & reduction = "mean" ) ;
+.. cpp:function:: std::tuple<Tensor , Tensor> nll_loss ( const Tensor & input , const Tensor & label , const paddle::optional<Tensor> & weight , int64_t ignore_index = - 100 , const std::string & reduction = "mean" ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.nll_loss](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/nll_loss_en.html)

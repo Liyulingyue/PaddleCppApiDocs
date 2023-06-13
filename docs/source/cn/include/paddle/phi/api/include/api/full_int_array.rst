@@ -3,7 +3,7 @@
 full_int_array
 -------------------------------
 
-..cpp: function::Tensor full_int_array ( const IntArray & value , DataType dtype = DataType::FLOAT32 , const Place & place = CPUPlace ( ) ) ;
+.. cpp:function:: Tensor full_int_array ( const IntArray & value , DataType dtype = DataType::FLOAT32 , const Place & place = CPUPlace ( ) ) ;
 
 
 定义目录

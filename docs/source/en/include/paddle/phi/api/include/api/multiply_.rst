@@ -3,7 +3,7 @@
 multiply_
 -------------------------------
 
-..cpp: function::Tensor & multiply_ ( Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor & multiply_ ( Tensor & x , const Tensor & y ) ;
 
 
 Path

@@ -3,7 +3,7 @@
 flip
 -------------------------------
 
-..cpp: function::Tensor flip ( const Tensor & x , const std::vector<int> & axis ) ;
+.. cpp:function:: Tensor flip ( const Tensor & x , const std::vector<int> & axis ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.flip](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/flip_en.html)

@@ -3,7 +3,7 @@
 floor
 -------------------------------
 
-..cpp: function::Tensor floor ( const Tensor & x ) ;
+.. cpp:function:: Tensor floor ( const Tensor & x ) ;
 
 
 本 API 与 Python API 对齐，详细用法可参考链接：[paddle.floor](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/floor_cn.html)

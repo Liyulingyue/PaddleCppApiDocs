@@ -3,7 +3,7 @@
 slice
 -------------------------------
 
-..cpp: function::Tensor slice ( const Tensor & x , const IntArray & axes , const IntArray & starts , const IntArray & ends ) ;
+.. cpp:function:: Tensor slice ( const Tensor & x , const IntArray & axes , const IntArray & starts , const IntArray & ends ) ;
 
 
 Path

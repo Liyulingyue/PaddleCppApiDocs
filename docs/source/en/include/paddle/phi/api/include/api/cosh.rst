@@ -3,7 +3,7 @@
 cosh
 -------------------------------
 
-..cpp: function::Tensor cosh ( const Tensor & x ) ;
+.. cpp:function:: Tensor cosh ( const Tensor & x ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.cosh](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/cosh_en.html)

@@ -3,7 +3,7 @@
 squared_l2_norm
 -------------------------------
 
-..cpp: function::Tensor squared_l2_norm ( const Tensor & x ) ;
+.. cpp:function:: Tensor squared_l2_norm ( const Tensor & x ) ;
 
 
 Path

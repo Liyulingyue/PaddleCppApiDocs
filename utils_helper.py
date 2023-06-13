@@ -74,7 +74,7 @@ class func_helper(object):
                 f'{self.func_name}\n'
                 f'-------------------------------\n'
                 f'\n'
-                f'..cpp: function::{self.api}\n'
+                f'.. cpp:function:: {self.api}\n'
                 f'{self.introduction}\n'
                 f'\n'
             )
@@ -130,7 +130,7 @@ class func_helper(object):
                 f'{self.func_name}\n'
                 f'-------------------------------\n'
                 f'\n'
-                f'..cpp: function::{self.api}\n'
+                f'.. cpp:function:: {self.api}\n'
                 f'{self.introduction}\n'
                 f'\n'
             )

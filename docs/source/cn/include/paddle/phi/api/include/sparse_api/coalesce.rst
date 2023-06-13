@@ -3,7 +3,7 @@
 coalesce
 -------------------------------
 
-..cpp: function::Tensor coalesce ( const Tensor & x ) ;
+.. cpp:function:: Tensor coalesce ( const Tensor & x ) ;
 
 
 定义目录

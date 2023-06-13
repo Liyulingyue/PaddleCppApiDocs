@@ -3,7 +3,7 @@
 add_
 -------------------------------
 
-..cpp: function::Tensor & add_ ( Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor & add_ ( Tensor & x , const Tensor & y ) ;
 
 
 定义目录

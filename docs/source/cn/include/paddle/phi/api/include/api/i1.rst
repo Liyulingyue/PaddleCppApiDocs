@@ -3,7 +3,7 @@
 i1
 -------------------------------
 
-..cpp: function::Tensor i1 ( const Tensor & x ) ;
+.. cpp:function:: Tensor i1 ( const Tensor & x ) ;
 
 
 定义目录

@@ -3,7 +3,7 @@
 numel
 -------------------------------
 
-..cpp: function::Tensor numel ( const Tensor & x ) ;
+.. cpp:function:: Tensor numel ( const Tensor & x ) ;
 
 
 定义目录

@@ -3,7 +3,7 @@
 warprnnt
 -------------------------------
 
-..cpp: function::Tensor warprnnt ( const Tensor & input , const Tensor & label , const Tensor & input_lengths , const Tensor & label_lengths , int blank = 0 , float fastemit_lambda = 0.0 ) ;
+.. cpp:function:: Tensor warprnnt ( const Tensor & input , const Tensor & label , const Tensor & input_lengths , const Tensor & label_lengths , int blank = 0 , float fastemit_lambda = 0.0 ) ;
 
 
 定义目录

@@ -3,7 +3,7 @@
 flatten
 -------------------------------
 
-..cpp: function::Tensor flatten ( const Tensor & x , int start_axis = 1 , int stop_axis = 1 ) ;
+.. cpp:function:: Tensor flatten ( const Tensor & x , int start_axis = 1 , int stop_axis = 1 ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.flatten](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/flatten_en.html)

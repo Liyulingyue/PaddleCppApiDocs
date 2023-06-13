@@ -3,7 +3,7 @@
 det
 -------------------------------
 
-..cpp: function::Tensor det ( const Tensor & x ) ;
+.. cpp:function:: Tensor det ( const Tensor & x ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.det](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/det_en.html)

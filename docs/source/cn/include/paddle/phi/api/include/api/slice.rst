@@ -3,7 +3,7 @@
 slice
 -------------------------------
 
-..cpp: function::Tensor slice ( const Tensor & input , const std::vector<int64_t> & axes , const IntArray & starts , const IntArray & ends , const std::vector<int64_t> & infer_flags , const std::vector<int64_t> & decrease_axis ) ;
+.. cpp:function:: Tensor slice ( const Tensor & input , const std::vector<int64_t> & axes , const IntArray & starts , const IntArray & ends , const std::vector<int64_t> & infer_flags , const std::vector<int64_t> & decrease_axis ) ;
 
 
 定义目录

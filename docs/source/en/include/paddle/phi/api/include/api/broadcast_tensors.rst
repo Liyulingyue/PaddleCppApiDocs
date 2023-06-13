@@ -3,7 +3,7 @@
 broadcast_tensors
 -------------------------------
 
-..cpp: function::std::vector<Tensor> broadcast_tensors ( const std::vector<Tensor> & input ) ;
+.. cpp:function:: std::vector<Tensor> broadcast_tensors ( const std::vector<Tensor> & input ) ;
 
 
 Path

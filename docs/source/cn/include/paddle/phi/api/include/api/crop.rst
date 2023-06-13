@@ -3,7 +3,7 @@
 crop
 -------------------------------
 
-..cpp: function::Tensor crop ( const Tensor & x , const IntArray & shape = { } , const IntArray & offsets = { } ) ;
+.. cpp:function:: Tensor crop ( const Tensor & x , const IntArray & shape = { } , const IntArray & offsets = { } ) ;
 
 
 定义目录

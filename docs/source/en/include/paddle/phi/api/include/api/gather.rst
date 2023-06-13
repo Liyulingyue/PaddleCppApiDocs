@@ -3,7 +3,7 @@
 gather
 -------------------------------
 
-..cpp: function::Tensor gather ( const Tensor & x , const Tensor & index , const Scalar & axis = 0 ) ;
+.. cpp:function:: Tensor gather ( const Tensor & x , const Tensor & index , const Scalar & axis = 0 ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.gather](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/gather_en.html)

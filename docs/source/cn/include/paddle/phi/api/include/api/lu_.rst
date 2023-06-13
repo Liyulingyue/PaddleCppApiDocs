@@ -3,7 +3,7 @@
 lu_
 -------------------------------
 
-..cpp: function::std::tuple<Tensor & , Tensor , Tensor> lu_ ( Tensor & x , bool pivot = true ) ;
+.. cpp:function:: std::tuple<Tensor & , Tensor , Tensor> lu_ ( Tensor & x , bool pivot = true ) ;
 
 
 定义目录

@@ -3,7 +3,7 @@
 cumprod
 -------------------------------
 
-..cpp: function::Tensor cumprod ( const Tensor & x , int dim ) ;
+.. cpp:function:: Tensor cumprod ( const Tensor & x , int dim ) ;
 
 
 Path

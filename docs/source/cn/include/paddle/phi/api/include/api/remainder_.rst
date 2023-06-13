@@ -3,7 +3,7 @@
 remainder_
 -------------------------------
 
-..cpp: function::Tensor & remainder_ ( Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor & remainder_ ( Tensor & x , const Tensor & y ) ;
 
 
 定义目录

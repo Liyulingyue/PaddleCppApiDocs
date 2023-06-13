@@ -3,7 +3,7 @@
 clip
 -------------------------------
 
-..cpp: function::Tensor clip ( const Tensor & x , const Scalar & min , const Scalar & max ) ;
+.. cpp:function:: Tensor clip ( const Tensor & x , const Scalar & min , const Scalar & max ) ;
 
 
 本 API 与 Python API 对齐，详细用法可参考链接：[paddle.clip](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/clip_cn.html)

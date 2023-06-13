@@ -3,7 +3,7 @@
 segment_pool
 -------------------------------
 
-..cpp: function::Tensor segment_pool ( const Tensor & x , const Tensor & segment_ids , const std::string & pooltype = "SUM" ) ;
+.. cpp:function:: Tensor segment_pool ( const Tensor & x , const Tensor & segment_ids , const std::string & pooltype = "SUM" ) ;
 
 
 定义目录

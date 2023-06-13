@@ -3,7 +3,7 @@
 lerp_
 -------------------------------
 
-..cpp: function::Tensor & lerp_ ( Tensor & x , const Tensor & y , const Tensor & weight ) ;
+.. cpp:function:: Tensor & lerp_ ( Tensor & x , const Tensor & y , const Tensor & weight ) ;
 
 
 Path

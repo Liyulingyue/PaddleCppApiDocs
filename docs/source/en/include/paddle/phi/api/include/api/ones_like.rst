@@ -3,7 +3,7 @@
 ones_like
 -------------------------------
 
-..cpp: function::Tensor ones_like ( const Tensor & x , DataType dtype = DataType::UNDEFINED , const Place & place = { } ) ;
+.. cpp:function:: Tensor ones_like ( const Tensor & x , DataType dtype = DataType::UNDEFINED , const Place & place = { } ) ;
 
 
 Path

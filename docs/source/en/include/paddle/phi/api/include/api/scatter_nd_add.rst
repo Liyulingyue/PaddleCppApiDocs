@@ -3,7 +3,7 @@
 scatter_nd_add
 -------------------------------
 
-..cpp: function::Tensor scatter_nd_add ( const Tensor & x , const Tensor & index , const Tensor & updates ) ;
+.. cpp:function:: Tensor scatter_nd_add ( const Tensor & x , const Tensor & index , const Tensor & updates ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.scatter_nd_add](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/scatter_nd_add_en.html)

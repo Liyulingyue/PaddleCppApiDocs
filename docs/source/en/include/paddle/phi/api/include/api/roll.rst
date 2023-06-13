@@ -3,7 +3,7 @@
 roll
 -------------------------------
 
-..cpp: function::Tensor roll ( const Tensor & x , const IntArray & shifts = { } , const std::vector<int64_t> & axis = { } ) ;
+.. cpp:function:: Tensor roll ( const Tensor & x , const IntArray & shifts = { } , const std::vector<int64_t> & axis = { } ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.roll](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/roll_en.html)

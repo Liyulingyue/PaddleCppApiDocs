@@ -3,7 +3,7 @@
 bitwise_or
 -------------------------------
 
-..cpp: function::Tensor bitwise_or ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor bitwise_or ( const Tensor & x , const Tensor & y ) ;
 
 
 定义目录

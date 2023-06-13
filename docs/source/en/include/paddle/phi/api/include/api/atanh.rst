@@ -3,7 +3,7 @@
 atanh
 -------------------------------
 
-..cpp: function::Tensor atanh ( const Tensor & x ) ;
+.. cpp:function:: Tensor atanh ( const Tensor & x ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.atanh](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/atanh_en.html)

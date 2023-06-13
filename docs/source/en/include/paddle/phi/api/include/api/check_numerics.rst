@@ -3,7 +3,7 @@
 check_numerics
 -------------------------------
 
-..cpp: function::std::tuple<Tensor , Tensor> check_numerics ( const Tensor & tensor , const std::string & op_type = "" , const std::string & var_name = "" , int check_nan_inf_level = 0 , int stack_height_limit = - 1 , const std::string & output_dir = "" ) ;
+.. cpp:function:: std::tuple<Tensor , Tensor> check_numerics ( const Tensor & tensor , const std::string & op_type = "" , const std::string & var_name = "" , int check_nan_inf_level = 0 , int stack_height_limit = - 1 , const std::string & output_dir = "" ) ;
 
 
 Path

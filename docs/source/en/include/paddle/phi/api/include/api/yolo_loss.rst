@@ -3,7 +3,7 @@
 yolo_loss
 -------------------------------
 
-..cpp: function::Tensor yolo_loss ( const Tensor & x , const Tensor & gt_box , const Tensor & gt_label , const paddle::optional<Tensor> & gt_score , const std::vector<int> & anchors = { } , const std::vector<int> & anchor_mask = { } , int class_num = 1 , float ignore_thresh = 0.7 , int downsample_ratio = 32 , bool use_label_smooth = true , float scale_x_y = 1.0 ) ;
+.. cpp:function:: Tensor yolo_loss ( const Tensor & x , const Tensor & gt_box , const Tensor & gt_label , const paddle::optional<Tensor> & gt_score , const std::vector<int> & anchors = { } , const std::vector<int> & anchor_mask = { } , int class_num = 1 , float ignore_thresh = 0.7 , int downsample_ratio = 32 , bool use_label_smooth = true , float scale_x_y = 1.0 ) ;
 
 
 Path

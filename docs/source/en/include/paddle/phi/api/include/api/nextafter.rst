@@ -3,7 +3,7 @@
 nextafter
 -------------------------------
 
-..cpp: function::Tensor nextafter ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor nextafter ( const Tensor & x , const Tensor & y ) ;
 
 
 Path

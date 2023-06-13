@@ -3,7 +3,7 @@
 conj
 -------------------------------
 
-..cpp: function::Tensor conj ( const Tensor & x ) ;
+.. cpp:function:: Tensor conj ( const Tensor & x ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.conj](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/conj_en.html)

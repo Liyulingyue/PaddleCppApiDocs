@@ -3,7 +3,7 @@
 index_select
 -------------------------------
 
-..cpp: function::Tensor index_select ( const Tensor & x , const Tensor & index , int axis = 0 ) ;
+.. cpp:function:: Tensor index_select ( const Tensor & x , const Tensor & index , int axis = 0 ) ;
 
 
 定义目录

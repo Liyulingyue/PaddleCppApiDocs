@@ -3,7 +3,7 @@
 argsort
 -------------------------------
 
-..cpp: function::std::tuple<Tensor , Tensor> argsort ( const Tensor & x , int axis = - 1 , bool descending = false ) ;
+.. cpp:function:: std::tuple<Tensor , Tensor> argsort ( const Tensor & x , int axis = - 1 , bool descending = false ) ;
 
 
 本 API 与 Python API 对齐，详细用法可参考链接：[paddle.argsort](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/argsort_cn.html)

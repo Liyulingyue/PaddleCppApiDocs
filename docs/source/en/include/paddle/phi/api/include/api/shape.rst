@@ -3,7 +3,7 @@
 shape
 -------------------------------
 
-..cpp: function::Tensor shape ( const Tensor & input ) ;
+.. cpp:function:: Tensor shape ( const Tensor & input ) ;
 
 
 Path

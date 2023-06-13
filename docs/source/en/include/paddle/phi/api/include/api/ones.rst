@@ -3,7 +3,7 @@
 ones
 -------------------------------
 
-..cpp: function::Tensor ones ( const IntArray & shape , DataType dtype = DataType::FLOAT32 , const Place & place = CPUPlace ( ) ) ;
+.. cpp:function:: Tensor ones ( const IntArray & shape , DataType dtype = DataType::FLOAT32 , const Place & place = CPUPlace ( ) ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.ones](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/ones_en.html)

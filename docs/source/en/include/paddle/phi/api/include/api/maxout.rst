@@ -3,7 +3,7 @@
 maxout
 -------------------------------
 
-..cpp: function::Tensor maxout ( const Tensor & x , int groups , int axis = 1 ) ;
+.. cpp:function:: Tensor maxout ( const Tensor & x , int groups , int axis = 1 ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.maxout](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/maxout_en.html)

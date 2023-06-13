@@ -3,7 +3,7 @@
 clip_
 -------------------------------
 
-..cpp: function::Tensor & clip_ ( Tensor & x , const Scalar & min , const Scalar & max ) ;
+.. cpp:function:: Tensor & clip_ ( Tensor & x , const Scalar & min , const Scalar & max ) ;
 
 
 Path

@@ -3,7 +3,7 @@
 softshrink
 -------------------------------
 
-..cpp: function::Tensor softshrink ( const Tensor & x , float threshold = 0.5 ) ;
+.. cpp:function:: Tensor softshrink ( const Tensor & x , float threshold = 0.5 ) ;
 
 
 定义目录

@@ -3,7 +3,7 @@
 index_add_
 -------------------------------
 
-..cpp: function::Tensor & index_add_ ( Tensor & x , const Tensor & index , const Tensor & add_value , int axis = 0 ) ;
+.. cpp:function:: Tensor & index_add_ ( Tensor & x , const Tensor & index , const Tensor & add_value , int axis = 0 ) ;
 
 
 Path

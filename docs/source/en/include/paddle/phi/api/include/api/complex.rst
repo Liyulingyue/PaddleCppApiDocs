@@ -3,7 +3,7 @@
 complex
 -------------------------------
 
-..cpp: function::Tensor complex ( const Tensor & real , const Tensor & imag ) ;
+.. cpp:function:: Tensor complex ( const Tensor & real , const Tensor & imag ) ;
 
 
 Path

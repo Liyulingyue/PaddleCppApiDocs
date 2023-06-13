@@ -3,7 +3,7 @@
 embedding
 -------------------------------
 
-..cpp: function::Tensor embedding ( const Tensor & x , const Tensor & weight , int64_t padding_idx = - 1 , bool sparse = false ) ;
+.. cpp:function:: Tensor embedding ( const Tensor & x , const Tensor & weight , int64_t padding_idx = - 1 , bool sparse = false ) ;
 
 
 Path

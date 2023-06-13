@@ -3,7 +3,7 @@
 pad
 -------------------------------
 
-..cpp: function::Tensor pad ( const Tensor & x , const std::vector<int> & paddings , const Scalar & pad_value ) ;
+.. cpp:function:: Tensor pad ( const Tensor & x , const std::vector<int> & paddings , const Scalar & pad_value ) ;
 
 
 定义目录

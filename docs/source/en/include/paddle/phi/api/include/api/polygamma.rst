@@ -3,7 +3,7 @@
 polygamma
 -------------------------------
 
-..cpp: function::Tensor polygamma ( const Tensor & x , int n ) ;
+.. cpp:function:: Tensor polygamma ( const Tensor & x , int n ) ;
 
 
 Path

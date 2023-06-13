@@ -3,7 +3,7 @@
 add
 -------------------------------
 
-..cpp: function::Tensor add ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor add ( const Tensor & x , const Tensor & y ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.add](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/add_en.html)

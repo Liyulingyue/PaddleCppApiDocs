@@ -3,7 +3,7 @@
 affine_grid
 -------------------------------
 
-..cpp: function::Tensor affine_grid ( const Tensor & input , const IntArray & output_shape = { } , bool align_corners = true ) ;
+.. cpp:function:: Tensor affine_grid ( const Tensor & input , const IntArray & output_shape = { } , bool align_corners = true ) ;
 
 
 Path

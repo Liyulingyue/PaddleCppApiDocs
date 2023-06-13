@@ -3,7 +3,7 @@
 depthwise_conv2d
 -------------------------------
 
-..cpp: function::Tensor depthwise_conv2d ( const Tensor & input , const Tensor & filter , const std::vector<int> & strides = { 1 , 1 } , const std::vector<int> & paddings = { 0 , 0 } , const std::string & padding_algorithm = "EXPLICIT" , int groups = 1 , const std::vector<int> & dilations = { 1 , 1 } , const std::string & data_format = "NCHW" ) ;
+.. cpp:function:: Tensor depthwise_conv2d ( const Tensor & input , const Tensor & filter , const std::vector<int> & strides = { 1 , 1 } , const std::vector<int> & paddings = { 0 , 0 } , const std::string & padding_algorithm = "EXPLICIT" , int groups = 1 , const std::vector<int> & dilations = { 1 , 1 } , const std::string & data_format = "NCHW" ) ;
 
 
 Path

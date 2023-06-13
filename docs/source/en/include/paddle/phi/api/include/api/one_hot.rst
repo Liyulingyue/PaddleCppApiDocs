@@ -3,7 +3,7 @@
 one_hot
 -------------------------------
 
-..cpp: function::Tensor one_hot ( const Tensor & x , const Scalar & num_classes ) ;
+.. cpp:function:: Tensor one_hot ( const Tensor & x , const Scalar & num_classes ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.one_hot](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/one_hot_en.html)

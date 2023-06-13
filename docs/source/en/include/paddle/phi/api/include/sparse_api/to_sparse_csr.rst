@@ -3,7 +3,7 @@
 to_sparse_csr
 -------------------------------
 
-..cpp: function::Tensor to_sparse_csr ( const Tensor & x ) ;
+.. cpp:function:: Tensor to_sparse_csr ( const Tensor & x ) ;
 
 
 Path

@@ -3,7 +3,7 @@
 erf
 -------------------------------
 
-..cpp: function::Tensor erf ( const Tensor & x ) ;
+.. cpp:function:: Tensor erf ( const Tensor & x ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.erf](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/erf_en.html)

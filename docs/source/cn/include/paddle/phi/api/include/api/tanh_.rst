@@ -3,7 +3,7 @@
 tanh_
 -------------------------------
 
-..cpp: function::Tensor & tanh_ ( Tensor & x ) ;
+.. cpp:function:: Tensor & tanh_ ( Tensor & x ) ;
 
 
 定义目录

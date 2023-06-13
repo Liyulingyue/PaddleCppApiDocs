@@ -3,7 +3,7 @@
 to_dense
 -------------------------------
 
-..cpp: function::Tensor to_dense ( const Tensor & x ) ;
+.. cpp:function:: Tensor to_dense ( const Tensor & x ) ;
 
 
 定义目录

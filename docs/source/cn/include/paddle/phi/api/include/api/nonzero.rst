@@ -3,7 +3,7 @@
 nonzero
 -------------------------------
 
-..cpp: function::Tensor nonzero ( const Tensor & condition ) ;
+.. cpp:function:: Tensor nonzero ( const Tensor & condition ) ;
 
 
 定义目录

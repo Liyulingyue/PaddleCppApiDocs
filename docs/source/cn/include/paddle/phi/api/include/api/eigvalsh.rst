@@ -3,7 +3,7 @@
 eigvalsh
 -------------------------------
 
-..cpp: function::std::tuple<Tensor , Tensor> eigvalsh ( const Tensor & x , const std::string & uplo = "L" , bool is_test = false ) ;
+.. cpp:function:: std::tuple<Tensor , Tensor> eigvalsh ( const Tensor & x , const std::string & uplo = "L" , bool is_test = false ) ;
 
 
 定义目录

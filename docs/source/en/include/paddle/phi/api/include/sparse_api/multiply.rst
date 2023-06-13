@@ -3,7 +3,7 @@
 multiply
 -------------------------------
 
-..cpp: function::Tensor multiply ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor multiply ( const Tensor & x , const Tensor & y ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.multiply](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/multiply_en.html)

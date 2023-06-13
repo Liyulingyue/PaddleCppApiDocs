@@ -3,7 +3,7 @@
 mish
 -------------------------------
 
-..cpp: function::Tensor mish ( const Tensor & x , float lambda ) ;
+.. cpp:function:: Tensor mish ( const Tensor & x , float lambda ) ;
 
 
 Path

@@ -3,7 +3,7 @@
 multiclass_nms3
 -------------------------------
 
-..cpp: function::std::tuple<Tensor , Tensor , Tensor> multiclass_nms3 ( const Tensor & bboxes , const Tensor & scores , const paddle::optional<Tensor> & rois_num , float score_threshold , int nms_top_k , int keep_top_k , float nms_threshold = 0.3 , bool normalized = true , float nms_eta = 1.0 , int background_label = 0 ) ;
+.. cpp:function:: std::tuple<Tensor , Tensor , Tensor> multiclass_nms3 ( const Tensor & bboxes , const Tensor & scores , const paddle::optional<Tensor> & rois_num , float score_threshold , int nms_top_k , int keep_top_k , float nms_threshold = 0.3 , bool normalized = true , float nms_eta = 1.0 , int background_label = 0 ) ;
 
 
 Path

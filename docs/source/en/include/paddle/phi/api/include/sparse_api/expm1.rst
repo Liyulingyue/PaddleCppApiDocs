@@ -3,7 +3,7 @@
 expm1
 -------------------------------
 
-..cpp: function::Tensor expm1 ( const Tensor & x ) ;
+.. cpp:function:: Tensor expm1 ( const Tensor & x ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.expm1](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/expm1_en.html)

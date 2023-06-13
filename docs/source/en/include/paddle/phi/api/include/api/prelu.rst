@@ -3,7 +3,7 @@
 prelu
 -------------------------------
 
-..cpp: function::Tensor prelu ( const Tensor & x , const Tensor & alpha , const std::string & data_format = "NCHW" , const std::string & mode = "all" ) ;
+.. cpp:function:: Tensor prelu ( const Tensor & x , const Tensor & alpha , const std::string & data_format = "NCHW" , const std::string & mode = "all" ) ;
 
 
 Path

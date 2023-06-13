@@ -3,7 +3,7 @@
 ceil_
 -------------------------------
 
-..cpp: function::Tensor & ceil_ ( Tensor & x ) ;
+.. cpp:function:: Tensor & ceil_ ( Tensor & x ) ;
 
 
 Path

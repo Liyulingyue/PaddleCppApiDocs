@@ -3,7 +3,7 @@
 arange
 -------------------------------
 
-..cpp: function::Tensor arange ( const Tensor & start , const Tensor & end , const Tensor & step , DataType dtype , const Place & place = { } ) ;
+.. cpp:function:: Tensor arange ( const Tensor & start , const Tensor & end , const Tensor & step , DataType dtype , const Place & place = { } ) ;
 
 
 Path

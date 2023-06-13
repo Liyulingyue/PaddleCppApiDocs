@@ -3,7 +3,7 @@
 transpose
 -------------------------------
 
-..cpp: function::Tensor transpose ( const Tensor & x , const std::vector<int> & perm ) ;
+.. cpp:function:: Tensor transpose ( const Tensor & x , const std::vector<int> & perm ) ;
 
 
 定义目录

@@ -3,7 +3,7 @@
 concat
 -------------------------------
 
-..cpp: function::Tensor concat ( const std::vector<Tensor> & x , const Scalar & axis ) ;
+.. cpp:function:: Tensor concat ( const std::vector<Tensor> & x , const Scalar & axis ) ;
 
 
 This API is aligned with Python API, more details are shown in [paddle.concat](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/concat_en.html)

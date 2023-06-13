@@ -3,7 +3,7 @@
 lower
 -------------------------------
 
-..cpp: function::Tensor lower ( const Tensor & x , bool use_utf8_encoding ) ;
+.. cpp:function:: Tensor lower ( const Tensor & x , bool use_utf8_encoding ) ;
 
 
 Path

@@ -3,7 +3,7 @@
 nanmedian
 -------------------------------
 
-..cpp: function::Tensor nanmedian ( const Tensor & x , const IntArray & axis = { } , bool keepdim = true ) ;
+.. cpp:function:: Tensor nanmedian ( const Tensor & x , const IntArray & axis = { } , bool keepdim = true ) ;
 
 
 定义目录

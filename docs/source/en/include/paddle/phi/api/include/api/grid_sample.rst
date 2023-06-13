@@ -3,7 +3,7 @@
 grid_sample
 -------------------------------
 
-..cpp: function::Tensor grid_sample ( const Tensor & x , const Tensor & grid , const std::string & mode = "bilinear" , const std::string & padding_mode = "zeros" , bool align_corners = true ) ;
+.. cpp:function:: Tensor grid_sample ( const Tensor & x , const Tensor & grid , const std::string & mode = "bilinear" , const std::string & padding_mode = "zeros" , bool align_corners = true ) ;
 
 
 Path
