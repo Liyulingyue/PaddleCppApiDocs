@@ -9,7 +9,7 @@ GetAllocator
 
 Path
 :::::::::::::::::::::
-D:\Codes\PaddleCppApiDocs\venv\lib\site-packages\paddle\include\paddle\phi\api\include\context_pool.h
+paddle/include/paddle/phi/api/include/context_pool.h
 
 Parameters
 :::::::::::::::::::::

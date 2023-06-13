@@ -9,7 +9,7 @@ GetCurrentCUDAStream
 
 定义目录
 :::::::::::::::::::::
-D:\Codes\PaddleCppApiDocs\venv\lib\site-packages\paddle\include\paddle\phi\api\include\context_pool.h
+paddle/include/paddle/phi/api/include/context_pool.h
 
 参数
 :::::::::::::::::::::

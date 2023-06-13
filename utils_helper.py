@@ -7,10 +7,11 @@ from utils import get_parameters, parse_doxygen
 # decode 用于解析CppHeaderParser的解析信息
 # create_and_write_file 根据指定的语言类型，在指定目录生成对应的文档
 class func_helper(object):
-    def __init__(self, function_dict, cpp2py_api_list):
+    def __init__(self, function_dict, cpp2py_api_list, root_dir):
         super(func_helper, self).__init__()
         self.function_dict = function_dict
         self.cpp2py_api_list = cpp2py_api_list
+        self.root_dir = root_dir
         self.decode()
 
     def decode(self):
@@ -29,7 +30,7 @@ class func_helper(object):
 
         self.note = ""
 
-        self.file_path = self.function_dict["filename"].replace("../", "")
+        self.file_path = "paddle" +  self.function_dict["filename"].replace(self.root_dir, "")
 
         if len(self.function_dict["parameters"]) != 0:
             self.parameter_dict = get_parameters(
@@ -180,15 +181,16 @@ class func_helper(object):
 # decode 用于解析CppHeaderParser的解析信息
 # create_and_write_file 根据指定的语言类型，在指定目录生成对应的文档
 class class_helper(object):
-    def __init__(self, class_dict):
+    def __init__(self, class_dict,root_dir):
         super(class_helper, self).__init__()
         self.class_dict = class_dict
+        self.root_dir = root_dir
         self.decode()
 
     def decode(self):
         self.branch = "develop"  # Note 这里可以看看从包里面获取
         self.class_name = self.class_dict["name"].replace("PADDLE_API", "")
-        self.file_path = self.class_dict["filename"].replace("../", "")
+        self.file_path = "paddle" +  self.class_dict["filename"].replace(self.root_dir, "")
         doxygen = (
             self.class_dict.get("doxygen", "")
             .replace("/**", "")
@@ -434,17 +436,17 @@ class class_helper(object):
 
 # 用于生成Overview页面
 # 根据指定的语言类型，在指定目录生成总览文档
-def generate_overview(overview_list, save_dir, language):
+def generate_overview(overview_list, save_dir, root_dir, language):
     if language == 'cn':
-        generate_overview_cn(overview_list, save_dir, language)
+        generate_overview_cn(overview_list, save_dir, root_dir, language)
     elif language == 'en':
-        generate_overview_en(overview_list, save_dir, language)
+        generate_overview_en(overview_list, save_dir, root_dir, language)
     else:
         print('Error language! ')
 
 
-def generate_overview_cn(overview_list, root_dir, LANGUAGE):
-    dir_path = os.path.join(root_dir, LANGUAGE)
+def generate_overview_cn(overview_list, save_dir, root_dir, LANGUAGE):
+    dir_path = os.path.join(save_dir, LANGUAGE)
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
 
@@ -466,7 +468,7 @@ def generate_overview_cn(overview_list, root_dir, LANGUAGE):
 
         for h_dict in overview_list:
             basename = os.path.basename(h_dict["h_file"])
-            h_head_text = f'### [{basename}]({h_dict["h_file"]})\n'
+            h_head_text = f'### [{basename}]({"paddle" + h_dict["h_file"].replace(root_dir, "")})\n'
             f.write(h_head_text)
 
             # Note: add url link
@@ -513,8 +515,8 @@ def generate_overview_cn(overview_list, root_dir, LANGUAGE):
 
 
 # 与 generate_overview_cn 实现原理一致
-def generate_overview_en(overview_list, root_dir, LANGUAGE):
-    dir_path = os.path.join(root_dir, LANGUAGE)
+def generate_overview_en(overview_list, save_dir, root_dir, LANGUAGE):
+    dir_path = os.path.join(save_dir, LANGUAGE)
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
 
@@ -536,7 +538,7 @@ def generate_overview_en(overview_list, root_dir, LANGUAGE):
 
         for h_dict in overview_list:
             basename = os.path.basename(h_dict["h_file"])
-            h_head_text = f'### [{basename}]({h_dict["h_file"]})\n'
+            h_head_text = f'### [{basename}]({"paddle" + h_dict["h_file"].replace(root_dir, "")})\n'
             f.write(h_head_text)
 
             # Note: add url link

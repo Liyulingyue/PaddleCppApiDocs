@@ -8,7 +8,7 @@ matrix_rank_tol
 
 Path
 :::::::::::::::::::::
-D:\Codes\PaddleCppApiDocs\venv\lib\site-packages\paddle\include\paddle\phi\api\include\api.h
+paddle/include/paddle/phi/api/include/api.h
 
 Parameters
 :::::::::::::::::::::

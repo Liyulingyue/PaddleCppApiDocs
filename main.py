@@ -8,6 +8,7 @@ import os
 import traceback
 import sys
 import re
+import platform
 
 from utils_helper import func_helper, class_helper, generate_overview
 from utils import get_PADDLE_API_class, get_PADDLE_API_func
@@ -24,10 +25,13 @@ def analysis_file(path):
 # 生成文件
 # 根据给定的list内容，生成对应的文档信息
 def generate_docs(
-    all_funcs, all_class, cpp2py_api_list, save_dir, root_dir, LANGUAGE="cn"
+        all_funcs, all_class, cpp2py_api_list, save_dir, root_dir, LANGUAGE="cn"
 ):
     for item in all_funcs:
-        path = item["filename"].replace(root_dir+'\\include\\paddle\\phi\\api\\', "", 1).replace(".h", "")
+        if platform.system() == "Windows":
+            path = item["filename"].replace(root_dir + '\\include\\paddle\\phi\\api\\', "", 1).replace(".h", "")
+        else:
+            path = item["filename"].replace(root_dir + '/include/paddle/phi/api/', "", 1).replace(".h", "")
         dir_path = os.path.join(save_dir, LANGUAGE, path)
         if not os.path.exists(dir_path):
             os.makedirs(dir_path)
@@ -43,7 +47,7 @@ def generate_docs(
         rst_dir = os.path.join(save_dir, LANGUAGE, path, func_name + ".rst")
         # avoid a filename such as operate*.rst, only windows
         try:
-            helper = func_helper(item, cpp2py_api_list)
+            helper = func_helper(item, cpp2py_api_list, root_dir)
             helper.create_and_write_file(rst_dir, LANGUAGE)
         except:
             print(traceback.format_exc())
@@ -58,7 +62,7 @@ def generate_docs(
         func_name = item["name"].replace("PADDLE_API", "")
         rst_dir = os.path.join(save_dir, LANGUAGE, path, func_name + ".rst")
         try:
-            helper = class_helper(item)
+            helper = class_helper(item, root_dir)
             helper.create_and_write_file(rst_dir, LANGUAGE)
         except:
             print(traceback.format_exc())
@@ -95,7 +99,7 @@ if __name__ == "__main__":
         except:
             # for simple run
             root_dir = '../paddle'
-            save_dir = './docs/source'  # 默认保存在当前目录
+            save_dir = './docs/source'  # 保存在source目录
 
     all_funcs = []
     all_class = []
@@ -141,8 +145,8 @@ if __name__ == "__main__":
     generate_docs(all_funcs, all_class, cpp2py_api_list, save_dir, root_dir, "en")
 
     # 生成 overview
-    generate_overview(overview_list, save_dir, "cn")
-    generate_overview(overview_list, save_dir, "en")
+    generate_overview(overview_list, save_dir, root_dir, "cn")
+    generate_overview(overview_list, save_dir, root_dir, "en")
 
     # 统计信息
     print("PADDLE_API func count: ", len(all_funcs))

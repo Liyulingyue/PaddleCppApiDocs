@@ -8,7 +8,7 @@ fused_linear_param_grad_add
 
 定义目录
 :::::::::::::::::::::
-D:\Codes\PaddleCppApiDocs\venv\lib\site-packages\paddle\include\paddle\phi\api\include\fused_api.h
+paddle/include/paddle/phi/api/include/fused_api.h
 
 参数
 :::::::::::::::::::::
