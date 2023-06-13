@@ -29,10 +29,11 @@ def generate_docs(
 ):
     for item in all_funcs:
         if platform.system() == "Windows":
-            path = item["filename"].replace(root_dir + '\\include\\paddle\\phi\\api\\', "", 1).replace(".h", "")
+            path = item["filename"].replace(root_dir, "", 1).replace(".h", "")
+            dir_path = save_dir + "\\" + LANGUAGE + path
         else:
-            path = item["filename"].replace(root_dir + '/include/paddle/phi/api/', "", 1).replace(".h", "")
-        dir_path = os.path.join(save_dir, LANGUAGE, path)
+            path = item["filename"].replace(root_dir, "", 1).replace(".h", "")
+            dir_path = save_dir + "/" + LANGUAGE + path
         if not os.path.exists(dir_path):
             os.makedirs(dir_path)
 
@@ -44,7 +45,10 @@ def generate_docs(
             checkwords = func_name.replace('operator', '', 1)
             if re.search(r"\w", checkwords) == None:
                 continue  # 跳过操作符声明
-        rst_dir = os.path.join(save_dir, LANGUAGE, path, func_name + ".rst")
+        if platform.system() == "Windows":
+            rst_dir = dir_path + '\\' + func_name + ".rst"
+        else:
+            rst_dir = dir_path + '/' + func_name + ".rst"
         # avoid a filename such as operate*.rst, only windows
         try:
             helper = func_helper(item, cpp2py_api_list, root_dir)
@@ -54,13 +58,20 @@ def generate_docs(
             print('FAULT GENERATE:' + rst_dir)
 
     for item in all_class:
-        path = item["filename"].replace("../", "").replace(".h", "")
-        dir_path = os.path.join(save_dir, LANGUAGE, path)
+        if platform.system() == "Windows":
+            path = item["filename"].replace(root_dir, "", 1).replace(".h", "")
+            dir_path = save_dir + "\\" + LANGUAGE + path
+        else:
+            path = item["filename"].replace(root_dir, "", 1).replace(".h", "")
+            dir_path = save_dir + "/" + LANGUAGE + path
         if not os.path.exists(dir_path):
             os.makedirs(dir_path)
 
         func_name = item["name"].replace("PADDLE_API", "")
-        rst_dir = os.path.join(save_dir, LANGUAGE, path, func_name + ".rst")
+        if platform.system() == "Windows":
+            rst_dir = dir_path + '\\' + func_name + ".rst"
+        else:
+            rst_dir = dir_path + '/' + func_name + ".rst"
         try:
             helper = class_helper(item, root_dir)
             helper.create_and_write_file(rst_dir, LANGUAGE)
