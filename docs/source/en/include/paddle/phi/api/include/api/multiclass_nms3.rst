@@ -8,7 +8,7 @@ multiclass_nms3
 
 Path
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\api.h
+paddle/include/paddle/phi/api/include/api.h
 
 Parameters
 :::::::::::::::::::::

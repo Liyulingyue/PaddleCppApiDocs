@@ -10,7 +10,7 @@ This API is aligned with Python API, more details are shown in [paddle.log10](ht
 
 Path
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\api.h
+paddle/include/paddle/phi/api/include/api.h
 
 Parameters
 :::::::::::::::::::::

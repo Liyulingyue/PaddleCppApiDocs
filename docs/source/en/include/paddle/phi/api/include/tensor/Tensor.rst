@@ -1,6 +1,6 @@
 .. _en_api_Tensor:
 
-Tensor `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\api\include\tensor.h>`_
+Tensor `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/include/paddle/phi/api/include/tensor.h>`_
 -------------------------------
 
 .. cpp:class:: Tensor
@@ -8,7 +8,7 @@ Tensor `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\inclu
 
 Path
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\tensor.h
+paddle/include/paddle/phi/api/include/tensor.h
 
 Methods
 :::::::::::::::::::::

@@ -8,7 +8,7 @@ fused_dropout_add
 
 Path
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\fused_api.h
+paddle/include/paddle/phi/api/include/fused_api.h
 
 Parameters
 :::::::::::::::::::::
