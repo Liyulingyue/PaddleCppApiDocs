@@ -1,6 +1,6 @@
 .. _cn_api_GPUContext:
 
-`GPUContext <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\backends\gpu\gpu_context.h>`_
+GPUContext`源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\backends\gpu\gpu_context.h>`_
 -------------------------------
 
 .. cpp:class:: GPUContext
