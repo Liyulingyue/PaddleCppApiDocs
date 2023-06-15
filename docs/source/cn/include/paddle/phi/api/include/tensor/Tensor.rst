@@ -1,6 +1,6 @@
 .. _cn_api_Tensor:
 
-Tensor`源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\api\include\tensor.h>`_
+Tensor `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\api\include\tensor.h>`_
 -------------------------------
 
 .. cpp:class:: Tensor

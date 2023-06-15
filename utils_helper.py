@@ -288,7 +288,7 @@ class class_helper(object):
             f.write(head_text)
 
             name_and_intro_text = (
-                f'{self.class_name}`源代码 <https://github.com/PaddlePaddle/Paddle/blob/{self.branch}/{self.file_path}>`_\n'
+                f'{self.class_name} `源代码 <https://github.com/PaddlePaddle/Paddle/blob/{self.branch}/{self.file_path}>`_\n'
                 f'-------------------------------\n'
                 f'\n'
                 f'.. cpp:class:: {self.init_func}\n'
