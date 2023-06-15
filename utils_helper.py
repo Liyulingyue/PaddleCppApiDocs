@@ -75,6 +75,7 @@ class func_helper(object):
                 f'-------------------------------\n'
                 f'\n'
                 f'.. cpp:function:: {self.api}\n'
+                f'\n'
                 f'{self.introduction}\n'
                 f'\n'
             )
@@ -131,6 +132,7 @@ class func_helper(object):
                 f'-------------------------------\n'
                 f'\n'
                 f'.. cpp:function:: {self.api}\n'
+                f'\n'
                 f'{self.introduction}\n'
                 f'\n'
             )
@@ -292,6 +294,7 @@ class class_helper(object):
                 f'-------------------------------\n'
                 f'\n'
                 f'.. cpp:class:: {self.init_func}\n'
+                f'\n'
                 f'{self.introduction}\n'
                 f'\n'
             )
@@ -368,6 +371,7 @@ class class_helper(object):
                 f'-------------------------------\n'
                 f'\n'
                 f'.. cpp:class:: {self.init_func}\n'
+                f'\n'
                 f'{self.introduction}\n'
                 f'\n'
             )
