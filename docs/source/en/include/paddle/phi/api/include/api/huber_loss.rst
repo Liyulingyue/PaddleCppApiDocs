@@ -8,7 +8,7 @@ huber_loss
 
 Path
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\api.h
+paddle/include/paddle/phi/api/include/api.h
 
 Parameters
 :::::::::::::::::::::

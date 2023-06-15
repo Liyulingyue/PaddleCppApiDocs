@@ -1,6 +1,6 @@
 .. _cn_api_DeviceContextPool:
 
-DeviceContextPool `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\api\include\context_pool.h>`_
+DeviceContextPool `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/include/paddle/phi/api/include/context_pool.h>`_
 -------------------------------
 
 .. cpp:class:: DeviceContextPool
@@ -9,7 +9,7 @@ DeviceContextPool `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develo
 
 定义目录
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\context_pool.h
+paddle/include/paddle/phi/api/include/context_pool.h
 
 方法
 :::::::::::::::::::::

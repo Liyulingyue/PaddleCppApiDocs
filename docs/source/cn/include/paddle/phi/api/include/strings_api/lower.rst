@@ -8,7 +8,7 @@ lower
 
 定义目录
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\strings_api.h
+paddle/include/paddle/phi/api/include/strings_api.h
 
 参数
 :::::::::::::::::::::

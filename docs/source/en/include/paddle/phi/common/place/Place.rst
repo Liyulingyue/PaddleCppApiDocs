@@ -1,6 +1,6 @@
 .. _en_api_Place:
 
-Place `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\common\place.h>`_
+Place `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/include/paddle/phi/common/place.h>`_
 -------------------------------
 
 .. cpp:class:: Place
@@ -8,7 +8,7 @@ Place `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\includ
 
 Path
 :::::::::::::::::::::
-paddle\include\paddle\phi\common\place.h
+paddle/include/paddle/phi/common/place.h
 
 Methods
 :::::::::::::::::::::

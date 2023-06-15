@@ -1,6 +1,6 @@
 .. _cn_api_OpMetaInfoBuilder:
 
-OpMetaInfoBuilder `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\api\ext\op_meta_info.h>`_
+OpMetaInfoBuilder `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/include/paddle/phi/api/ext/op_meta_info.h>`_
 -------------------------------
 
 .. cpp:class:: OpMetaInfoBuilder
@@ -8,7 +8,7 @@ OpMetaInfoBuilder `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develo
 
 定义目录
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\ext\op_meta_info.h
+paddle/include/paddle/phi/api/ext/op_meta_info.h
 
 方法
 :::::::::::::::::::::

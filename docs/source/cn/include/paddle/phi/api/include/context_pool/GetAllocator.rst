@@ -9,7 +9,7 @@ GetAllocator
 
 定义目录
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\context_pool.h
+paddle/include/paddle/phi/api/include/context_pool.h
 
 参数
 :::::::::::::::::::::
