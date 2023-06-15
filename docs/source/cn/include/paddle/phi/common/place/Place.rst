@@ -4,6 +4,7 @@ Place `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/inc
 -------------------------------
 
 .. cpp:class:: Place
+
 /// \brief The place is used to specify where the data is stored.
 
 定义目录

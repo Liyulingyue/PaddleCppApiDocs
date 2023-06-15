@@ -6,6 +6,7 @@ broadcast_tensors
 .. cpp:function:: std::vector<Tensor> broadcast_tensors ( const std::vector<Tensor> & input ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

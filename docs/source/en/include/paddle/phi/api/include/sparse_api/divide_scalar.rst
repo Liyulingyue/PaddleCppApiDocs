@@ -6,6 +6,7 @@ divide_scalar
 .. cpp:function:: Tensor divide_scalar ( const Tensor & x , float scalar ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/sparse_api.h

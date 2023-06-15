@@ -6,6 +6,7 @@ cast
 .. cpp:function:: Tensor cast ( const Tensor & x , DataType index_dtype = DataType::UNDEFINED , DataType value_dtype = DataType::UNDEFINED ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/sparse_api.h

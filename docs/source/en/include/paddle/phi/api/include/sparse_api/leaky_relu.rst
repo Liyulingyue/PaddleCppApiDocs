@@ -6,6 +6,7 @@ leaky_relu
 .. cpp:function:: Tensor leaky_relu ( const Tensor & x , float alpha ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/sparse_api.h

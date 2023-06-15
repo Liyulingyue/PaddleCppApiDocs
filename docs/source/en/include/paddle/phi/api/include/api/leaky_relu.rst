@@ -6,6 +6,7 @@ leaky_relu
 .. cpp:function:: Tensor leaky_relu ( const Tensor & x , float negative_slope = 0.02 f ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

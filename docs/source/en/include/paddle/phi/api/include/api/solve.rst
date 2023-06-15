@@ -6,6 +6,7 @@ solve
 .. cpp:function:: Tensor solve ( const Tensor & x , const Tensor & y ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

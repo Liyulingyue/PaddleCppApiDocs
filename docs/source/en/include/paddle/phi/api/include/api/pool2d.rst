@@ -6,6 +6,7 @@ pool2d
 .. cpp:function:: Tensor pool2d ( const Tensor & x , const IntArray & kernel_size , const std::vector<int> & strides , const std::vector<int> & paddings , bool ceil_mode , bool exclusive , const std::string & data_format , const std::string & pooling_type , bool global_pooling , bool adaptive , const std::string & padding_algorithm ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

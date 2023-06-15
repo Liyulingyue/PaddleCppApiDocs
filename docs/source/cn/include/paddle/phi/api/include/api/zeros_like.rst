@@ -6,6 +6,7 @@ zeros_like
 .. cpp:function:: Tensor zeros_like ( const Tensor & x , DataType dtype = DataType::UNDEFINED , const Place & place = { } ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

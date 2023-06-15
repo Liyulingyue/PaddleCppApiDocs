@@ -6,6 +6,7 @@ randperm
 .. cpp:function:: Tensor randperm ( int n , DataType dtype , const Place & place = { } ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

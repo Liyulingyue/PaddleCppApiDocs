@@ -6,6 +6,7 @@ sparse_coo_tensor
 .. cpp:function:: Tensor sparse_coo_tensor ( const Tensor & values , const Tensor & indices , const std::vector<int64_t> & shape = { } ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/sparse_api.h

@@ -6,6 +6,7 @@ index_put
 .. cpp:function:: Tensor index_put ( const Tensor & x , const std::vector<Tensor> & indices , const Tensor & value , bool accumulate = false ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

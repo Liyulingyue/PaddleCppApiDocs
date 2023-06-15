@@ -6,6 +6,7 @@ elementwise_pow
 .. cpp:function:: Tensor elementwise_pow ( const Tensor & x , const Tensor & y ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

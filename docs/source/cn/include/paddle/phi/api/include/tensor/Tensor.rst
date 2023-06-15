@@ -6,6 +6,7 @@ Tensor `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/in
 .. cpp:class:: Tensor
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/tensor.h

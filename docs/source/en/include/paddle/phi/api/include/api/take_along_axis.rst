@@ -6,6 +6,7 @@ take_along_axis
 .. cpp:function:: Tensor take_along_axis ( const Tensor & arr , const Tensor & indices , int axis ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

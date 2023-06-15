@@ -6,6 +6,7 @@ pad
 .. cpp:function:: Tensor pad ( const Tensor & x , const std::vector<int> & paddings , const Scalar & pad_value ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

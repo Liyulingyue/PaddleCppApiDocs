@@ -6,6 +6,7 @@ tanh_
 .. cpp:function:: Tensor & tanh_ ( Tensor & x ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

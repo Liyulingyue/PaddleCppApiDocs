@@ -6,6 +6,7 @@ CPUContext `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/i
 .. cpp:class:: CPUContext
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/backends/cpu/cpu_context.h

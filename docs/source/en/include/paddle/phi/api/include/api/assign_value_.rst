@@ -6,6 +6,7 @@ assign_value_
 .. cpp:function:: Tensor & assign_value_ ( Tensor & output , const std::vector<int> & shape , DataType dtype , const std::vector<phi::Scalar> & values , const Place & place = { } ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

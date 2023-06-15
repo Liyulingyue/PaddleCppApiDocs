@@ -4,6 +4,7 @@ from_blob
 -------------------------------
 
 .. cpp:function:: Tensor from_blob ( void * data , const phi::IntArray & shape , phi::DataType dtype , phi::DataLayout layout = phi::DataLayout::NCHW , const phi::Place & place = phi::Place ( ) , const Deleter & deleter = nullptr ) ;
+
 Construct a Tensor from a buffer pointed to by `data` 
 
 ..note::

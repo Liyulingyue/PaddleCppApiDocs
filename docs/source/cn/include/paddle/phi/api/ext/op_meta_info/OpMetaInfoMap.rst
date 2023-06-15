@@ -6,6 +6,7 @@ OpMetaInfoMap `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/pa
 .. cpp:class:: OpMetaInfoMap
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/ext/op_meta_info.h

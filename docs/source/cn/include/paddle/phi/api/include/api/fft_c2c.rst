@@ -6,6 +6,7 @@ fft_c2c
 .. cpp:function:: Tensor fft_c2c ( const Tensor & x , const std::vector<int64_t> & axes , const std::string & normalization , bool forward ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

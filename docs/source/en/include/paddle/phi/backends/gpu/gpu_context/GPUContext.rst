@@ -6,6 +6,7 @@ GPUContext `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/i
 .. cpp:class:: GPUContext
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/backends/gpu/gpu_context.h

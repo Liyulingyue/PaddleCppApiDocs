@@ -6,6 +6,7 @@ trunc
 .. cpp:function:: Tensor trunc ( const Tensor & input ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

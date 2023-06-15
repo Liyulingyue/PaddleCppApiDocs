@@ -6,6 +6,7 @@ maxpool
 .. cpp:function:: Tensor maxpool ( const Tensor & x , const std::vector<int> & kernel_sizes , const std::vector<int> & paddings , const std::vector<int> & dilations , const std::vector<int> & strides ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/sparse_api.h

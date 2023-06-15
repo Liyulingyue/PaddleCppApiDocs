@@ -6,6 +6,7 @@ as_complex
 .. cpp:function:: Tensor as_complex ( const Tensor & x ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

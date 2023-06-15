@@ -6,6 +6,7 @@ gaussian
 .. cpp:function:: Tensor gaussian ( const IntArray & shape , float mean , float std , int seed , DataType dtype , const Place & place = { } ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

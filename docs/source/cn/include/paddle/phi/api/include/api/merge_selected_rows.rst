@@ -6,6 +6,7 @@ merge_selected_rows
 .. cpp:function:: Tensor merge_selected_rows ( const Tensor & x ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

@@ -6,6 +6,7 @@ InitPhi `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/i
 .. cpp:class:: InitPhi
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/fluid/platform/init_phi.h

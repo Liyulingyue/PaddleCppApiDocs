@@ -6,6 +6,7 @@ sum
 .. cpp:function:: Tensor sum ( const Tensor & x , const IntArray & axis = { } , DataType dtype = DataType::UNDEFINED , bool keepdim = false ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/sparse_api.h

@@ -6,6 +6,7 @@ squeeze
 .. cpp:function:: Tensor squeeze ( const Tensor & x , const IntArray & axis = { } ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

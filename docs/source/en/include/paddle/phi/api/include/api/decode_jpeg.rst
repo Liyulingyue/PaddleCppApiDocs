@@ -6,6 +6,7 @@ decode_jpeg
 .. cpp:function:: Tensor decode_jpeg ( const Tensor & x , const std::string & mode , const Place & place ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

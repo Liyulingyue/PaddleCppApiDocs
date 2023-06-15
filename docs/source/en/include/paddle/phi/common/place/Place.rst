@@ -4,6 +4,7 @@ Place `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/includ
 -------------------------------
 
 .. cpp:class:: Place
+
 /// \brief The place is used to specify where the data is stored.
 
 Path

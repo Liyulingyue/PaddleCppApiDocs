@@ -6,6 +6,7 @@ crop
 .. cpp:function:: Tensor crop ( const Tensor & x , const IntArray & shape = { } , const IntArray & offsets = { } ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

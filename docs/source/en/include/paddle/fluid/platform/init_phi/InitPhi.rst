@@ -6,6 +6,7 @@ InitPhi `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/incl
 .. cpp:class:: InitPhi
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/fluid/platform/init_phi.h

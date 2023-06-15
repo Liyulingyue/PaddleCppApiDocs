@@ -6,6 +6,7 @@ matrix_rank_tol
 .. cpp:function:: Tensor matrix_rank_tol ( const Tensor & x , const Tensor & atol_tensor , bool use_default_tol = true , bool hermitian = false ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

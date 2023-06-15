@@ -6,6 +6,7 @@ ceil_
 .. cpp:function:: Tensor & ceil_ ( Tensor & x ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

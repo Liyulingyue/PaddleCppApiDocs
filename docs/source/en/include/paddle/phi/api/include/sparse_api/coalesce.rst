@@ -6,6 +6,7 @@ coalesce
 .. cpp:function:: Tensor coalesce ( const Tensor & x ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/sparse_api.h

@@ -6,6 +6,7 @@ cumprod
 .. cpp:function:: Tensor cumprod ( const Tensor & x , int dim ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

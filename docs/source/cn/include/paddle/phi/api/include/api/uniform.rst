@@ -6,6 +6,7 @@ uniform
 .. cpp:function:: Tensor uniform ( const IntArray & shape , DataType dtype , const Scalar & min , const Scalar & max , int seed , const Place & place = { } ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

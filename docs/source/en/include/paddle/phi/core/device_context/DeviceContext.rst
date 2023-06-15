@@ -4,6 +4,7 @@ DeviceContext `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddl
 -------------------------------
 
 .. cpp:class:: DeviceContext
+
  DeviceContext provides device-related interfaces. All kernels must access the interfaces provided by the backend through DeviceContext.
 
 

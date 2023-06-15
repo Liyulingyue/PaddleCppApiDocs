@@ -6,6 +6,7 @@ frobenius_norm
 .. cpp:function:: Tensor frobenius_norm ( const Tensor & x , const std::vector<int64_t> & axis , bool keep_dim , bool reduce_all ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

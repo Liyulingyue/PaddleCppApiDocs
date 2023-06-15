@@ -6,6 +6,7 @@ depthwise_conv2d_transpose
 .. cpp:function:: Tensor depthwise_conv2d_transpose ( const Tensor & x , const Tensor & filter , const std::vector<int> & strides = { 1 , 1 } , const std::vector<int> & paddings = { 0 , 0 } , const std::vector<int> & output_padding = { } , const IntArray & output_size = { } , const std::string & padding_algorithm = "EXPLICIT" , int groups = 1 , const std::vector<int> & dilations = { 1 , 1 } , const std::string & data_format = "NCHW" ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

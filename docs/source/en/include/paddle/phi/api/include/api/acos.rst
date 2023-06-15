@@ -6,6 +6,7 @@ acos
 .. cpp:function:: Tensor acos ( const Tensor & x ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.acos](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/acos_en.html)
 
 Path

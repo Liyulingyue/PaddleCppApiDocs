@@ -6,6 +6,7 @@ remainder_
 .. cpp:function:: Tensor & remainder_ ( Tensor & x , const Tensor & y ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

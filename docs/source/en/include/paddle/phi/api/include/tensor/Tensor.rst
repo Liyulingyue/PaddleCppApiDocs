@@ -6,6 +6,7 @@ Tensor `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/inclu
 .. cpp:class:: Tensor
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/tensor.h

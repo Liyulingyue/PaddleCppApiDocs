@@ -6,6 +6,7 @@ angle
 .. cpp:function:: Tensor angle ( const Tensor & x ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

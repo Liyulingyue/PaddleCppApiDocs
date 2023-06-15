@@ -6,6 +6,7 @@ cast
 .. cpp:function:: Tensor cast ( const Tensor & x , DataType dtype ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

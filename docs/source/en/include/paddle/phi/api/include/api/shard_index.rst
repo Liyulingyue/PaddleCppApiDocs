@@ -6,6 +6,7 @@ shard_index
 .. cpp:function:: Tensor shard_index ( const Tensor & input , int index_num , int nshards , int shard_id , int ignore_value = - 1 ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

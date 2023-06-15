@@ -6,6 +6,7 @@ as_real
 .. cpp:function:: Tensor as_real ( const Tensor & x ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

@@ -6,6 +6,7 @@ dirichlet
 .. cpp:function:: Tensor dirichlet ( const Tensor & alpha ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

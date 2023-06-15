@@ -6,6 +6,7 @@ selu
 .. cpp:function:: Tensor selu ( const Tensor & x , float scale = 1.0507009873554804934193349852946 , float alpha = 1.6732632423543772848170429916717 ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.selu](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/selu_en.html)
 
 Path

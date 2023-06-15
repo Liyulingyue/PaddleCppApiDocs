@@ -6,6 +6,7 @@ softmax
 .. cpp:function:: Tensor softmax ( const Tensor & x , int axis = - 1 ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/sparse_api.h

@@ -6,6 +6,7 @@ celu
 .. cpp:function:: Tensor celu ( const Tensor & x , float alpha = 1.0 ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

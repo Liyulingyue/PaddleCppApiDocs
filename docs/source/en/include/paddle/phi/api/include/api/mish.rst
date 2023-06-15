@@ -6,6 +6,7 @@ mish
 .. cpp:function:: Tensor mish ( const Tensor & x , float lambda ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

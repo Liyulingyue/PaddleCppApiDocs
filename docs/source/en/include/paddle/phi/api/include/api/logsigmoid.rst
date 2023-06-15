@@ -6,6 +6,7 @@ logsigmoid
 .. cpp:function:: Tensor logsigmoid ( const Tensor & x ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

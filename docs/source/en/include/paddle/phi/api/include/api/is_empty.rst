@@ -6,6 +6,7 @@ is_empty
 .. cpp:function:: Tensor is_empty ( const Tensor & x ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.is_empty](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/is_empty_en.html)
 
 Path

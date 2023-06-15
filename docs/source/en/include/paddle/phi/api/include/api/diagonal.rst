@@ -6,6 +6,7 @@ diagonal
 .. cpp:function:: Tensor diagonal ( const Tensor & x , int offset = 0 , int axis1 = 0 , int axis2 = 1 ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.diagonal](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/diagonal_en.html)
 
 Path

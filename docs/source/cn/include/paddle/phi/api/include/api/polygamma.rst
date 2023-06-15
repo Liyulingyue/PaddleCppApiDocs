@@ -6,6 +6,7 @@ polygamma
 .. cpp:function:: Tensor polygamma ( const Tensor & x , int n ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

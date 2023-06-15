@@ -6,6 +6,7 @@ sqrt_
 .. cpp:function:: Tensor & sqrt_ ( Tensor & x ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

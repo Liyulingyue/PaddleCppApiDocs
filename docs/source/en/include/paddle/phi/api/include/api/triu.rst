@@ -6,6 +6,7 @@ triu
 .. cpp:function:: Tensor triu ( const Tensor & x , int diagonal ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

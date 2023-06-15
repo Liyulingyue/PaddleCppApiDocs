@@ -6,6 +6,7 @@ pixel_shuffle
 .. cpp:function:: Tensor pixel_shuffle ( const Tensor & x , int upscale_factor = 1 , const std::string & data_format = "NCHW" ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.pixel_shuffle](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/pixel_shuffle_en.html)
 
 Path

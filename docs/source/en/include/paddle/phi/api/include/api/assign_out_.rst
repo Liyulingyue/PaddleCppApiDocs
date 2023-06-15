@@ -6,6 +6,7 @@ assign_out_
 .. cpp:function:: Tensor & assign_out_ ( const Tensor & x , Tensor & output ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

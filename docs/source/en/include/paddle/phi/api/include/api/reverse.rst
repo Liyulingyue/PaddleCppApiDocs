@@ -6,6 +6,7 @@ reverse
 .. cpp:function:: Tensor reverse ( const Tensor & x , const IntArray & axis ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

@@ -6,6 +6,7 @@ elu_
 .. cpp:function:: Tensor & elu_ ( Tensor & x , float alpha = 1.0 f ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

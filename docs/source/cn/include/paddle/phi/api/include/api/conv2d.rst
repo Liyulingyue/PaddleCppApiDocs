@@ -6,6 +6,7 @@ conv2d
 .. cpp:function:: Tensor conv2d ( const Tensor & input , const Tensor & filter , const std::vector<int> & strides = { 1 , 1 } , const std::vector<int> & paddings = { 0 , 0 } , const std::string & padding_algorithm = "EXPLICIT" , const std::vector<int> & dilations = { 1 , 1 } , int groups = 1 , const std::string & data_format = "NCHW" ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

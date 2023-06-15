@@ -6,6 +6,7 @@ to_dense
 .. cpp:function:: Tensor to_dense ( const Tensor & x ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/sparse_api.h

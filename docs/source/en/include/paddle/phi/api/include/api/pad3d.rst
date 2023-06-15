@@ -6,6 +6,7 @@ pad3d
 .. cpp:function:: Tensor pad3d ( const Tensor & x , const IntArray & paddings , const std::string & mode = "constant" , float pad_value = 0.0 , const std::string & data_format = "NCDHW" ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

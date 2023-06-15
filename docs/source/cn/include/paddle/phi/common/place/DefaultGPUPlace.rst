@@ -6,6 +6,7 @@ DefaultGPUPlace
 .. cpp:function:: GPUPlace DefaultGPUPlace ( ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/common/place.h

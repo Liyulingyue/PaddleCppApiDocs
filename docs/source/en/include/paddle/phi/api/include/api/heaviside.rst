@@ -6,6 +6,7 @@ heaviside
 .. cpp:function:: Tensor heaviside ( const Tensor & x , const Tensor & y ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

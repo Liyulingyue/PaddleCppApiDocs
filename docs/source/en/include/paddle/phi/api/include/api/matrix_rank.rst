@@ -6,6 +6,7 @@ matrix_rank
 .. cpp:function:: Tensor matrix_rank ( const Tensor & x , float tol , bool use_default_tol = true , bool hermitian = false ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

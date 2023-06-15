@@ -6,6 +6,7 @@ digamma
 .. cpp:function:: Tensor digamma ( const Tensor & x ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.digamma](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/digamma_en.html)
 
 Path

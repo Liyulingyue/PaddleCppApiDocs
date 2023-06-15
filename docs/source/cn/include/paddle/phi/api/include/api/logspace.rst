@@ -6,6 +6,7 @@ logspace
 .. cpp:function:: Tensor logspace ( const Tensor & start , const Tensor & stop , const Tensor & num , const Tensor & base , DataType dtype , const Place & place = { } ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

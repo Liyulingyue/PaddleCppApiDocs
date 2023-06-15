@@ -6,6 +6,7 @@ atan2
 .. cpp:function:: Tensor atan2 ( const Tensor & x , const Tensor & y ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.atan2](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/atan2_en.html)
 
 Path

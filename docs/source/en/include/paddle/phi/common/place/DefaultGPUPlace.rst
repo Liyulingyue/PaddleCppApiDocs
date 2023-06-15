@@ -6,6 +6,7 @@ DefaultGPUPlace
 .. cpp:function:: GPUPlace DefaultGPUPlace ( ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/common/place.h

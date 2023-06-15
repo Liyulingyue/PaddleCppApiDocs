@@ -6,6 +6,7 @@ svd
 .. cpp:function:: std::tuple<Tensor , Tensor , Tensor> svd ( const Tensor & x , bool full_matrices = false ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

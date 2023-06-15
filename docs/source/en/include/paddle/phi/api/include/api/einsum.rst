@@ -6,6 +6,7 @@ einsum
 .. cpp:function:: std::tuple<Tensor , std::vector<Tensor> , std::vector<Tensor> > einsum ( const std::vector<Tensor> & x , const std::string & equation ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

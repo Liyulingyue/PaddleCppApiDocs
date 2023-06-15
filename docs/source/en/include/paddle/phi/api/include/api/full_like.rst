@@ -6,6 +6,7 @@ full_like
 .. cpp:function:: Tensor full_like ( const Tensor & x , const Scalar & value , DataType dtype = DataType::UNDEFINED , const Place & place = { } ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

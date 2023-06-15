@@ -6,6 +6,7 @@ log_loss
 .. cpp:function:: Tensor log_loss ( const Tensor & input , const Tensor & label , float epsilon ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

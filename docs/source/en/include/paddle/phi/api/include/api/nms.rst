@@ -6,6 +6,7 @@ nms
 .. cpp:function:: Tensor nms ( const Tensor & x , float threshold = 1.0 f ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

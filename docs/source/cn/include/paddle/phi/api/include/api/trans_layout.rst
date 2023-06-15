@@ -6,6 +6,7 @@ trans_layout
 .. cpp:function:: Tensor trans_layout ( const Tensor & x , const std::vector<int> & perm ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

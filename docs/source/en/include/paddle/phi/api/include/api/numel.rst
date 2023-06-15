@@ -6,6 +6,7 @@ numel
 .. cpp:function:: Tensor numel ( const Tensor & x ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

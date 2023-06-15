@@ -6,6 +6,7 @@ amin
 .. cpp:function:: Tensor amin ( const Tensor & x , const std::vector<int64_t> & axis = { } , bool keepdim = false ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

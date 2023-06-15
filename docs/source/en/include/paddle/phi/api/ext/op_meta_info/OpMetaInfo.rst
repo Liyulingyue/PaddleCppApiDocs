@@ -6,6 +6,7 @@ OpMetaInfo `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/i
 .. cpp:class:: OpMetaInfo
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/ext/op_meta_info.h

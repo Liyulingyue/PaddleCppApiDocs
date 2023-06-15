@@ -6,6 +6,7 @@ pow
 .. cpp:function:: Tensor pow ( const Tensor & x , const Scalar & y = 1.0 f ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

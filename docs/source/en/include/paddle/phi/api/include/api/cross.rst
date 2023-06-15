@@ -6,6 +6,7 @@ cross
 .. cpp:function:: Tensor cross ( const Tensor & x , const Tensor & y , int axis = 9 ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.cross](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/cross_en.html)
 
 Path

@@ -6,6 +6,7 @@ poisson
 .. cpp:function:: Tensor poisson ( const Tensor & x ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.poisson](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/poisson_en.html)
 
 Path

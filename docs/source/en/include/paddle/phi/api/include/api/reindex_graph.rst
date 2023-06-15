@@ -6,6 +6,7 @@ reindex_graph
 .. cpp:function:: std::tuple<Tensor , Tensor , Tensor> reindex_graph ( const Tensor & x , const Tensor & neighbors , const Tensor & count , const paddle::optional<Tensor> & hashtable_value , const paddle::optional<Tensor> & hashtable_index ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

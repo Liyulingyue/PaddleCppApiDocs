@@ -6,6 +6,7 @@ dirichlet
 .. cpp:function:: Tensor dirichlet ( const Tensor & alpha ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

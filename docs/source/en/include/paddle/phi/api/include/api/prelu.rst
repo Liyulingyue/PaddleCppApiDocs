@@ -6,6 +6,7 @@ prelu
 .. cpp:function:: Tensor prelu ( const Tensor & x , const Tensor & alpha , const std::string & data_format = "NCHW" , const std::string & mode = "all" ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h

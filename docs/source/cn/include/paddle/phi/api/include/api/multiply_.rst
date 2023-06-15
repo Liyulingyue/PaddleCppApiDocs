@@ -6,6 +6,7 @@ multiply_
 .. cpp:function:: Tensor & multiply_ ( Tensor & x , const Tensor & y ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h
