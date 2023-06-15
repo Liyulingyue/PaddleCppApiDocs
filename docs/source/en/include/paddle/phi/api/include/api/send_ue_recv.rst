@@ -10,7 +10,7 @@ This API is aligned with Python API, more details are shown in [paddle.send_ue_r
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

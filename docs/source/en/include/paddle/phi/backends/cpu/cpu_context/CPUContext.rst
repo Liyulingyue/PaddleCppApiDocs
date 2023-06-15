@@ -1,6 +1,6 @@
 .. _en_api_CPUContext:
 
-CPUContext[source](https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/include/paddle/phi/backends/cpu/cpu_context.h)
+CPUContext[source](https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\backends\cpu\cpu_context.h)
 -------------------------------
 
 .. cpp:class:: CPUContext
@@ -8,7 +8,7 @@ CPUContext[source](https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/in
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/backends/cpu/cpu_context.h
+paddle\include\paddle\phi\backends\cpu\cpu_context.h
 
 Methods
 :::::::::::::::::::::

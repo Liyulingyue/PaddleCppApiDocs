@@ -283,11 +283,12 @@ class class_helper(object):
 
     def create_and_write_file_cn(self, save_dir, language):
         with open(save_dir, 'w', encoding='utf8') as f:
-            head_text = f'.. _{language}_api_{self.class_name}:\n' f'\n'
+            head_text = f'.. _{language}_api_{self.class_name}:\n' \
+                        f'\n'
             f.write(head_text)
 
             name_and_intro_text = (
-                f'{self.class_name}[源代码](https://github.com/PaddlePaddle/Paddle/blob/{self.branch}/{self.file_path})\n'
+                f'`{self.class_name} <https://github.com/PaddlePaddle/Paddle/blob/{self.branch}/{self.file_path}>`_\n'
                 f'-------------------------------\n'
                 f'\n'
                 f'.. cpp:class:: {self.init_func}\n'

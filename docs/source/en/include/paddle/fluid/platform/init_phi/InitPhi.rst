@@ -1,6 +1,6 @@
 .. _en_api_InitPhi:
 
-InitPhi[source](https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/include/paddle/fluid/platform/init_phi.h)
+InitPhi[source](https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\fluid\platform\init_phi.h)
 -------------------------------
 
 .. cpp:class:: InitPhi
@@ -8,7 +8,7 @@ InitPhi[source](https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/inclu
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/fluid/platform/init_phi.h
+paddle\include\paddle\fluid\platform\init_phi.h
 
 Methods
 :::::::::::::::::::::

@@ -1,6 +1,6 @@
 .. _en_api_OpMetaInfoMap:
 
-OpMetaInfoMap[source](https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/include/paddle/phi/api/ext/op_meta_info.h)
+OpMetaInfoMap[source](https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\api\ext\op_meta_info.h)
 -------------------------------
 
 .. cpp:class:: OpMetaInfoMap
@@ -8,7 +8,7 @@ OpMetaInfoMap[source](https://github.com/PaddlePaddle/Paddle/blob/develop/paddle
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/ext/op_meta_info.h
+paddle\include\paddle\phi\api\ext\op_meta_info.h
 
 Methods
 :::::::::::::::::::::

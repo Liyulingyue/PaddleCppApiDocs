@@ -11,7 +11,7 @@ Construct a Tensor from a buffer pointed to by `data`
 
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/tensor_utils.h
+paddle\include\paddle\phi\api\include\tensor_utils.h
 
 参数
 :::::::::::::::::::::

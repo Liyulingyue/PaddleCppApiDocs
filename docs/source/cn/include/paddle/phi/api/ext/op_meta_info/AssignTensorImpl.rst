@@ -8,7 +8,7 @@ AssignTensorImpl
 
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/ext/op_meta_info.h
+paddle\include\paddle\phi\api\ext\op_meta_info.h
 
 参数
 :::::::::::::::::::::

@@ -8,7 +8,7 @@ fused_dropout_add
 
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/fused_api.h
+paddle\include\paddle\phi\api\include\fused_api.h
 
 参数
 :::::::::::::::::::::
