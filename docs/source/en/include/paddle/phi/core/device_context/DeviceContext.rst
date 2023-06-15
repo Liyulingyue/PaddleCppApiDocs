@@ -1,6 +1,6 @@
 .. _en_api_DeviceContext:
 
-DeviceContext[source](https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\core\device_context.h)
+DeviceContext `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\core\device_context.h>`_
 -------------------------------
 
 .. cpp:class:: DeviceContext

@@ -1,6 +1,6 @@
 .. _en_api_CustomOpKernelContext:
 
-CustomOpKernelContext[source](https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\api\ext\op_meta_info.h)
+CustomOpKernelContext `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\api\ext\op_meta_info.h>`_
 -------------------------------
 
 .. cpp:class:: CustomOpKernelContext

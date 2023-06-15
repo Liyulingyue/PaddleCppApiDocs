@@ -1,6 +1,6 @@
 .. _en_api_Tensor:
 
-Tensor[source](https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\api\include\tensor.h)
+Tensor `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\api\include\tensor.h>`_
 -------------------------------
 
 .. cpp:class:: Tensor
