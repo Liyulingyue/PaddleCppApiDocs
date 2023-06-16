@@ -6,6 +6,7 @@ full_int_array
 .. cpp:function:: Tensor full_int_array ( const IntArray & value , DataType dtype = DataType::FLOAT32 , const Place & place = CPUPlace ( ) ) ;
 
 
+
 Path
 :::::::::::::::::::::
 paddle/include/paddle/phi/api/include/api.h
