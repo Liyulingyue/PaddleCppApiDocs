@@ -528,17 +528,11 @@ Overview
 ## 命名空间索引
 ### paddle::
 - InitPhi
-- operator==
-- operator==
 - DefaultGPUPlace
 - from_blob
 - GetAllocator
 - GetCurrentCUDAStream
 - Tensor
-- operator+
-- operator-
-- operator*
-- operator/
 - CustomOpKernelContext
 - OpMetaInfo
 - OpMetaInfoMap

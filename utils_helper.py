@@ -534,6 +534,8 @@ def generate_overview_cn(overview_list, save_dir, root_dir, LANGUAGE):
         for namespace in namespace_dict.keys():
             namespace_text += f'### {namespace}\n'
             for name in namespace_dict[namespace]:
+                if 'operator' in name:
+                    continue
                 namespace_text += f'- {name}\n'
             namespace_text += '\n'
         f.write(namespace_text)
@@ -602,6 +604,8 @@ def generate_overview_en(overview_list, save_dir, root_dir, LANGUAGE):
         for namespace in namespace_dict.keys():
             namespace_text += f'### {namespace}\n'
             for name in namespace_dict[namespace]:
+                if 'operator' in name:
+                    continue
                 namespace_text += f'- {name}\n'
             namespace_text += '\n'
         f.write(namespace_text)

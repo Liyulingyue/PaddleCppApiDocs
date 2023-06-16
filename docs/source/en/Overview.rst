@@ -528,17 +528,11 @@ The application scenario of this document is C++training and is mainly used in t
 ## Index by namespace
 ### paddle::
 - InitPhi
-- operator==
-- operator==
 - DefaultGPUPlace
 - from_blob
 - GetAllocator
 - GetCurrentCUDAStream
 - Tensor
-- operator+
-- operator-
-- operator*
-- operator/
 - CustomOpKernelContext
 - OpMetaInfo
 - OpMetaInfoMap
