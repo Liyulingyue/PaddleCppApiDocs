@@ -48,8 +48,7 @@ phi::DeviceContext * GetMutable ( const Place & place )
 '''''''''''
 phi::DeviceContext *
 
-template<AllocationType T>
-const typename DefaultDeviceContextType<T>::TYPE * Get ( const Place & place ) {
+template<AllocationType T> const typename DefaultDeviceContextType<T>::TYPE * Get ( const Place & place ) {
 '''''''''''
 
 

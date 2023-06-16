@@ -236,8 +236,7 @@ std::vector<Tensor> * AllMutableOutput ( )
 '''''''''''
 std::vector<Tensor> *
 
-template<typename AttrType>
-AttrType AttrAt ( size_t idx ) const {
+template<typename AttrType> AttrType AttrAt ( size_t idx ) const {
 '''''''''''
 
 

@@ -158,8 +158,7 @@ Allocate device memory for tensor.
 	- **pinned** (bool)
 	- **fake_alloc** (bool)
 
-template<typename T>
-T * Alloc ( TensorBase * tensor , size_t requested_size = 0 , bool pinned = false ) const 
+template<typename T> T * Alloc ( TensorBase * tensor , size_t requested_size = 0 , bool pinned = false ) const 
 '''''''''''
 
 
@@ -185,8 +184,7 @@ Allocate host memory for tensor.
 	- **requested_size** (size_t)
 	- **fake_alloc** (bool)
 
-template<typename T>
-T * HostAlloc ( TensorBase * tensor , size_t requested_size = 0 ) const 
+template<typename T> T * HostAlloc ( TensorBase * tensor , size_t requested_size = 0 ) const 
 '''''''''''
 
 

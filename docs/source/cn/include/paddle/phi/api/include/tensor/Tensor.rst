@@ -270,8 +270,7 @@ Determine whether the tensor device is CustomDevice
 bool
 
 
-template<typename T>
-T * mutable_data ( ) 
+template<typename T> T * mutable_data ( ) 
 '''''''''''
 Get the memory pointer in CPU or GPU with specific data type. It's usually used to get the output data pointer, same as the T* data(). 
 
@@ -281,8 +280,7 @@ Get the memory pointer in CPU or GPU with specific data type. It's usually used 
 T*
 
 
-template<typename T>
-T * mutable_data ( const Place & place ) 
+template<typename T> T * mutable_data ( const Place & place ) 
 '''''''''''
 Get the memory pointer in CPU or GPU with specific data type. It's usually used to get the output data pointer. This is a deprecated method and may be removed in the future! 
 
@@ -295,8 +293,7 @@ Get the memory pointer in CPU or GPU with specific data type. It's usually used 
 T*
 
 
-template<typename T>
-const T * data ( ) const 
+template<typename T> const T * data ( ) const 
 '''''''''''
 Get the const memory pointer directly. It's usually used to get the output data pointer. 
 
@@ -306,8 +303,7 @@ Get the const memory pointer directly. It's usually used to get the output data 
 T*
 
 
-template<typename T>
-T * data ( ) 
+template<typename T> T * data ( ) 
 '''''''''''
 Get the memory pointer directly. It's usually used to get the mutable output data pointer. 
 
@@ -413,8 +409,7 @@ Set name of Tensor.
 '''''''''''
 	- **name** (const std::string&)
 
-template<typename T>
-Tensor copy_to ( const Place & target_place ) const 
+template<typename T> Tensor copy_to ( const Place & target_place ) const 
 '''''''''''
 Copy the current Tensor data to the specified device and return the new Tensor. It's usually used to set the input tensor data. 
 
