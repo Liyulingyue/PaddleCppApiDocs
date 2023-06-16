@@ -12,7 +12,7 @@ Construct a Tensor from a buffer pointed to by `data`
 
 Path
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\tensor_utils.h
+paddle/include/paddle/phi/api/include/tensor_utils.h
 
 Parameters
 :::::::::::::::::::::

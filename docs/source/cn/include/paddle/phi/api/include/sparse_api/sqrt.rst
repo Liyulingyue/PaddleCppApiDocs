@@ -11,7 +11,7 @@ sqrt
 
 定义目录
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\sparse_api.h
+paddle/include/paddle/phi/api/include/sparse_api.h
 
 参数
 :::::::::::::::::::::

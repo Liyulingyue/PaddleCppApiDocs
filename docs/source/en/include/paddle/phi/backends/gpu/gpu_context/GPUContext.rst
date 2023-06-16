@@ -1,6 +1,6 @@
 .. _en_api_GPUContext:
 
-GPUContext `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\backends\gpu\gpu_context.h>`_
+GPUContext `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/include/paddle/phi/backends/gpu/gpu_context.h>`_
 -------------------------------
 
 .. cpp:class:: GPUContext
@@ -9,7 +9,7 @@ GPUContext `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\i
 
 Path
 :::::::::::::::::::::
-paddle\include\paddle\phi\backends\gpu\gpu_context.h
+paddle/include/paddle/phi/backends/gpu/gpu_context.h
 
 Methods
 :::::::::::::::::::::

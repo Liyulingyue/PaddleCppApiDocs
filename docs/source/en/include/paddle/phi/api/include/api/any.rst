@@ -9,7 +9,7 @@ any
 
 Path
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\api.h
+paddle/include/paddle/phi/api/include/api.h
 
 Parameters
 :::::::::::::::::::::

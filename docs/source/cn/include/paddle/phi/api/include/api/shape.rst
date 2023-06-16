@@ -9,7 +9,7 @@ shape
 
 定义目录
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\api.h
+paddle/include/paddle/phi/api/include/api.h
 
 参数
 :::::::::::::::::::::

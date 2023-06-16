@@ -9,7 +9,7 @@ fft_c2r
 
 Path
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\api.h
+paddle/include/paddle/phi/api/include/api.h
 
 Parameters
 :::::::::::::::::::::

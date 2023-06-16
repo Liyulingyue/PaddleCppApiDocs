@@ -9,7 +9,7 @@ DefaultGPUPlace
 
 Path
 :::::::::::::::::::::
-paddle\include\paddle\phi\common\place.h
+paddle/include/paddle/phi/common/place.h
 
 
 Returns

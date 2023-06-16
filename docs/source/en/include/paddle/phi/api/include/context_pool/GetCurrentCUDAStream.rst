@@ -10,7 +10,7 @@ GetCurrentCUDAStream
 
 Path
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\context_pool.h
+paddle/include/paddle/phi/api/include/context_pool.h
 
 Parameters
 :::::::::::::::::::::

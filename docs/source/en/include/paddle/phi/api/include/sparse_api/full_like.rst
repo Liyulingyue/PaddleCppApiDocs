@@ -9,7 +9,7 @@ full_like
 
 Path
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\sparse_api.h
+paddle/include/paddle/phi/api/include/sparse_api.h
 
 Parameters
 :::::::::::::::::::::

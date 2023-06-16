@@ -65,6 +65,9 @@ class func_helper(object):
 
     def create_and_write_file_cn(self, save_dir, language):
         with open(save_dir, 'w', encoding='utf8') as f:
+            # replace file_path to enhance sphinx
+            _file_path = self.file_path.replace("\\","/")
+
             head_text = (
                 f'.. _{language}_api_{self.namespace}{self.func_name}:\n' f'\n'
             )
@@ -95,7 +98,7 @@ class func_helper(object):
                 f.write(note_text)
 
             define_path_text = (
-                f'定义目录\n' f':::::::::::::::::::::\n' f'{self.file_path}\n' f'\n'
+                f'定义目录\n' f':::::::::::::::::::::\n' f'{_file_path}\n' f'\n'
             )
             f.write(define_path_text)
 
@@ -122,6 +125,9 @@ class func_helper(object):
 
     def create_and_write_file_en(self, save_dir, language):
         with open(save_dir, 'w', encoding='utf8') as f:
+            # replace file_path to enhance sphinx
+            _file_path = self.file_path.replace("\\","/")
+
             head_text = (
                 f'.. _{language}_api_{self.namespace}{self.func_name}:\n' f'\n'
             )
@@ -152,7 +158,7 @@ class func_helper(object):
                 f.write(note_text)
 
             define_path_text = (
-                f'Path\n' f':::::::::::::::::::::\n' f'{self.file_path}\n' f'\n'
+                f'Path\n' f':::::::::::::::::::::\n' f'{_file_path}\n' f'\n'
             )
             f.write(define_path_text)
 
@@ -368,11 +374,14 @@ class class_helper(object):
 
     def create_and_write_file_en(self, save_dir, language):
         with open(save_dir, 'w', encoding='utf8') as f:
+            # replace file_path to enhance sphinx
+            _file_path = self.file_path.replace("\\","/")
+
             head_text = f'.. _{language}_api_{self.class_name}:\n' f'\n'
             f.write(head_text)
 
             name_and_intro_text = (
-                f'{self.class_name} `source <https://github.com/PaddlePaddle/Paddle/blob/{self.branch}/{self.file_path}>`_\n'
+                f'{self.class_name} `source <https://github.com/PaddlePaddle/Paddle/blob/{self.branch}/{_file_path}>`_\n'
                 f'-------------------------------\n'
                 f'\n'
                 f'.. cpp:class:: {self.init_func}\n'
@@ -387,7 +396,7 @@ class class_helper(object):
                 f.write(note_text)
 
             define_path_text = (
-                f'Path\n' f':::::::::::::::::::::\n' f'{self.file_path}\n' f'\n'
+                f'Path\n' f':::::::::::::::::::::\n' f'{_file_path}\n' f'\n'
             )
             f.write(define_path_text)
 
