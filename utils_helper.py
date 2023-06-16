@@ -230,7 +230,9 @@ class class_helper(object):
             ith_function = self.class_dict["methods"]["public"][i]
 
             function_name = ith_function['debug']
-            # if function_name.endswith('')
+            if function_name.endswith(';'):
+                function_name = function_name[:-1]
+
             # 获取描述
             funcs_doxygen = (
                 ith_function.get("doxygen", "")

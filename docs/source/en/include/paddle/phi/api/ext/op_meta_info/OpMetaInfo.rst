@@ -22,7 +22,7 @@ explicit OpMetaInfo ( const std::string & op_name ) :
 '''''''''''
 	- **op_name** (const std::string&)
 
-OpMetaInfo & Inputs ( std::vector<std::string> & & inputs ) ;
+OpMetaInfo & Inputs ( std::vector<std::string> & & inputs ) 
 '''''''''''
 
 
@@ -34,7 +34,7 @@ OpMetaInfo & Inputs ( std::vector<std::string> & & inputs ) ;
 '''''''''''
 OpMetaInfo &
 
-OpMetaInfo & Outputs ( std::vector<std::string> & & outputs ) ;
+OpMetaInfo & Outputs ( std::vector<std::string> & & outputs ) 
 '''''''''''
 
 
@@ -46,7 +46,7 @@ OpMetaInfo & Outputs ( std::vector<std::string> & & outputs ) ;
 '''''''''''
 OpMetaInfo &
 
-OpMetaInfo & Attrs ( std::vector<std::string> & & attrs ) ;
+OpMetaInfo & Attrs ( std::vector<std::string> & & attrs ) 
 '''''''''''
 
 
@@ -58,7 +58,7 @@ OpMetaInfo & Attrs ( std::vector<std::string> & & attrs ) ;
 '''''''''''
 OpMetaInfo &
 
-OpMetaInfo & SetInplaceMap ( std::unordered_map<std::string , std::string> & & inplace_map ) ;
+OpMetaInfo & SetInplaceMap ( std::unordered_map<std::string , std::string> & & inplace_map ) 
 '''''''''''
 
 
@@ -70,7 +70,7 @@ OpMetaInfo & SetInplaceMap ( std::unordered_map<std::string , std::string> & & i
 '''''''''''
 OpMetaInfo &
 
-OpMetaInfo & SetKernelFn ( KernelFunc & & func ) ;
+OpMetaInfo & SetKernelFn ( KernelFunc & & func ) 
 '''''''''''
 
 
@@ -82,7 +82,7 @@ OpMetaInfo & SetKernelFn ( KernelFunc & & func ) ;
 '''''''''''
 OpMetaInfo &
 
-OpMetaInfo & SetInferShapeFn ( InferShapeFunc & & func ) ;
+OpMetaInfo & SetInferShapeFn ( InferShapeFunc & & func ) 
 '''''''''''
 
 
@@ -94,7 +94,7 @@ OpMetaInfo & SetInferShapeFn ( InferShapeFunc & & func ) ;
 '''''''''''
 OpMetaInfo &
 
-OpMetaInfo & SetInferDtypeFn ( InferDtypeFunc & & func ) ;
+OpMetaInfo & SetInferDtypeFn ( InferDtypeFunc & & func ) 
 '''''''''''
 
 

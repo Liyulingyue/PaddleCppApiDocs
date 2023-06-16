@@ -15,7 +15,7 @@ paddle/include/paddle/phi/api/include/context_pool.h
 Methods
 :::::::::::::::::::::
 
-static DeviceContextPool & Instance ( ) ;
+static DeviceContextPool & Instance ( ) 
 '''''''''''
 
 
@@ -24,7 +24,7 @@ static DeviceContextPool & Instance ( ) ;
 '''''''''''
 DeviceContextPool &
 
-const phi::DeviceContext * Get ( const Place & place ) ;
+const phi::DeviceContext * Get ( const Place & place ) 
 '''''''''''
 
 
@@ -36,7 +36,7 @@ const phi::DeviceContext * Get ( const Place & place ) ;
 '''''''''''
 const phi::DeviceContext *
 
-phi::DeviceContext * GetMutable ( const Place & place ) ;
+phi::DeviceContext * GetMutable ( const Place & place ) 
 '''''''''''
 
 

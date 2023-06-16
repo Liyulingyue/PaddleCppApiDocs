@@ -14,7 +14,7 @@ paddle/include/paddle/phi/backends/gpu/gpu_context.h
 方法
 :::::::::::::::::::::
 
-explicit GPUContext ( const GPUPlace & place , bool init = true , int stream_priority = 0 ) ;
+explicit GPUContext ( const GPUPlace & place , bool init = true , int stream_priority = 0 ) 
 '''''''''''
 
 
@@ -24,12 +24,12 @@ explicit GPUContext ( const GPUPlace & place , bool init = true , int stream_pri
 	- **init** (bool)
 	- **stream_priority** (int)
 
-GPUContext ( GPUContext & & ) ;
+GPUContext ( GPUContext & & ) 
 '''''''''''
 
 
 
-GPUContext & operator = ( GPUContext & & ) ;
+GPUContext & operator = ( GPUContext & & ) 
 '''''''''''
 
 
@@ -38,12 +38,12 @@ GPUContext & operator = ( GPUContext & & ) ;
 '''''''''''
 GPUContext &
 
-virtual ~GPUContext ( ) ;
+virtual ~GPUContext ( ) 
 '''''''''''
 
 
 
-const Place & GetPlace ( ) const override ;
+const Place & GetPlace ( ) const override 
 '''''''''''
 /*! \briefReturn place in the device context. 
 
@@ -52,7 +52,7 @@ const Place & GetPlace ( ) const override ;
 '''''''''''
 const Place &
 
-gpuStream_t stream ( ) const ;
+gpuStream_t stream ( ) const 
 '''''''''''
 /*! \briefReturn gpu stream in the device context. 
 
@@ -61,7 +61,7 @@ gpuStream_t stream ( ) const ;
 '''''''''''
 gpuStream_t
 
-CUDAStream * cuda_stream ( ) const ;
+CUDAStream * cuda_stream ( ) const 
 '''''''''''
 /*! \briefReturn CUDAStream in the device context. 
 
@@ -70,7 +70,7 @@ CUDAStream * cuda_stream ( ) const ;
 '''''''''''
 CUDAStream *
 
-dnnHandle_t cudnn_handle ( ) const ;
+dnnHandle_t cudnn_handle ( ) const 
 '''''''''''
 /*! \briefReturn cudnnhandle in the device context. 
 
@@ -79,7 +79,7 @@ dnnHandle_t cudnn_handle ( ) const ;
 '''''''''''
 dnnHandle_t
 
-blasHandle_t cublas_handle ( ) const ;
+blasHandle_t cublas_handle ( ) const 
 '''''''''''
 /*! \briefReturn cublas handle in the device context. 
 
@@ -88,7 +88,7 @@ blasHandle_t cublas_handle ( ) const ;
 '''''''''''
 blasHandle_t
 
-blasLtHandle_t cublaslt_handle ( ) const ;
+blasLtHandle_t cublaslt_handle ( ) const 
 '''''''''''
 /*! \briefReturn cublasLt handle in the device context. 
 
@@ -97,7 +97,7 @@ blasLtHandle_t cublaslt_handle ( ) const ;
 '''''''''''
 blasLtHandle_t
 
-solverHandle_t cusolver_dn_handle ( ) const ;
+solverHandle_t cusolver_dn_handle ( ) const 
 '''''''''''
 /*! \briefReturn cusolver handle in the device context. 
 
@@ -106,7 +106,7 @@ solverHandle_t cusolver_dn_handle ( ) const ;
 '''''''''''
 solverHandle_t
 
-sparseHandle_t cusparse_handle ( ) const ;
+sparseHandle_t cusparse_handle ( ) const 
 '''''''''''
 /*! \briefReturn cusparse handle in the device context. 
 
@@ -115,12 +115,12 @@ sparseHandle_t cusparse_handle ( ) const ;
 '''''''''''
 sparseHandle_t
 
-void Wait ( ) const override ;
+void Wait ( ) const override 
 '''''''''''
 /*! \briefWait for all operations completion in the stream. 
 
 
-void WaitEvent ( gpuEvent_t ev ) const ;
+void WaitEvent ( gpuEvent_t ev ) const 
 '''''''''''
 /*! \briefWait for event in the stream. 
 
@@ -128,7 +128,7 @@ void WaitEvent ( gpuEvent_t ev ) const ;
 '''''''''''
 	- **ev** (gpuEvent_t)
 
-bool tensor_core_available ( ) const ;
+bool tensor_core_available ( ) const 
 '''''''''''
 /*! \briefCheck whether tensor core is supported 
 
@@ -137,7 +137,7 @@ bool tensor_core_available ( ) const ;
 '''''''''''
 bool
 
-int GetComputeCapability ( ) const ;
+int GetComputeCapability ( ) const 
 '''''''''''
 /*! \briefReturn compute capability in the device context. 
 
@@ -146,7 +146,7 @@ int GetComputeCapability ( ) const ;
 '''''''''''
 int
 
-int GetMaxPhysicalThreadCount ( ) const ;
+int GetMaxPhysicalThreadCount ( ) const 
 '''''''''''
 /*! \briefReturn the max physical thread count in the device context 
 
@@ -155,7 +155,7 @@ int GetMaxPhysicalThreadCount ( ) const ;
 '''''''''''
 int
 
-int GetSMCount ( ) const ;
+int GetSMCount ( ) const 
 '''''''''''
 /*! \briefReturn the SM count in the device context 
 
@@ -164,7 +164,7 @@ int GetSMCount ( ) const ;
 '''''''''''
 int
 
-int GetMaxThreadsPerBlock ( ) const ;
+int GetMaxThreadsPerBlock ( ) const 
 '''''''''''
 /*! \briefReturn the Max thread num of block in the device context 
 
@@ -173,7 +173,7 @@ int GetMaxThreadsPerBlock ( ) const ;
 '''''''''''
 int
 
-std::array<int , 3> GetCUDAMaxGridDimSize ( ) const ;
+std::array<int , 3> GetCUDAMaxGridDimSize ( ) const 
 '''''''''''
 /*! \briefReturn the max grid dim size in the device context 
 
@@ -182,7 +182,7 @@ std::array<int , 3> GetCUDAMaxGridDimSize ( ) const ;
 '''''''''''
 std::array<int, 3 >
 
-Eigen::GpuDevice * eigen_device ( ) const ;
+Eigen::GpuDevice * eigen_device ( ) const 
 '''''''''''
 /*! \briefReturn eigen device in the device context. 
 
@@ -191,7 +191,7 @@ Eigen::GpuDevice * eigen_device ( ) const ;
 '''''''''''
 Eigen::GpuDevice *
 
-DnnWorkspaceHandle cudnn_workspace_handle ( ) const ;
+DnnWorkspaceHandle cudnn_workspace_handle ( ) const 
 '''''''''''
 /*! \briefReturn a cudnn workspace handle to call multiple cudnnfunctions without interrupting by other threads.Once the first cudnn function is called by the handle, a lockwould be acquired to prevent other threads from accessing theworkspace. Once the handle is destructed, the lock would be released.
 
@@ -201,23 +201,23 @@ DnnWorkspaceHandle cudnn_workspace_handle ( ) const ;
 '''''''''''
 DnnWorkspaceHandle
 
-void CublasCall ( const std::function<void ( blasHandle_t )> & ) const ;
+void CublasCall ( const std::function<void ( blasHandle_t )> & ) const 
 '''''''''''
 /*! \briefCall cublas function safely. 
 
 
-void TensorCoreCublasCallIfAvailable ( const std::function<void ( blasHandle_t )> & ) const ;
+void TensorCoreCublasCallIfAvailable ( const std::function<void ( blasHandle_t )> & ) const 
 '''''''''''
 /*! \briefCall cublas function with Tensor Core safely. If
 Tensor Core is not available, use DEFAULT_MATH instead. 
 
 
-void CusparseCall ( const std::function<void ( sparseHandle_t )> & ) const ;
+void CusparseCall ( const std::function<void ( sparseHandle_t )> & ) const 
 '''''''''''
 /*! \briefCall cusparse function safely. 
 
 
-void RecordEvent ( gpuEvent_t ev , const std::function<void ( )> & callback ) const ;
+void RecordEvent ( gpuEvent_t ev , const std::function<void ( )> & callback ) const 
 '''''''''''
 
 
@@ -226,7 +226,7 @@ void RecordEvent ( gpuEvent_t ev , const std::function<void ( )> & callback ) co
 	- **ev** (gpuEvent_t)
 	- **callback** (const std::function<void ( )>&)
 
-void RecordEvent ( gpuEvent_t ev ) const ;
+void RecordEvent ( gpuEvent_t ev ) const 
 '''''''''''
 
 
@@ -234,7 +234,7 @@ void RecordEvent ( gpuEvent_t ev ) const ;
 '''''''''''
 	- **ev** (gpuEvent_t)
 
-void AddStreamCallback ( const std::function<void ( )> & callback ) const ;
+void AddStreamCallback ( const std::function<void ( )> & callback ) const 
 '''''''''''
 
 
@@ -242,12 +242,12 @@ void AddStreamCallback ( const std::function<void ( )> & callback ) const ;
 '''''''''''
 	- **callback** (const std::function<void ( )>&)
 
-void WaitStreamCallback ( ) const ;
+void WaitStreamCallback ( ) const 
 '''''''''''
 
 
 
-bool HasDnnAttr ( const std::string & attr_name ) const ;
+bool HasDnnAttr ( const std::string & attr_name ) const 
 '''''''''''
 
 
@@ -259,7 +259,7 @@ bool HasDnnAttr ( const std::string & attr_name ) const ;
 '''''''''''
 bool
 
-const Attribute & GetDnnAttr ( const std::string & attr_name ) const ;
+const Attribute & GetDnnAttr ( const std::string & attr_name ) const 
 '''''''''''
 
 
@@ -271,7 +271,7 @@ const Attribute & GetDnnAttr ( const std::string & attr_name ) const ;
 '''''''''''
 const Attribute &
 
-void SetDnnAttr ( const std::string & attr_name , Attribute attr ) ;
+void SetDnnAttr ( const std::string & attr_name , Attribute attr ) 
 '''''''''''
 
 
@@ -280,7 +280,7 @@ void SetDnnAttr ( const std::string & attr_name , Attribute attr ) ;
 	- **attr_name** (const std::string&)
 	- **attr** (Attribute)
 
-void ClearDnnAttr ( ) ;
+void ClearDnnAttr ( ) 
 '''''''''''
 
 
@@ -294,7 +294,7 @@ static const char * name ( ) {
 '''''''''''
 const char *
 
-ncclComm_t nccl_comm ( ) const ;
+ncclComm_t nccl_comm ( ) const 
 '''''''''''
 /*! \briefReturn nccl communicators. 
 
@@ -303,7 +303,7 @@ ncclComm_t nccl_comm ( ) const ;
 '''''''''''
 ncclComm_t
 
-void set_nccl_comm ( ncclComm_t comm ) ;
+void set_nccl_comm ( ncclComm_t comm ) 
 '''''''''''
 /*! \briefSet nccl communicators. 
 
@@ -311,12 +311,12 @@ void set_nccl_comm ( ncclComm_t comm ) ;
 '''''''''''
 	- **comm** (ncclComm_t)
 
-void Init ( ) ;
+void Init ( ) 
 '''''''''''
 
 
 
-void PartialInitWithoutAllocator ( int stream_priority = 0 ) ;
+void PartialInitWithoutAllocator ( int stream_priority = 0 ) 
 '''''''''''
 
 
@@ -324,12 +324,12 @@ void PartialInitWithoutAllocator ( int stream_priority = 0 ) ;
 '''''''''''
 	- **stream_priority** (int)
 
-void PartialInitWithAllocator ( ) ;
+void PartialInitWithAllocator ( ) 
 '''''''''''
 
 
 
-void SetCUDAStream ( CUDAStream * , bool clear = true ) ;
+void SetCUDAStream ( CUDAStream * , bool clear = true ) 
 '''''''''''
 
 

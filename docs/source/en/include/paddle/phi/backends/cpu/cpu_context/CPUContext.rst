@@ -14,17 +14,17 @@ paddle/include/paddle/phi/backends/cpu/cpu_context.h
 Methods
 :::::::::::::::::::::
 
-CPUContext ( ) ;
+CPUContext ( ) 
 '''''''''''
 
 
 
-CPUContext ( CPUContext & & ) ;
+CPUContext ( CPUContext & & ) 
 '''''''''''
 
 
 
-CPUContext & operator = ( CPUContext & & ) ;
+CPUContext & operator = ( CPUContext & & ) 
 '''''''''''
 
 
@@ -33,17 +33,17 @@ CPUContext & operator = ( CPUContext & & ) ;
 '''''''''''
 CPUContext &
 
-explicit CPUContext ( const Place & ) ;
+explicit CPUContext ( const Place & ) 
 '''''''''''
 
 
 
-virtual ~CPUContext ( ) ;
+virtual ~CPUContext ( ) 
 '''''''''''
 
 
 
-Eigen::DefaultDevice * eigen_device ( ) const ;
+Eigen::DefaultDevice * eigen_device ( ) const 
 '''''''''''
 
 
@@ -52,7 +52,7 @@ Eigen::DefaultDevice * eigen_device ( ) const ;
 '''''''''''
 Eigen::DefaultDevice *
 
-const Place & GetPlace ( ) const override ;
+const Place & GetPlace ( ) const override 
 '''''''''''
 
 

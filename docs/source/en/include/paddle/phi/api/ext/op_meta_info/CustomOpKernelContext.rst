@@ -14,12 +14,12 @@ paddle/include/paddle/phi/api/ext/op_meta_info.h
 Methods
 :::::::::::::::::::::
 
-CustomOpKernelContext ( ) = default ;
+CustomOpKernelContext ( ) = default 
 '''''''''''
 
 
 
-void EmplaceBackInput ( Tensor & & input ) ;
+void EmplaceBackInput ( Tensor & & input ) 
 '''''''''''
 
 
@@ -27,7 +27,7 @@ void EmplaceBackInput ( Tensor & & input ) ;
 '''''''''''
 	- **input** (Tensor&&)
 
-void EmplaceBackInputs ( const std::vector<Tensor> & inputs ) ;
+void EmplaceBackInputs ( const std::vector<Tensor> & inputs ) 
 '''''''''''
 
 
@@ -35,7 +35,7 @@ void EmplaceBackInputs ( const std::vector<Tensor> & inputs ) ;
 '''''''''''
 	- **inputs** (const std::vector<Tensor>&)
 
-void EmplaceBackOutput ( Tensor & & output ) ;
+void EmplaceBackOutput ( Tensor & & output ) 
 '''''''''''
 
 
@@ -43,7 +43,7 @@ void EmplaceBackOutput ( Tensor & & output ) ;
 '''''''''''
 	- **output** (Tensor&&)
 
-void EmplaceBackOutputs ( const std::vector<Tensor> & outputs ) ;
+void EmplaceBackOutputs ( const std::vector<Tensor> & outputs ) 
 '''''''''''
 
 
@@ -51,7 +51,7 @@ void EmplaceBackOutputs ( const std::vector<Tensor> & outputs ) ;
 '''''''''''
 	- **outputs** (const std::vector<Tensor>&)
 
-void EmplaceBackAttr ( paddle::any attr ) ;
+void EmplaceBackAttr ( paddle::any attr ) 
 '''''''''''
 
 
@@ -59,7 +59,7 @@ void EmplaceBackAttr ( paddle::any attr ) ;
 '''''''''''
 	- **attr** (paddle::any)
 
-void EmplaceBackAttrs ( const std::vector<paddle::any> & attrs ) ;
+void EmplaceBackAttrs ( const std::vector<paddle::any> & attrs ) 
 '''''''''''
 
 
@@ -67,7 +67,7 @@ void EmplaceBackAttrs ( const std::vector<paddle::any> & attrs ) ;
 '''''''''''
 	- **attrs** (const std::vector<paddle::any>&)
 
-const std::pair<size_t , size_t> & InputRangeAt ( size_t idx ) const ;
+const std::pair<size_t , size_t> & InputRangeAt ( size_t idx ) const 
 '''''''''''
 
 
@@ -79,7 +79,7 @@ const std::pair<size_t , size_t> & InputRangeAt ( size_t idx ) const ;
 '''''''''''
 const std::pair<size_t, size_t> &
 
-const std::pair<size_t , size_t> & OutputRangeAt ( size_t idx ) const ;
+const std::pair<size_t , size_t> & OutputRangeAt ( size_t idx ) const 
 '''''''''''
 
 
@@ -91,7 +91,7 @@ const std::pair<size_t , size_t> & OutputRangeAt ( size_t idx ) const ;
 '''''''''''
 const std::pair<size_t, size_t> &
 
-const Tensor & InputAt ( size_t idx ) const ;
+const Tensor & InputAt ( size_t idx ) const 
 '''''''''''
 
 
@@ -103,7 +103,7 @@ const Tensor & InputAt ( size_t idx ) const ;
 '''''''''''
 const Tensor &
 
-std::vector<Tensor> InputsBetween ( size_t start , size_t end ) const ;
+std::vector<Tensor> InputsBetween ( size_t start , size_t end ) const 
 '''''''''''
 
 
@@ -116,7 +116,7 @@ std::vector<Tensor> InputsBetween ( size_t start , size_t end ) const ;
 '''''''''''
 std::vector<Tensor >
 
-Tensor & MutableInputAt ( size_t idx ) ;
+Tensor & MutableInputAt ( size_t idx ) 
 '''''''''''
 
 
@@ -128,7 +128,7 @@ Tensor & MutableInputAt ( size_t idx ) ;
 '''''''''''
 Tensor &
 
-std::vector<Tensor> * AllMutableInput ( ) ;
+std::vector<Tensor> * AllMutableInput ( ) 
 '''''''''''
 
 
@@ -137,7 +137,7 @@ std::vector<Tensor> * AllMutableInput ( ) ;
 '''''''''''
 std::vector<Tensor> *
 
-paddle::optional<Tensor> OptionalInputAt ( size_t idx ) ;
+paddle::optional<Tensor> OptionalInputAt ( size_t idx ) 
 '''''''''''
 
 
@@ -149,7 +149,7 @@ paddle::optional<Tensor> OptionalInputAt ( size_t idx ) ;
 '''''''''''
 paddle::optional<Tensor >
 
-paddle::optional<std::vector<Tensor> > OptionalInputsBetween ( size_t start , size_t end ) ;
+paddle::optional<std::vector<Tensor> > OptionalInputsBetween ( size_t start , size_t end ) 
 '''''''''''
 
 
@@ -162,7 +162,7 @@ paddle::optional<std::vector<Tensor> > OptionalInputsBetween ( size_t start , si
 '''''''''''
 paddle::optional<std::vector<Tensor> >
 
-const std::vector<paddle::any> & Attrs ( ) const ;
+const std::vector<paddle::any> & Attrs ( ) const 
 '''''''''''
 
 
@@ -171,7 +171,7 @@ const std::vector<paddle::any> & Attrs ( ) const ;
 '''''''''''
 const std::vector<paddle::any> &
 
-const std::vector<std::pair<size_t , size_t> > & InputRange ( ) ;
+const std::vector<std::pair<size_t , size_t> > & InputRange ( ) 
 '''''''''''
 
 
@@ -180,7 +180,7 @@ const std::vector<std::pair<size_t , size_t> > & InputRange ( ) ;
 '''''''''''
 const std::vector<std::pair<size_t, size_t> > &
 
-const std::vector<std::pair<size_t , size_t> > & OutputRange ( ) ;
+const std::vector<std::pair<size_t , size_t> > & OutputRange ( ) 
 '''''''''''
 
 
@@ -189,7 +189,7 @@ const std::vector<std::pair<size_t , size_t> > & OutputRange ( ) ;
 '''''''''''
 const std::vector<std::pair<size_t, size_t> > &
 
-Tensor * MutableOutputAt ( size_t idx ) ;
+Tensor * MutableOutputAt ( size_t idx ) 
 '''''''''''
 
 
@@ -201,7 +201,7 @@ Tensor * MutableOutputAt ( size_t idx ) ;
 '''''''''''
 Tensor *
 
-std::vector<Tensor *> MutableOutputBetween ( size_t start , size_t end ) ;
+std::vector<Tensor *> MutableOutputBetween ( size_t start , size_t end ) 
 '''''''''''
 
 
@@ -214,7 +214,7 @@ std::vector<Tensor *> MutableOutputBetween ( size_t start , size_t end ) ;
 '''''''''''
 std::vector<Tensor * >
 
-std::vector<Tensor> OutputsBetween ( size_t start , size_t end ) ;
+std::vector<Tensor> OutputsBetween ( size_t start , size_t end ) 
 '''''''''''
 
 
@@ -227,7 +227,7 @@ std::vector<Tensor> OutputsBetween ( size_t start , size_t end ) ;
 '''''''''''
 std::vector<Tensor >
 
-std::vector<Tensor> * AllMutableOutput ( ) ;
+std::vector<Tensor> * AllMutableOutput ( ) 
 '''''''''''
 
 
@@ -249,7 +249,7 @@ AttrType AttrAt ( size_t idx ) const {
 '''''''''''
 AttrType
 
-void ConstructInplaceIndex ( const std::vector<std::string> & inputs , const std::vector<std::string> & outputs , const std::unordered_map<std::string , std::string> & inplace_map ) ;
+void ConstructInplaceIndex ( const std::vector<std::string> & inputs , const std::vector<std::string> & outputs , const std::unordered_map<std::string , std::string> & inplace_map ) 
 '''''''''''
 
 
@@ -259,7 +259,7 @@ void ConstructInplaceIndex ( const std::vector<std::string> & inputs , const std
 	- **outputs** (const std::vector<std::string>&)
 	- **inplace_map** (const std::unordered_map<std::string, std::string>&)
 
-void UpdatePlainOutputs ( const std::vector<std::string> & inputs , const std::vector<std::string> & outputs , const std::unordered_map<std::string , std::string> & inplace_map ) ;
+void UpdatePlainOutputs ( const std::vector<std::string> & inputs , const std::vector<std::string> & outputs , const std::unordered_map<std::string , std::string> & inplace_map ) 
 '''''''''''
 
 
@@ -269,12 +269,12 @@ void UpdatePlainOutputs ( const std::vector<std::string> & inputs , const std::v
 	- **outputs** (const std::vector<std::string>&)
 	- **inplace_map** (const std::unordered_map<std::string, std::string>&)
 
-void AssignInplaceOutputs ( ) ;
+void AssignInplaceOutputs ( ) 
 '''''''''''
 
 
 
-std::vector<Tensor *> * AllMutablePlainOutput ( ) ;
+std::vector<Tensor *> * AllMutablePlainOutput ( ) 
 '''''''''''
 
 
@@ -283,7 +283,7 @@ std::vector<Tensor *> * AllMutablePlainOutput ( ) ;
 '''''''''''
 std::vector<Tensor *> *
 
-std::unordered_map<size_t , size_t> GetInplaceIndexMap ( ) ;
+std::unordered_map<size_t , size_t> GetInplaceIndexMap ( ) 
 '''''''''''
 
 
@@ -292,7 +292,7 @@ std::unordered_map<size_t , size_t> GetInplaceIndexMap ( ) ;
 '''''''''''
 std::unordered_map<size_t, size_t >
 
-std::unordered_map<size_t , size_t> GetInplaceReverseIndexMap ( ) ;
+std::unordered_map<size_t , size_t> GetInplaceReverseIndexMap ( ) 
 '''''''''''
 
 

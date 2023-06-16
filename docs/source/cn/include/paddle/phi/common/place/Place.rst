@@ -38,7 +38,7 @@ explicit Place ( AllocationType type , const std::string & dev_type = "" ) :
 	- **type** (AllocationType)
 	- **dev_type** (const std::string&)
 
-Place ( paddle::PlaceType type ) ;
+Place ( paddle::PlaceType type ) 
 '''''''''''
 
 
@@ -83,7 +83,7 @@ std::string GetDeviceType ( ) const {
 '''''''''''
 std::string
 
-std::string DebugString ( ) const ;
+std::string DebugString ( ) const 
 '''''''''''
 
 

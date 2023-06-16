@@ -14,7 +14,7 @@ paddle/include/paddle/fluid/platform/init_phi.h
 方法
 :::::::::::::::::::::
 
-InitPhi ( ) ;
+InitPhi ( ) 
 '''''''''''
 
 

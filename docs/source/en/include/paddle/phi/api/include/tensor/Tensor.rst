@@ -14,25 +14,25 @@ paddle/include/paddle/phi/api/include/tensor.h
 Methods
 :::::::::::::::::::::
 
-Tensor ( ) = default ;
+Tensor ( ) = default 
 '''''''''''
 Construct a new Tensor object
 
 
 
-Tensor ( const Tensor & ) = default ;
+Tensor ( const Tensor & ) = default 
 '''''''''''
 Construct a new Tensor object by copy
 
 
 
-Tensor ( Tensor & & ) = default ;
+Tensor ( Tensor & & ) = default 
 '''''''''''
 Construct a new Tensor object by move
 
 
 
-explicit Tensor ( std::shared_ptr<phi::TensorBase> tensor_impl ) ;
+explicit Tensor ( std::shared_ptr<phi::TensorBase> tensor_impl ) 
 '''''''''''
 Construct a new Tensor object by a TensorBase pointer 
 
@@ -41,7 +41,7 @@ Construct a new Tensor object by a TensorBase pointer
 	- **tensor_impl** (std::shared_ptr<phi::TensorBase >) - tensor_impl
 
 
-explicit Tensor ( const Place & place ) ;
+explicit Tensor ( const Place & place ) 
 '''''''''''
 Construct a new Tensor object on the target place. This is a deprecated method and may be removed in the future!!! 
 
@@ -50,7 +50,7 @@ Construct a new Tensor object on the target place. This is a deprecated method a
 	- **place** (const Place&) - place
 
 
-Tensor ( const Place & place , const std::vector<int64_t> & shape ) ;
+Tensor ( const Place & place , const std::vector<int64_t> & shape ) 
 '''''''''''
 Construct a new Tensor object on the target place with specified shape. This is a deprecated method and may be removed in the future!!! 
 
@@ -60,7 +60,7 @@ Construct a new Tensor object on the target place with specified shape. This is 
 	- **shape** (const std::vector<int64_t>&) - shape
 
 
-Tensor ( std::shared_ptr<phi::TensorBase> tensor_impl , const std::string & name ) ;
+Tensor ( std::shared_ptr<phi::TensorBase> tensor_impl , const std::string & name ) 
 '''''''''''
 Construct a new Tensor object by a TensorBase pointer and name 
 
@@ -81,7 +81,7 @@ Construct a new Tensor object with name
 '''''''''''
 	- **name** (const std::string&)
 
-int64_t numel ( ) const ;
+int64_t numel ( ) const 
 '''''''''''
 Return the number of elements of Tensor. 
 
@@ -91,7 +91,7 @@ Return the number of elements of Tensor.
 int64_t
 
 
-int64_t size ( ) const ;
+int64_t size ( ) const 
 '''''''''''
 Get the size of current tensor. The compatible method of `Tensor::numel()`. This is a deprecated method and may be removed in the future! 
 
@@ -101,7 +101,7 @@ Get the size of current tensor. The compatible method of `Tensor::numel()`. This
 int64_t
 
 
-const phi::DDim & dims ( ) const ;
+const phi::DDim & dims ( ) const 
 '''''''''''
 Return the dimensions of Tensor. 
 
@@ -111,7 +111,7 @@ Return the dimensions of Tensor.
 phi::DDim
 
 
-std::vector<int64_t> shape ( ) const ;
+std::vector<int64_t> shape ( ) const 
 '''''''''''
 Return the shape (dimensions) of Tensor. The compatible method of `Tensor::dims()`. This is a deprecated method and may be removed in the future! 
 
@@ -121,7 +121,7 @@ Return the shape (dimensions) of Tensor. The compatible method of `Tensor::dims(
 std::vector<int64_t>
 
 
-void reshape ( const std::vector<int64_t> & shape ) ;
+void reshape ( const std::vector<int64_t> & shape ) 
 '''''''''''
 Reset the shape of the tensor. 
 
@@ -130,7 +130,7 @@ Reset the shape of the tensor.
 	- **shape** (const std::vector<int64_t>&) - shape
 
 
-DataType dtype ( ) const ;
+DataType dtype ( ) const 
 '''''''''''
 Return the data type of Tensor. 
 
@@ -140,7 +140,7 @@ Return the data type of Tensor.
 DataType
 
 
-DataType type ( ) const ;
+DataType type ( ) const 
 '''''''''''
 Return the data type of Tensor. The compatible method of `Tensor::dtype()`. This is a deprecated method and may be removed in the future! 
 
@@ -150,7 +150,7 @@ Return the data type of Tensor. The compatible method of `Tensor::dtype()`. This
 DataType
 
 
-phi::DataLayout layout ( ) const ;
+phi::DataLayout layout ( ) const 
 '''''''''''
 Return the layout of Tensor. 
 
@@ -160,7 +160,7 @@ Return the layout of Tensor.
 DataLayout
 
 
-bool is_dense_tensor ( ) const ;
+bool is_dense_tensor ( ) const 
 '''''''''''
 Determine whether tensor is DenseTensor 
 
@@ -170,7 +170,7 @@ Determine whether tensor is DenseTensor
 bool
 
 
-bool is_selected_rows ( ) const ;
+bool is_selected_rows ( ) const 
 '''''''''''
 Determine whether tensor is SelectedRows 
 
@@ -180,7 +180,7 @@ Determine whether tensor is SelectedRows
 bool
 
 
-bool is_sparse_coo_tensor ( ) const ;
+bool is_sparse_coo_tensor ( ) const 
 '''''''''''
 Determine whether tensor is SparseCooTensor 
 
@@ -190,7 +190,7 @@ Determine whether tensor is SparseCooTensor
 bool
 
 
-bool is_sparse_csr_tensor ( ) const ;
+bool is_sparse_csr_tensor ( ) const 
 '''''''''''
 Determine whether tensor is SparseCsrTensor 
 
@@ -200,7 +200,7 @@ Determine whether tensor is SparseCsrTensor
 bool
 
 
-bool is_string_tensor ( ) const ;
+bool is_string_tensor ( ) const 
 '''''''''''
 Determine whether tensor is StringTensor 
 
@@ -210,7 +210,7 @@ Determine whether tensor is StringTensor
 bool
 
 
-const Place & place ( ) const ;
+const Place & place ( ) const 
 '''''''''''
 Return the place (device) of Tensor. 
 
@@ -220,7 +220,7 @@ Return the place (device) of Tensor.
 Place
 
 
-bool is_cpu ( ) const ;
+bool is_cpu ( ) const 
 '''''''''''
 Determine whether the tensor device is CPU 
 
@@ -230,7 +230,7 @@ Determine whether the tensor device is CPU
 bool
 
 
-bool is_gpu ( ) const ;
+bool is_gpu ( ) const 
 '''''''''''
 Determine whether the tensor device is GPU 
 
@@ -240,7 +240,7 @@ Determine whether the tensor device is GPU
 bool
 
 
-bool is_gpu_pinned ( ) const ;
+bool is_gpu_pinned ( ) const 
 '''''''''''
 Determine whether the tensor device is GPU_PINNED 
 
@@ -250,7 +250,7 @@ Determine whether the tensor device is GPU_PINNED
 bool
 
 
-bool is_xpu ( ) const ;
+bool is_xpu ( ) const 
 '''''''''''
 Determine whether the tensor device is XPU 
 
@@ -260,7 +260,7 @@ Determine whether the tensor device is XPU
 bool
 
 
-bool is_custom_device ( ) const ;
+bool is_custom_device ( ) const 
 '''''''''''
 Determine whether the tensor device is CustomDevice 
 
@@ -271,7 +271,7 @@ bool
 
 
 template<typename T>
-T * mutable_data ( ) ;
+T * mutable_data ( ) 
 '''''''''''
 Get the memory pointer in CPU or GPU with specific data type. It's usually used to get the output data pointer, same as the T* data(). 
 
@@ -282,7 +282,7 @@ T*
 
 
 template<typename T>
-T * mutable_data ( const Place & place ) ;
+T * mutable_data ( const Place & place ) 
 '''''''''''
 Get the memory pointer in CPU or GPU with specific data type. It's usually used to get the output data pointer. This is a deprecated method and may be removed in the future! 
 
@@ -296,7 +296,7 @@ T*
 
 
 template<typename T>
-const T * data ( ) const ;
+const T * data ( ) const 
 '''''''''''
 Get the const memory pointer directly. It's usually used to get the output data pointer. 
 
@@ -307,7 +307,7 @@ T*
 
 
 template<typename T>
-T * data ( ) ;
+T * data ( ) 
 '''''''''''
 Get the memory pointer directly. It's usually used to get the mutable output data pointer. 
 
@@ -317,7 +317,7 @@ Get the memory pointer directly. It's usually used to get the mutable output dat
 T*
 
 
-const void * data ( ) const ;
+const void * data ( ) const 
 '''''''''''
 Get the const memory pointer directly. It's usually used to get the output data pointer. 
 
@@ -327,7 +327,7 @@ Get the const memory pointer directly. It's usually used to get the output data 
 T*
 
 
-void * data ( ) ;
+void * data ( ) 
 '''''''''''
 Get the memory pointer directly. It's usually used to get the mutable output data pointer. 
 
@@ -337,7 +337,7 @@ Get the memory pointer directly. It's usually used to get the mutable output dat
 T*
 
 
-Tensor slice ( int64_t begin_idx , int64_t end_idx ) const ;
+Tensor slice ( int64_t begin_idx , int64_t end_idx ) const 
 '''''''''''
 Return a sub-tensor of the given tensor. It is usually used to extract a sub-tensor (which supports modifying the data of the original tensor) to perform further operations. 
 
@@ -351,7 +351,7 @@ Return a sub-tensor of the given tensor. It is usually used to extract a sub-ten
 Tensor
 
 
-const std::shared_ptr<phi::TensorBase> & impl ( ) const ;
+const std::shared_ptr<phi::TensorBase> & impl ( ) const 
 '''''''''''
 Return the implementation of current Tensor. 
 
@@ -361,7 +361,7 @@ Return the implementation of current Tensor.
 std::shared_ptr<phi::TensorBase>
 
 
-void set_impl ( const std::shared_ptr<phi::TensorBase> & impl ) ;
+void set_impl ( const std::shared_ptr<phi::TensorBase> & impl ) 
 '''''''''''
 Set the implementation of current Tensor. 
 
@@ -370,7 +370,7 @@ Set the implementation of current Tensor.
 	- **impl** (const std::shared_ptr<phi::TensorBase>&) - impl
 
 
-void set_impl ( std::shared_ptr<phi::TensorBase> & & impl ) ;
+void set_impl ( std::shared_ptr<phi::TensorBase> & & impl ) 
 '''''''''''
 Set the implementation of current Tensor. 
 
@@ -379,7 +379,7 @@ Set the implementation of current Tensor.
 	- **impl** (std::shared_ptr<phi::TensorBase>&&) - impl
 
 
-gpuStream_t stream ( ) const ;
+gpuStream_t stream ( ) const 
 '''''''''''
 Get the stream where the tensor is currently located This is a deprecated method and may be removed in the future! 
 
@@ -389,7 +389,7 @@ Get the stream where the tensor is currently located This is a deprecated method
 gpuStream_t
 
 
-const std::string & name ( ) const ;
+const std::string & name ( ) const 
 '''''''''''
 Return the name of Tensor. 
 
@@ -402,7 +402,7 @@ Return the name of Tensor.
 const std::string&
 
 
-void set_name ( const std::string & name ) ;
+void set_name ( const std::string & name ) 
 '''''''''''
 Set name of Tensor. 
 
@@ -414,7 +414,7 @@ Set name of Tensor.
 	- **name** (const std::string&)
 
 template<typename T>
-Tensor copy_to ( const Place & target_place ) const ;
+Tensor copy_to ( const Place & target_place ) const 
 '''''''''''
 Copy the current Tensor data to the specified device and return the new Tensor. It's usually used to set the input tensor data. 
 
@@ -430,7 +430,7 @@ Copy the current Tensor data to the specified device and return the new Tensor. 
 Tensor
 
 
-Tensor copy_to ( const Place & place , bool blocking ) const ;
+Tensor copy_to ( const Place & place , bool blocking ) const 
 '''''''''''
 Transfer the current Tensor to the specified device and return. 
 
@@ -444,7 +444,7 @@ Transfer the current Tensor to the specified device and return.
 Tensor
 
 
-void copy_ ( const Tensor & src , const Place & target_place , bool blocking ) ;
+void copy_ ( const Tensor & src , const Place & target_place , bool blocking ) 
 '''''''''''
 Transfer the source Tensor to current Tensor. 
 
@@ -454,7 +454,7 @@ Transfer the source Tensor to current Tensor.
 	- **target_place** (const Place&)
 	- **blocking** (bool) - Should we copy this in sync way. 
 
-Tensor cast ( DataType target_type ) const ;
+Tensor cast ( DataType target_type ) const 
 '''''''''''
 Cast datatype from one to another 
 
@@ -467,7 +467,7 @@ Cast datatype from one to another
 Tensor
 
 
-bool defined ( ) const ;
+bool defined ( ) const 
 '''''''''''
 Determine whether it is a meaningful Tensor 
 
@@ -477,7 +477,7 @@ Determine whether it is a meaningful Tensor
 bool
 
 
-bool initialized ( ) const ;
+bool initialized ( ) const 
 '''''''''''
 Determine whether Tensor is initialized. 
 
@@ -487,7 +487,7 @@ Determine whether Tensor is initialized.
 bool
 
 
-bool is_initialized ( ) const ;
+bool is_initialized ( ) const 
 '''''''''''
 Determine whether Tensor is initialized. This is a deprecated method and may be removed in the future! 
 
@@ -497,13 +497,13 @@ Determine whether Tensor is initialized. This is a deprecated method and may be 
 bool
 
 
-void reset ( ) ;
+void reset ( ) 
 '''''''''''
 Reset the Tensor implementation
 
 
 
-Tensor & operator = ( const Tensor & x ) & ;
+Tensor & operator = ( const Tensor & x ) & 
 '''''''''''
 Assignment operator 
 
@@ -516,7 +516,7 @@ Assignment operator
 Tensor&
 
 
-Tensor & operator = ( Tensor & & x ) & ;
+Tensor & operator = ( Tensor & & x ) & 
 '''''''''''
 Move assignment operator 
 
@@ -529,7 +529,7 @@ Move assignment operator
 Tensor&
 
 
-Tensor operator + ( const Tensor & other ) const ;
+Tensor operator + ( const Tensor & other ) const 
 '''''''''''
 Tensor operants 
 
@@ -542,7 +542,7 @@ Tensor operants
 Tensor
 
 
-Tensor operator - ( const Tensor & other ) const ;
+Tensor operator - ( const Tensor & other ) const 
 '''''''''''
 
 
@@ -554,7 +554,7 @@ Tensor operator - ( const Tensor & other ) const ;
 '''''''''''
 Tensor
 
-Tensor operator * ( const Tensor & other ) const ;
+Tensor operator * ( const Tensor & other ) const 
 '''''''''''
 
 
@@ -566,7 +566,7 @@ Tensor operator * ( const Tensor & other ) const ;
 '''''''''''
 Tensor
 
-Tensor operator / ( const Tensor & other ) const ;
+Tensor operator / ( const Tensor & other ) const 
 '''''''''''
 
 
@@ -578,7 +578,7 @@ Tensor operator / ( const Tensor & other ) const ;
 '''''''''''
 Tensor
 
-Tensor operator + ( const Scalar & other ) const ;
+Tensor operator + ( const Scalar & other ) const 
 '''''''''''
 
 
@@ -590,7 +590,7 @@ Tensor operator + ( const Scalar & other ) const ;
 '''''''''''
 Tensor
 
-Tensor operator - ( const Scalar & other ) const ;
+Tensor operator - ( const Scalar & other ) const 
 '''''''''''
 
 
@@ -602,7 +602,7 @@ Tensor operator - ( const Scalar & other ) const ;
 '''''''''''
 Tensor
 
-Tensor operator * ( const Scalar & other ) const ;
+Tensor operator * ( const Scalar & other ) const 
 '''''''''''
 
 
@@ -614,7 +614,7 @@ Tensor operator * ( const Scalar & other ) const ;
 '''''''''''
 Tensor
 
-Tensor operator / ( const Scalar & other ) const ;
+Tensor operator / ( const Scalar & other ) const 
 '''''''''''
 
 
@@ -626,7 +626,7 @@ Tensor operator / ( const Scalar & other ) const ;
 '''''''''''
 Tensor
 
-Tensor operator<( const Tensor & other ) const ;
+Tensor operator<( const Tensor & other ) const 
 '''''''''''
 
 
@@ -638,7 +638,7 @@ Tensor operator<( const Tensor & other ) const ;
 '''''''''''
 Tensor
 
-Tensor operator<= ( const Tensor & other ) const ;
+Tensor operator<= ( const Tensor & other ) const 
 '''''''''''
 
 
@@ -650,7 +650,7 @@ Tensor operator<= ( const Tensor & other ) const ;
 '''''''''''
 Tensor
 
-Tensor operator = = ( const Tensor & other ) const ;
+Tensor operator = = ( const Tensor & other ) const 
 '''''''''''
 
 
@@ -662,7 +662,7 @@ Tensor operator = = ( const Tensor & other ) const ;
 '''''''''''
 Tensor
 
-Tensor operator ! = ( const Tensor & other ) const ;
+Tensor operator ! = ( const Tensor & other ) const 
 '''''''''''
 
 
@@ -674,7 +674,7 @@ Tensor operator ! = ( const Tensor & other ) const ;
 '''''''''''
 Tensor
 
-Tensor operator> ( const Tensor & other ) const ;
+Tensor operator> ( const Tensor & other ) const 
 '''''''''''
 
 
@@ -686,7 +686,7 @@ Tensor operator> ( const Tensor & other ) const ;
 '''''''''''
 Tensor
 
-Tensor operator> = ( const Tensor & other ) const ;
+Tensor operator> = ( const Tensor & other ) const 
 '''''''''''
 
 
@@ -698,7 +698,7 @@ Tensor operator> = ( const Tensor & other ) const ;
 '''''''''''
 Tensor
 
-Tensor operator - ( ) const ;
+Tensor operator - ( ) const 
 '''''''''''
 
 
@@ -707,7 +707,7 @@ Tensor operator - ( ) const ;
 '''''''''''
 Tensor
 
-Tensor operator ~ ( ) const ;
+Tensor operator ~ ( ) const 
 '''''''''''
 
 
@@ -716,7 +716,7 @@ Tensor operator ~ ( ) const ;
 '''''''''''
 Tensor
 
-Tensor operator & ( const Tensor & other ) const ;
+Tensor operator & ( const Tensor & other ) const 
 '''''''''''
 
 
@@ -728,7 +728,7 @@ Tensor operator & ( const Tensor & other ) const ;
 '''''''''''
 Tensor
 
-Tensor operator | ( const Tensor & other ) const ;
+Tensor operator | ( const Tensor & other ) const 
 '''''''''''
 
 
@@ -740,7 +740,7 @@ Tensor operator | ( const Tensor & other ) const ;
 '''''''''''
 Tensor
 
-Tensor operator ^ ( const Tensor & other ) const ;
+Tensor operator ^ ( const Tensor & other ) const 
 '''''''''''
 
 
@@ -752,7 +752,7 @@ Tensor operator ^ ( const Tensor & other ) const ;
 '''''''''''
 Tensor
 
-AbstractAutogradMeta * get_autograd_meta ( ) const ;
+AbstractAutogradMeta * get_autograd_meta ( ) const 
 '''''''''''
 Get the autograd meta object pointer 
 
@@ -762,7 +762,7 @@ Get the autograd meta object pointer
 AbstractAutogradMeta*
 
 
-const std::shared_ptr<AbstractAutogradMeta> & mutable_autograd_meta ( ) const ;
+const std::shared_ptr<AbstractAutogradMeta> & mutable_autograd_meta ( ) const 
 '''''''''''
 Get the shared pointer of autograd meta object 
 
@@ -772,7 +772,7 @@ Get the shared pointer of autograd meta object
 std::shared_ptr<AbstractAutogradMeta>&
 
 
-void set_autograd_meta ( std::shared_ptr<AbstractAutogradMeta> autograd_meta ) ;
+void set_autograd_meta ( std::shared_ptr<AbstractAutogradMeta> autograd_meta ) 
 '''''''''''
 Set the autograd meta object 
 
@@ -781,13 +781,13 @@ Set the autograd meta object
 	- **autograd_meta** (std::shared_ptr<AbstractAutogradMeta >) - autograd_meta
 
 
-void bump_inplace_version ( ) ;
+void bump_inplace_version ( ) 
 '''''''''''
 Increase inplace version
 
 
 
-uint32_t current_inplace_version ( ) ;
+uint32_t current_inplace_version ( ) 
 '''''''''''
 Get current inplace version 
 
@@ -797,7 +797,7 @@ Get current inplace version
 uint32_t
 
 
-void reset_inplace_version ( bool set_to_zero = false ) ;
+void reset_inplace_version ( bool set_to_zero = false ) 
 '''''''''''
 Reset inplace version
 
@@ -806,7 +806,7 @@ Reset inplace version
 '''''''''''
 	- **set_to_zero** (bool)
 
-Tensor to_sparse_coo ( const int64_t sparse_dim ) const ;
+Tensor to_sparse_coo ( const int64_t sparse_dim ) const 
 '''''''''''
 Convert DenseTensor or SparseCsrTensor to SparseCooTensor 
 
@@ -819,7 +819,7 @@ Convert DenseTensor or SparseCsrTensor to SparseCooTensor
 Tensor
 
 
-Tensor to_sparse_csr ( ) const ;
+Tensor to_sparse_csr ( ) const 
 '''''''''''
 Convert DenseTensor or SparseCooTensor to SparseCsrTensor 
 
@@ -829,7 +829,7 @@ Convert DenseTensor or SparseCooTensor to SparseCsrTensor
 Tensor
 
 
-Tensor to_dense ( ) const ;
+Tensor to_dense ( ) const 
 '''''''''''
 Convert SparseCooTensor or SparseCsrTensor to DenseTensor 
 
@@ -839,7 +839,7 @@ Convert SparseCooTensor or SparseCsrTensor to DenseTensor
 Tensor
 
 
-Tensor add ( const Tensor & y ) const ;
+Tensor add ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -851,7 +851,7 @@ Tensor add ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor divide ( const Tensor & y ) const ;
+Tensor divide ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -863,7 +863,7 @@ Tensor divide ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor multiply ( const Tensor & y ) const ;
+Tensor multiply ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -875,7 +875,7 @@ Tensor multiply ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor subtract ( const Tensor & y ) const ;
+Tensor subtract ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -887,7 +887,7 @@ Tensor subtract ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor add ( const Scalar & y ) const ;
+Tensor add ( const Scalar & y ) const 
 '''''''''''
 
 
@@ -899,7 +899,7 @@ Tensor add ( const Scalar & y ) const ;
 '''''''''''
 Tensor
 
-Tensor divide ( const Scalar & y ) const ;
+Tensor divide ( const Scalar & y ) const 
 '''''''''''
 
 
@@ -911,7 +911,7 @@ Tensor divide ( const Scalar & y ) const ;
 '''''''''''
 Tensor
 
-Tensor multiply ( const Scalar & y ) const ;
+Tensor multiply ( const Scalar & y ) const 
 '''''''''''
 
 
@@ -923,7 +923,7 @@ Tensor multiply ( const Scalar & y ) const ;
 '''''''''''
 Tensor
 
-Tensor subtract ( const Scalar & y ) const ;
+Tensor subtract ( const Scalar & y ) const 
 '''''''''''
 
 
@@ -935,7 +935,7 @@ Tensor subtract ( const Scalar & y ) const ;
 '''''''''''
 Tensor
 
-Tensor less_equal ( const Tensor & y ) const ;
+Tensor less_equal ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -947,7 +947,7 @@ Tensor less_equal ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor less_than ( const Tensor & y ) const ;
+Tensor less_than ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -959,7 +959,7 @@ Tensor less_than ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor equal ( const Tensor & y ) const ;
+Tensor equal ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -971,7 +971,7 @@ Tensor equal ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor not_equal ( const Tensor & y ) const ;
+Tensor not_equal ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -983,7 +983,7 @@ Tensor not_equal ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor greater_equal ( const Tensor & y ) const ;
+Tensor greater_equal ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -995,7 +995,7 @@ Tensor greater_equal ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor greater_than ( const Tensor & y ) const ;
+Tensor greater_than ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -1007,7 +1007,7 @@ Tensor greater_than ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor bitwise_and ( const Tensor & y ) const ;
+Tensor bitwise_and ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -1019,7 +1019,7 @@ Tensor bitwise_and ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor bitwise_or ( const Tensor & y ) const ;
+Tensor bitwise_or ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -1031,7 +1031,7 @@ Tensor bitwise_or ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor bitwise_xor ( const Tensor & y ) const ;
+Tensor bitwise_xor ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -1043,7 +1043,7 @@ Tensor bitwise_xor ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor bitwise_not ( ) const ;
+Tensor bitwise_not ( ) const 
 '''''''''''
 
 
@@ -1052,7 +1052,7 @@ Tensor bitwise_not ( ) const ;
 '''''''''''
 Tensor
 
-Tensor pow ( const Tensor & y ) const ;
+Tensor pow ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -1064,7 +1064,7 @@ Tensor pow ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor pow ( const Scalar & y ) const ;
+Tensor pow ( const Scalar & y ) const 
 '''''''''''
 
 
@@ -1076,7 +1076,7 @@ Tensor pow ( const Scalar & y ) const ;
 '''''''''''
 Tensor
 
-Tensor exp ( ) const ;
+Tensor exp ( ) const 
 '''''''''''
 
 
@@ -1085,7 +1085,7 @@ Tensor exp ( ) const ;
 '''''''''''
 Tensor
 
-Tensor floor ( ) const ;
+Tensor floor ( ) const 
 '''''''''''
 
 
@@ -1094,7 +1094,7 @@ Tensor floor ( ) const ;
 '''''''''''
 Tensor
 
-Tensor gather_nd ( const Tensor & index ) const ;
+Tensor gather_nd ( const Tensor & index ) const 
 '''''''''''
 
 
@@ -1106,7 +1106,7 @@ Tensor gather_nd ( const Tensor & index ) const ;
 '''''''''''
 Tensor
 
-Tensor log ( ) const ;
+Tensor log ( ) const 
 '''''''''''
 
 
@@ -1115,7 +1115,7 @@ Tensor log ( ) const ;
 '''''''''''
 Tensor
 
-Tensor roll ( const IntArray & shifts = { } , const std::vector<int64_t> & axis = { } ) const ;
+Tensor roll ( const IntArray & shifts = { } , const std::vector<int64_t> & axis = { } ) const 
 '''''''''''
 
 
@@ -1128,7 +1128,7 @@ Tensor roll ( const IntArray & shifts = { } , const std::vector<int64_t> & axis 
 '''''''''''
 Tensor
 
-Tensor scatter ( const Tensor & index , const Tensor & updates , bool overwrite = true ) const ;
+Tensor scatter ( const Tensor & index , const Tensor & updates , bool overwrite = true ) const 
 '''''''''''
 
 
@@ -1142,7 +1142,7 @@ Tensor scatter ( const Tensor & index , const Tensor & updates , bool overwrite 
 '''''''''''
 Tensor
 
-Tensor scatter_nd_add ( const Tensor & index , const Tensor & updates ) const ;
+Tensor scatter_nd_add ( const Tensor & index , const Tensor & updates ) const 
 '''''''''''
 
 
@@ -1155,7 +1155,7 @@ Tensor scatter_nd_add ( const Tensor & index , const Tensor & updates ) const ;
 '''''''''''
 Tensor
 
-Tensor abs ( ) const ;
+Tensor abs ( ) const 
 '''''''''''
 
 
@@ -1164,7 +1164,7 @@ Tensor abs ( ) const ;
 '''''''''''
 Tensor
 
-Tensor assign ( ) const ;
+Tensor assign ( ) const 
 '''''''''''
 
 
@@ -1173,7 +1173,7 @@ Tensor assign ( ) const ;
 '''''''''''
 Tensor
 
-Tensor elementwise_pow ( const Tensor & y ) const ;
+Tensor elementwise_pow ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -1185,7 +1185,7 @@ Tensor elementwise_pow ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor expand ( const IntArray & shape ) const ;
+Tensor expand ( const IntArray & shape ) const 
 '''''''''''
 
 
@@ -1197,7 +1197,7 @@ Tensor expand ( const IntArray & shape ) const ;
 '''''''''''
 Tensor
 
-Tensor matmul ( const Tensor & y , bool transpose_x = false , bool transpose_y = false ) const ;
+Tensor matmul ( const Tensor & y , bool transpose_x = false , bool transpose_y = false ) const 
 '''''''''''
 
 
@@ -1211,7 +1211,7 @@ Tensor matmul ( const Tensor & y , bool transpose_x = false , bool transpose_y =
 '''''''''''
 Tensor
 
-Tensor max ( const IntArray & axis = { } , bool keepdim = false ) const ;
+Tensor max ( const IntArray & axis = { } , bool keepdim = false ) const 
 '''''''''''
 
 
@@ -1224,7 +1224,7 @@ Tensor max ( const IntArray & axis = { } , bool keepdim = false ) const ;
 '''''''''''
 Tensor
 
-Tensor maximum ( const Tensor & y ) const ;
+Tensor maximum ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -1236,7 +1236,7 @@ Tensor maximum ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor minimum ( const Tensor & y ) const ;
+Tensor minimum ( const Tensor & y ) const 
 '''''''''''
 
 
@@ -1248,7 +1248,7 @@ Tensor minimum ( const Tensor & y ) const ;
 '''''''''''
 Tensor
 
-Tensor scale ( const Scalar & scale = 1.0 , float bias = 0.0 , bool bias_after_scale = true ) const ;
+Tensor scale ( const Scalar & scale = 1.0 , float bias = 0.0 , bool bias_after_scale = true ) const 
 '''''''''''
 
 
@@ -1262,7 +1262,7 @@ Tensor scale ( const Scalar & scale = 1.0 , float bias = 0.0 , bool bias_after_s
 '''''''''''
 Tensor
 
-Tensor sum ( const IntArray & axis = { } , DataType dtype = DataType::UNDEFINED , bool keepdim = false ) const ;
+Tensor sum ( const IntArray & axis = { } , DataType dtype = DataType::UNDEFINED , bool keepdim = false ) const 
 '''''''''''
 
 
@@ -1276,7 +1276,7 @@ Tensor sum ( const IntArray & axis = { } , DataType dtype = DataType::UNDEFINED 
 '''''''''''
 Tensor
 
-Tensor tile ( const IntArray & repeat_times = { } ) const ;
+Tensor tile ( const IntArray & repeat_times = { } ) const 
 '''''''''''
 
 

@@ -15,25 +15,25 @@ paddle/include/paddle/phi/core/device_context.h
 Methods
 :::::::::::::::::::::
 
-DeviceContext ( ) ;
+DeviceContext ( ) 
 '''''''''''
 Default construct.
 
 
 
-DeviceContext ( const DeviceContext & ) ;
+DeviceContext ( const DeviceContext & ) 
 '''''''''''
 Copy construct.
 
 
 
-DeviceContext ( DeviceContext & & ) ;
+DeviceContext ( DeviceContext & & ) 
 '''''''''''
 Move construct.
 
 
 
-DeviceContext & operator = ( DeviceContext & & ) ;
+DeviceContext & operator = ( DeviceContext & & ) 
 '''''''''''
 Move assign operator.
 
@@ -43,38 +43,38 @@ Move assign operator.
 '''''''''''
 DeviceContext &
 
-virtual ~DeviceContext ( ) ;
+virtual ~DeviceContext ( ) 
 '''''''''''
 Default destruct.
 
 
 
-void SetAllocator ( const Allocator * ) ;
+void SetAllocator ( const Allocator * ) 
 '''''''''''
 Set the device-related Allocator object. 
 
 
-void SetHostAllocator ( const Allocator * ) ;
+void SetHostAllocator ( const Allocator * ) 
 '''''''''''
 Set the host Allocator object. 
 
 
-void SetZeroAllocator ( const Allocator * ) ;
+void SetZeroAllocator ( const Allocator * ) 
 '''''''''''
 Set the zero-size Allocator object. 
 
 
-void SetHostZeroAllocator ( const Allocator * ) ;
+void SetHostZeroAllocator ( const Allocator * ) 
 '''''''''''
 Set the zero-size host Allocator object. 
 
 
-void SetPinnedAllocator ( const Allocator * ) ;
+void SetPinnedAllocator ( const Allocator * ) 
 '''''''''''
 Set the zero-size Allocator object. 
 
 
-const Allocator & GetAllocator ( ) const ;
+const Allocator & GetAllocator ( ) const 
 '''''''''''
 Get the const Allocator object. 
 
@@ -84,7 +84,7 @@ Get the const Allocator object.
 Allocator
 
 
-const Allocator & GetHostAllocator ( ) const ;
+const Allocator & GetHostAllocator ( ) const 
 '''''''''''
 Get the const device-related Allocator object. 
 
@@ -94,7 +94,7 @@ Get the const device-related Allocator object.
 Allocator
 
 
-const Allocator & GetZeroAllocator ( ) const ;
+const Allocator & GetZeroAllocator ( ) const 
 '''''''''''
 
 
@@ -103,7 +103,7 @@ const Allocator & GetZeroAllocator ( ) const ;
 '''''''''''
 const Allocator &
 
-const Allocator & GetHostZeroAllocator ( ) const ;
+const Allocator & GetHostZeroAllocator ( ) const 
 '''''''''''
 
 
@@ -112,7 +112,7 @@ const Allocator & GetHostZeroAllocator ( ) const ;
 '''''''''''
 const Allocator &
 
-const Allocator & GetPinnedAllocator ( ) const ;
+const Allocator & GetPinnedAllocator ( ) const 
 '''''''''''
 
 
@@ -121,12 +121,12 @@ const Allocator & GetPinnedAllocator ( ) const ;
 '''''''''''
 const Allocator &
 
-void SetCUDAGraphAllocator ( const Allocator * ) ;
+void SetCUDAGraphAllocator ( const Allocator * ) 
 '''''''''''
 Set the CUDA graph Allocator object. 
 
 
-const Allocator & GetCUDAGraphAllocator ( ) const ;
+const Allocator & GetCUDAGraphAllocator ( ) const 
 '''''''''''
 Get the const CUDA graph Allocator object. 
 
@@ -136,7 +136,7 @@ Get the const CUDA graph Allocator object.
 Allocator
 
 
-bool IsCUDAGraphAllocatorValid ( ) const ;
+bool IsCUDAGraphAllocatorValid ( ) const 
 '''''''''''
 Test whether the CUDA graph allocator is valid This method should be called before calling GetCUDAGraphAllocator(). Other unit can calls GetCUDAGraphAllocator() method, only when this method returns True! 
 
@@ -146,7 +146,7 @@ Test whether the CUDA graph allocator is valid This method should be called befo
 true if cuda_graph_allocator_ is valid, false otherwise
 
 
-virtual void * Alloc ( TensorBase * , DataType dtype , size_t requested_size = 0 , bool pinned = false , bool fake_alloc = false ) const ;
+virtual void * Alloc ( TensorBase * , DataType dtype , size_t requested_size = 0 , bool pinned = false , bool fake_alloc = false ) const 
 '''''''''''
 Allocate device memory for tensor.
 
@@ -159,7 +159,7 @@ Allocate device memory for tensor.
 	- **fake_alloc** (bool)
 
 template<typename T>
-T * Alloc ( TensorBase * tensor , size_t requested_size = 0 , bool pinned = false ) const ;
+T * Alloc ( TensorBase * tensor , size_t requested_size = 0 , bool pinned = false ) const 
 '''''''''''
 
 
@@ -173,7 +173,7 @@ T * Alloc ( TensorBase * tensor , size_t requested_size = 0 , bool pinned = fals
 '''''''''''
 T *
 
-void * HostAlloc ( TensorBase * tensor , DataType dtype , size_t requested_size = 0 , bool fake_alloc = false ) const ;
+void * HostAlloc ( TensorBase * tensor , DataType dtype , size_t requested_size = 0 , bool fake_alloc = false ) const 
 '''''''''''
 Allocate host memory for tensor.
 
@@ -186,7 +186,7 @@ Allocate host memory for tensor.
 	- **fake_alloc** (bool)
 
 template<typename T>
-T * HostAlloc ( TensorBase * tensor , size_t requested_size = 0 ) const ;
+T * HostAlloc ( TensorBase * tensor , size_t requested_size = 0 ) const 
 '''''''''''
 
 
@@ -199,7 +199,7 @@ T * HostAlloc ( TensorBase * tensor , size_t requested_size = 0 ) const ;
 '''''''''''
 T *
 
-virtual const Place & GetPlace ( ) const = 0 ;
+virtual const Place & GetPlace ( ) const = 0 
 '''''''''''
 
 
@@ -213,12 +213,12 @@ virtual void Wait ( ) const {
 
 
 
-void SetGenerator ( Generator * ) ;
+void SetGenerator ( Generator * ) 
 '''''''''''
 Set the generator for special op. 
 
 
-Generator * GetGenerator ( ) const ;
+Generator * GetGenerator ( ) const 
 '''''''''''
 Get the generator object. 
 
@@ -228,12 +228,12 @@ Get the generator object.
 Generator
 
 
-void SetHostGenerator ( Generator * ) ;
+void SetHostGenerator ( Generator * ) 
 '''''''''''
 Set the host generator for special op. 
 
 
-Generator * GetHostGenerator ( ) const ;
+Generator * GetHostGenerator ( ) const 
 '''''''''''
 Get the host generator object. 
 
@@ -253,7 +253,7 @@ Return the type information of the derived class to supportsafely downcast in no
 The type information of the derived class.
 
 
-void SetCommContext ( distributed::CommContext * comm_context ) ;
+void SetCommContext ( distributed::CommContext * comm_context ) 
 '''''''''''
 Set the comm context point. 
 
@@ -261,7 +261,7 @@ Set the comm context point.
 '''''''''''
 	- **comm_context** (distributed::CommContext*)
 
-distributed::CommContext * GetCommContext ( ) const ;
+distributed::CommContext * GetCommContext ( ) const 
 '''''''''''
 Get the comm context point. 
 

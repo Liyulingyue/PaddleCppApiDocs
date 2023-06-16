@@ -14,7 +14,7 @@ paddle/include/paddle/phi/api/ext/op_meta_info.h
 Methods
 :::::::::::::::::::::
 
-explicit OpMetaInfoBuilder ( std::string & & name , size_t index ) ;
+explicit OpMetaInfoBuilder ( std::string & & name , size_t index ) 
 '''''''''''
 
 
@@ -23,7 +23,7 @@ explicit OpMetaInfoBuilder ( std::string & & name , size_t index ) ;
 	- **name** (std::string&&)
 	- **index** (size_t)
 
-OpMetaInfoBuilder & Inputs ( std::vector<std::string> & & inputs ) ;
+OpMetaInfoBuilder & Inputs ( std::vector<std::string> & & inputs ) 
 '''''''''''
 
 
@@ -35,7 +35,7 @@ OpMetaInfoBuilder & Inputs ( std::vector<std::string> & & inputs ) ;
 '''''''''''
 OpMetaInfoBuilder &
 
-OpMetaInfoBuilder & Outputs ( std::vector<std::string> & & outputs ) ;
+OpMetaInfoBuilder & Outputs ( std::vector<std::string> & & outputs ) 
 '''''''''''
 
 
@@ -47,7 +47,7 @@ OpMetaInfoBuilder & Outputs ( std::vector<std::string> & & outputs ) ;
 '''''''''''
 OpMetaInfoBuilder &
 
-OpMetaInfoBuilder & Attrs ( std::vector<std::string> & & attrs ) ;
+OpMetaInfoBuilder & Attrs ( std::vector<std::string> & & attrs ) 
 '''''''''''
 
 
@@ -59,7 +59,7 @@ OpMetaInfoBuilder & Attrs ( std::vector<std::string> & & attrs ) ;
 '''''''''''
 OpMetaInfoBuilder &
 
-OpMetaInfoBuilder & SetInplaceMap ( std::unordered_map<std::string , std::string> & & inplace_map ) ;
+OpMetaInfoBuilder & SetInplaceMap ( std::unordered_map<std::string , std::string> & & inplace_map ) 
 '''''''''''
 
 
@@ -71,7 +71,7 @@ OpMetaInfoBuilder & SetInplaceMap ( std::unordered_map<std::string , std::string
 '''''''''''
 OpMetaInfoBuilder &
 
-OpMetaInfoBuilder & SetKernelFn ( KernelFunc func ) ;
+OpMetaInfoBuilder & SetKernelFn ( KernelFunc func ) 
 '''''''''''
 
 
@@ -83,7 +83,7 @@ OpMetaInfoBuilder & SetKernelFn ( KernelFunc func ) ;
 '''''''''''
 OpMetaInfoBuilder &
 
-OpMetaInfoBuilder & SetInferShapeFn ( InferShapeFunc func ) ;
+OpMetaInfoBuilder & SetInferShapeFn ( InferShapeFunc func ) 
 '''''''''''
 
 
@@ -95,7 +95,7 @@ OpMetaInfoBuilder & SetInferShapeFn ( InferShapeFunc func ) ;
 '''''''''''
 OpMetaInfoBuilder &
 
-OpMetaInfoBuilder & SetInferDtypeFn ( InferDtypeFunc func ) ;
+OpMetaInfoBuilder & SetInferDtypeFn ( InferDtypeFunc func ) 
 '''''''''''
 
 
