@@ -10,7 +10,7 @@ DeviceContext `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/pa
 
 定义目录
 :::::::::::::::::::::
-paddle\include\paddle\phi\core\device_context.h
+paddle/include/paddle/phi/core/device_context.h
 
 方法
 :::::::::::::::::::::

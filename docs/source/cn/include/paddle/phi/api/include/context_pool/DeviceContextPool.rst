@@ -10,7 +10,7 @@ DeviceContextPool `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develo
 
 定义目录
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\context_pool.h
+paddle/include/paddle/phi/api/include/context_pool.h
 
 方法
 :::::::::::::::::::::

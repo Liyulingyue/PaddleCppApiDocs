@@ -9,7 +9,7 @@ Place `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\inc
 
 定义目录
 :::::::::::::::::::::
-paddle\include\paddle\phi\common\place.h
+paddle/include/paddle/phi/common/place.h
 
 方法
 :::::::::::::::::::::

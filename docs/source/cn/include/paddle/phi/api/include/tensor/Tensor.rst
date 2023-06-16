@@ -9,7 +9,7 @@ Tensor `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\in
 
 定义目录
 :::::::::::::::::::::
-paddle\include\paddle\phi\api\include\tensor.h
+paddle/include/paddle/phi/api/include/tensor.h
 
 方法
 :::::::::::::::::::::

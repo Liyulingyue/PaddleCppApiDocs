@@ -304,8 +304,12 @@ class class_helper(object):
                 note_text = f'..note::\n' f'\t{self.note}\n' f'\n'
                 f.write(note_text)
 
+            # replace to enhance sphinx
+            _file_path = self.file_path.replace("\\","/")
             define_path_text = (
-                f'定义目录\n' f':::::::::::::::::::::\n' f'{self.file_path}\n' f'\n'
+                f'定义目录\n' f':::::::::::::::::::::\n' 
+                f'{_file_path}\n' 
+                f'\n'
             )
             f.write(define_path_text)
 

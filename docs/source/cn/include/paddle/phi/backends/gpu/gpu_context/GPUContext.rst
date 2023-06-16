@@ -9,7 +9,7 @@ GPUContext `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/paddl
 
 定义目录
 :::::::::::::::::::::
-paddle\include\paddle\phi\backends\gpu\gpu_context.h
+paddle/include/paddle/phi/backends/gpu/gpu_context.h
 
 方法
 :::::::::::::::::::::
