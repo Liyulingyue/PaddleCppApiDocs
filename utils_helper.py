@@ -337,8 +337,6 @@ class class_helper(object):
                         fun_name_and_intro_text = ""
                     else:
                         fun_name_and_intro_text = f'{fun_infor["template"]} '
-                    if 'HostAlloc' in fun_infor['name']:
-                        a = 1
                     fun_name_and_intro_text += (
                         f"{fun_infor['name']}\n"
                         f"\'\'\'\'\'\'\'\'\'\'\'\n"
