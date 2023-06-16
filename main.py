@@ -68,8 +68,6 @@ def generate_docs(
             os.makedirs(dir_path)
 
         func_name = item["name"].replace("PADDLE_API", "")
-        if 'DeviceContext' in func_name:
-            a = 1
         if platform.system() == "Windows":
             rst_dir = dir_path + '\\' + func_name + ".rst"
         else:
