@@ -3,7 +3,7 @@
 sigmoid
 -------------------------------
 
-.. cpp:function:: Tensor sigmoid ( const Tensor & x ) ;
+.. cpp:function:: Tensor sigmoid ( const Tensor & x ) 
 
 
 

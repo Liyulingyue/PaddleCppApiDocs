@@ -3,7 +3,7 @@
 gelu
 -------------------------------
 
-.. cpp:function:: Tensor gelu ( const Tensor & x , bool approximate = false ) ;
+.. cpp:function:: Tensor gelu ( const Tensor & x , bool approximate = false ) 
 
 
 

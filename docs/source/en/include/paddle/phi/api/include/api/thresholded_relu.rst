@@ -3,7 +3,7 @@
 thresholded_relu
 -------------------------------
 
-.. cpp:function:: Tensor thresholded_relu ( const Tensor & x , float threshold = 1.0 ) ;
+.. cpp:function:: Tensor thresholded_relu ( const Tensor & x , float threshold = 1.0 ) 
 
 
 

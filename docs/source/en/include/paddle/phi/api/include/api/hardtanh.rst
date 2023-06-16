@@ -3,7 +3,7 @@
 hardtanh
 -------------------------------
 
-.. cpp:function:: Tensor hardtanh ( const Tensor & x , float t_min = 0 , float t_max = 24 ) ;
+.. cpp:function:: Tensor hardtanh ( const Tensor & x , float t_min = 0 , float t_max = 24 ) 
 
 
 

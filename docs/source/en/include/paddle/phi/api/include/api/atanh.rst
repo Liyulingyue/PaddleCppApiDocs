@@ -3,7 +3,7 @@
 atanh
 -------------------------------
 
-.. cpp:function:: Tensor atanh ( const Tensor & x ) ;
+.. cpp:function:: Tensor atanh ( const Tensor & x ) 
 
 
 

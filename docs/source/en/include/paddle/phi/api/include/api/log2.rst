@@ -3,7 +3,7 @@
 log2
 -------------------------------
 
-.. cpp:function:: Tensor log2 ( const Tensor & x ) ;
+.. cpp:function:: Tensor log2 ( const Tensor & x ) 
 
 
 

@@ -3,7 +3,7 @@
 expand_as
 -------------------------------
 
-.. cpp:function:: Tensor expand_as ( const Tensor & x , const paddle::optional<Tensor> & y , const std::vector<int> & target_shape = { } ) ;
+.. cpp:function:: Tensor expand_as ( const Tensor & x , const paddle::optional<Tensor> & y , const std::vector<int> & target_shape = { } ) 
 
 
 

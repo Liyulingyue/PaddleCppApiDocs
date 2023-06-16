@@ -3,7 +3,7 @@
 zeros
 -------------------------------
 
-.. cpp:function:: Tensor zeros ( const IntArray & shape , DataType dtype = DataType::FLOAT32 , const Place & place = CPUPlace ( ) ) ;
+.. cpp:function:: Tensor zeros ( const IntArray & shape , DataType dtype = DataType::FLOAT32 , const Place & place = CPUPlace ( ) ) 
 
 
 

@@ -3,7 +3,7 @@
 flip
 -------------------------------
 
-.. cpp:function:: Tensor flip ( const Tensor & x , const std::vector<int> & axis ) ;
+.. cpp:function:: Tensor flip ( const Tensor & x , const std::vector<int> & axis ) 
 
 
 

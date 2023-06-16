@@ -3,7 +3,7 @@
 upper
 -------------------------------
 
-.. cpp:function:: Tensor upper ( const Tensor & x , bool use_utf8_encoding ) ;
+.. cpp:function:: Tensor upper ( const Tensor & x , bool use_utf8_encoding ) 
 
 
 

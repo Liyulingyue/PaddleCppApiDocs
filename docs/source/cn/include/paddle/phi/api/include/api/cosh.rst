@@ -3,7 +3,7 @@
 cosh
 -------------------------------
 
-.. cpp:function:: Tensor cosh ( const Tensor & x ) ;
+.. cpp:function:: Tensor cosh ( const Tensor & x ) 
 
 
 

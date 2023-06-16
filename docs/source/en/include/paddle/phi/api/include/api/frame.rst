@@ -3,7 +3,7 @@
 frame
 -------------------------------
 
-.. cpp:function:: Tensor frame ( const Tensor & x , int frame_length , int hop_length , int axis = - 1 ) ;
+.. cpp:function:: Tensor frame ( const Tensor & x , int frame_length , int hop_length , int axis = - 1 ) 
 
 
 

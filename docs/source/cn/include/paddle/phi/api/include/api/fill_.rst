@@ -3,7 +3,7 @@
 fill_
 -------------------------------
 
-.. cpp:function:: Tensor & fill_ ( Tensor & x , const Scalar & value ) ;
+.. cpp:function:: Tensor & fill_ ( Tensor & x , const Scalar & value ) 
 
 
 

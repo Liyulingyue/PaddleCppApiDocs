@@ -3,7 +3,7 @@
 tile
 -------------------------------
 
-.. cpp:function:: Tensor tile ( const Tensor & x , const IntArray & repeat_times = { } ) ;
+.. cpp:function:: Tensor tile ( const Tensor & x , const IntArray & repeat_times = { } ) 
 
 
 

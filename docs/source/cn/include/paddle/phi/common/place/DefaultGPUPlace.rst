@@ -3,7 +3,7 @@
 DefaultGPUPlace
 -------------------------------
 
-.. cpp:function:: GPUPlace DefaultGPUPlace ( ) ;
+.. cpp:function:: GPUPlace DefaultGPUPlace ( ) 
 
 
 

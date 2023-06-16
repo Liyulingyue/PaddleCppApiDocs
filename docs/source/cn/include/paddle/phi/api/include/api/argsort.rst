@@ -3,7 +3,7 @@
 argsort
 -------------------------------
 
-.. cpp:function:: std::tuple<Tensor , Tensor> argsort ( const Tensor & x , int axis = - 1 , bool descending = false ) ;
+.. cpp:function:: std::tuple<Tensor , Tensor> argsort ( const Tensor & x , int axis = - 1 , bool descending = false ) 
 
 
 

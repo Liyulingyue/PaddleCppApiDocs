@@ -3,7 +3,7 @@
 real
 -------------------------------
 
-.. cpp:function:: Tensor real ( const Tensor & x ) ;
+.. cpp:function:: Tensor real ( const Tensor & x ) 
 
 
 

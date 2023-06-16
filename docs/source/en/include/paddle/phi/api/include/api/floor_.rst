@@ -3,7 +3,7 @@
 floor_
 -------------------------------
 
-.. cpp:function:: Tensor & floor_ ( Tensor & x ) ;
+.. cpp:function:: Tensor & floor_ ( Tensor & x ) 
 
 
 

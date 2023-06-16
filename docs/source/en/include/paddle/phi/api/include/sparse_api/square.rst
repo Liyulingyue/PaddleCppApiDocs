@@ -3,7 +3,7 @@
 square
 -------------------------------
 
-.. cpp:function:: Tensor square ( const Tensor & x ) ;
+.. cpp:function:: Tensor square ( const Tensor & x ) 
 
 
 

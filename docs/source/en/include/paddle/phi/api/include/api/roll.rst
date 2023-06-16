@@ -3,7 +3,7 @@
 roll
 -------------------------------
 
-.. cpp:function:: Tensor roll ( const Tensor & x , const IntArray & shifts = { } , const std::vector<int64_t> & axis = { } ) ;
+.. cpp:function:: Tensor roll ( const Tensor & x , const IntArray & shifts = { } , const std::vector<int64_t> & axis = { } ) 
 
 
 

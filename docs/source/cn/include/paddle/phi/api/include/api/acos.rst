@@ -3,7 +3,7 @@
 acos
 -------------------------------
 
-.. cpp:function:: Tensor acos ( const Tensor & x ) ;
+.. cpp:function:: Tensor acos ( const Tensor & x ) 
 
 
 

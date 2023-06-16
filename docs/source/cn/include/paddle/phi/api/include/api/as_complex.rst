@@ -3,7 +3,7 @@
 as_complex
 -------------------------------
 
-.. cpp:function:: Tensor as_complex ( const Tensor & x ) ;
+.. cpp:function:: Tensor as_complex ( const Tensor & x ) 
 
 
 

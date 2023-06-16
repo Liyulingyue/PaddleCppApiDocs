@@ -3,7 +3,7 @@
 less_equal
 -------------------------------
 
-.. cpp:function:: Tensor less_equal ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor less_equal ( const Tensor & x , const Tensor & y ) 
 
 
 

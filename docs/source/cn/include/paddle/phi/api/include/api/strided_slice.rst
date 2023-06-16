@@ -3,7 +3,7 @@
 strided_slice
 -------------------------------
 
-.. cpp:function:: Tensor strided_slice ( const Tensor & x , const std::vector<int> & axes , const IntArray & starts , const IntArray & ends , const IntArray & strides ) ;
+.. cpp:function:: Tensor strided_slice ( const Tensor & x , const std::vector<int> & axes , const IntArray & starts , const IntArray & ends , const IntArray & strides ) 
 
 
 

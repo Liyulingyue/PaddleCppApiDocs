@@ -3,7 +3,7 @@
 unbind
 -------------------------------
 
-.. cpp:function:: std::vector<Tensor> unbind ( const Tensor & input , int axis = 0 ) ;
+.. cpp:function:: std::vector<Tensor> unbind ( const Tensor & input , int axis = 0 ) 
 
 
 

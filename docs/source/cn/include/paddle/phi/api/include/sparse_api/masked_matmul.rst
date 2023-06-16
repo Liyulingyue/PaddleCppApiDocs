@@ -3,7 +3,7 @@
 masked_matmul
 -------------------------------
 
-.. cpp:function:: Tensor masked_matmul ( const Tensor & x , const Tensor & y , const Tensor & mask ) ;
+.. cpp:function:: Tensor masked_matmul ( const Tensor & x , const Tensor & y , const Tensor & mask ) 
 
 
 

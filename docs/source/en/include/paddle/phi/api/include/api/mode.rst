@@ -3,7 +3,7 @@
 mode
 -------------------------------
 
-.. cpp:function:: std::tuple<Tensor , Tensor> mode ( const Tensor & x , int axis = - 1 , bool keepdim = false ) ;
+.. cpp:function:: std::tuple<Tensor , Tensor> mode ( const Tensor & x , int axis = - 1 , bool keepdim = false ) 
 
 
 

@@ -3,7 +3,7 @@
 dist
 -------------------------------
 
-.. cpp:function:: Tensor dist ( const Tensor & x , const Tensor & y , float p = 2.0 ) ;
+.. cpp:function:: Tensor dist ( const Tensor & x , const Tensor & y , float p = 2.0 ) 
 
 
 

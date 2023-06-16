@@ -3,7 +3,7 @@
 hardswish
 -------------------------------
 
-.. cpp:function:: Tensor hardswish ( const Tensor & x ) ;
+.. cpp:function:: Tensor hardswish ( const Tensor & x ) 
 
 
 

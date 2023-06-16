@@ -3,7 +3,7 @@
 empty
 -------------------------------
 
-.. cpp:function:: Tensor empty ( const IntArray & shape , DataType dtype = DataType::FLOAT32 , const Place & place = CPUPlace ( ) ) ;
+.. cpp:function:: Tensor empty ( const IntArray & shape , DataType dtype = DataType::FLOAT32 , const Place & place = CPUPlace ( ) ) 
 
 
 

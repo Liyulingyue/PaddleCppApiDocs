@@ -3,7 +3,7 @@
 eigh
 -------------------------------
 
-.. cpp:function:: std::tuple<Tensor , Tensor> eigh ( const Tensor & x , const std::string & UPLO = "L" ) ;
+.. cpp:function:: std::tuple<Tensor , Tensor> eigh ( const Tensor & x , const std::string & UPLO = "L" ) 
 
 
 

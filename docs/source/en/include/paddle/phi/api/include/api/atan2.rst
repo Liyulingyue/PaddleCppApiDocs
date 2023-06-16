@@ -3,7 +3,7 @@
 atan2
 -------------------------------
 
-.. cpp:function:: Tensor atan2 ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor atan2 ( const Tensor & x , const Tensor & y ) 
 
 
 

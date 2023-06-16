@@ -3,7 +3,7 @@
 npu_identity
 -------------------------------
 
-.. cpp:function:: Tensor npu_identity ( const Tensor & x , int format = - 1 ) ;
+.. cpp:function:: Tensor npu_identity ( const Tensor & x , int format = - 1 ) 
 
 
 

@@ -3,7 +3,7 @@
 unsqueeze_
 -------------------------------
 
-.. cpp:function:: Tensor & unsqueeze_ ( Tensor & x , const IntArray & axis = { } ) ;
+.. cpp:function:: Tensor & unsqueeze_ ( Tensor & x , const IntArray & axis = { } ) 
 
 
 

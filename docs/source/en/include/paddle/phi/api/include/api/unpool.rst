@@ -3,7 +3,7 @@
 unpool
 -------------------------------
 
-.. cpp:function:: Tensor unpool ( const Tensor & x , const Tensor & indices , const std::vector<int> & ksize , const std::vector<int> & strides , const std::vector<int> & padding , const IntArray & output_size , const std::string & data_format ) ;
+.. cpp:function:: Tensor unpool ( const Tensor & x , const Tensor & indices , const std::vector<int> & ksize , const std::vector<int> & strides , const std::vector<int> & padding , const IntArray & output_size , const std::string & data_format ) 
 
 
 

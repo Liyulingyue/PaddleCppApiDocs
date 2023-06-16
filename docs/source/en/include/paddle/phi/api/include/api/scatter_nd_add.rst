@@ -3,7 +3,7 @@
 scatter_nd_add
 -------------------------------
 
-.. cpp:function:: Tensor scatter_nd_add ( const Tensor & x , const Tensor & index , const Tensor & updates ) ;
+.. cpp:function:: Tensor scatter_nd_add ( const Tensor & x , const Tensor & index , const Tensor & updates ) 
 
 
 

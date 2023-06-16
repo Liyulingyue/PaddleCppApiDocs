@@ -3,7 +3,7 @@
 qr
 -------------------------------
 
-.. cpp:function:: std::tuple<Tensor , Tensor> qr ( const Tensor & x , const std::string & mode = "reduced" ) ;
+.. cpp:function:: std::tuple<Tensor , Tensor> qr ( const Tensor & x , const std::string & mode = "reduced" ) 
 
 
 

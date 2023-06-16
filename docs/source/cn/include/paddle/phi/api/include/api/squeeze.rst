@@ -3,7 +3,7 @@
 squeeze
 -------------------------------
 
-.. cpp:function:: Tensor squeeze ( const Tensor & x , const IntArray & axis = { } ) ;
+.. cpp:function:: Tensor squeeze ( const Tensor & x , const IntArray & axis = { } ) 
 
 
 

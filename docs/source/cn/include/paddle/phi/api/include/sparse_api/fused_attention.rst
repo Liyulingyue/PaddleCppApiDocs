@@ -3,7 +3,7 @@
 fused_attention
 -------------------------------
 
-.. cpp:function:: Tensor fused_attention ( const Tensor & query , const Tensor & key , const Tensor & value , const Tensor & sparse_mask , const paddle::optional<Tensor> & key_padding_mask , const paddle::optional<Tensor> & attn_mask ) ;
+.. cpp:function:: Tensor fused_attention ( const Tensor & query , const Tensor & key , const Tensor & value , const Tensor & sparse_mask , const paddle::optional<Tensor> & key_padding_mask , const paddle::optional<Tensor> & attn_mask ) 
 
 
 

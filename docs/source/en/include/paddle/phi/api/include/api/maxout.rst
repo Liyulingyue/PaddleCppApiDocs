@@ -3,7 +3,7 @@
 maxout
 -------------------------------
 
-.. cpp:function:: Tensor maxout ( const Tensor & x , int groups , int axis = 1 ) ;
+.. cpp:function:: Tensor maxout ( const Tensor & x , int groups , int axis = 1 ) 
 
 
 

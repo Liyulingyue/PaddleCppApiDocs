@@ -3,7 +3,7 @@
 remainder
 -------------------------------
 
-.. cpp:function:: Tensor remainder ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor remainder ( const Tensor & x , const Tensor & y ) 
 
 
 

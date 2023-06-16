@@ -3,7 +3,7 @@
 isinf
 -------------------------------
 
-.. cpp:function:: Tensor isinf ( const Tensor & x ) ;
+.. cpp:function:: Tensor isinf ( const Tensor & x ) 
 
 
 

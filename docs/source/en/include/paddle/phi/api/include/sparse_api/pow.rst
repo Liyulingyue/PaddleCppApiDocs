@@ -3,7 +3,7 @@
 pow
 -------------------------------
 
-.. cpp:function:: Tensor pow ( const Tensor & x , float factor ) ;
+.. cpp:function:: Tensor pow ( const Tensor & x , float factor ) 
 
 
 

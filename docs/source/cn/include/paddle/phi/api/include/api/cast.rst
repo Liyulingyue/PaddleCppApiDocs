@@ -3,7 +3,7 @@
 cast
 -------------------------------
 
-.. cpp:function:: Tensor cast ( const Tensor & x , DataType dtype ) ;
+.. cpp:function:: Tensor cast ( const Tensor & x , DataType dtype ) 
 
 
 

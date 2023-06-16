@@ -3,7 +3,7 @@
 values
 -------------------------------
 
-.. cpp:function:: Tensor values ( const Tensor & x ) ;
+.. cpp:function:: Tensor values ( const Tensor & x ) 
 
 
 

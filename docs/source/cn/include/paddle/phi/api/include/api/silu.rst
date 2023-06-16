@@ -3,7 +3,7 @@
 silu
 -------------------------------
 
-.. cpp:function:: Tensor silu ( const Tensor & x ) ;
+.. cpp:function:: Tensor silu ( const Tensor & x ) 
 
 
 

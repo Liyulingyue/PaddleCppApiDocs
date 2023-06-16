@@ -3,7 +3,7 @@
 cholesky_solve
 -------------------------------
 
-.. cpp:function:: Tensor cholesky_solve ( const Tensor & x , const Tensor & y , bool upper = false ) ;
+.. cpp:function:: Tensor cholesky_solve ( const Tensor & x , const Tensor & y , bool upper = false ) 
 
 
 

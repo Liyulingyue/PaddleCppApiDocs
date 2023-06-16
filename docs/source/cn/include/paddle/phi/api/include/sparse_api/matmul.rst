@@ -3,7 +3,7 @@
 matmul
 -------------------------------
 
-.. cpp:function:: Tensor matmul ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor matmul ( const Tensor & x , const Tensor & y ) 
 
 
 

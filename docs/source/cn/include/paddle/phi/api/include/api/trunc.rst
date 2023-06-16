@@ -3,7 +3,7 @@
 trunc
 -------------------------------
 
-.. cpp:function:: Tensor trunc ( const Tensor & input ) ;
+.. cpp:function:: Tensor trunc ( const Tensor & input ) 
 
 
 

@@ -3,7 +3,7 @@
 relu
 -------------------------------
 
-.. cpp:function:: Tensor relu ( const Tensor & x ) ;
+.. cpp:function:: Tensor relu ( const Tensor & x ) 
 
 
 

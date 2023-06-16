@@ -3,7 +3,7 @@
 lgamma
 -------------------------------
 
-.. cpp:function:: Tensor lgamma ( const Tensor & x ) ;
+.. cpp:function:: Tensor lgamma ( const Tensor & x ) 
 
 
 

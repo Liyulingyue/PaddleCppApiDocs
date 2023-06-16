@@ -3,7 +3,7 @@
 overlap_add
 -------------------------------
 
-.. cpp:function:: Tensor overlap_add ( const Tensor & x , int hop_length , int axis = - 1 ) ;
+.. cpp:function:: Tensor overlap_add ( const Tensor & x , int hop_length , int axis = - 1 ) 
 
 
 

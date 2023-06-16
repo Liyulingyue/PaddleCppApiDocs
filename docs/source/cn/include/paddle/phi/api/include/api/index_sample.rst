@@ -3,7 +3,7 @@
 index_sample
 -------------------------------
 
-.. cpp:function:: Tensor index_sample ( const Tensor & x , const Tensor & index ) ;
+.. cpp:function:: Tensor index_sample ( const Tensor & x , const Tensor & index ) 
 
 
 

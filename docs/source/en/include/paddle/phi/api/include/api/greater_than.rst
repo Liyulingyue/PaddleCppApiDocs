@@ -3,7 +3,7 @@
 greater_than
 -------------------------------
 
-.. cpp:function:: Tensor greater_than ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor greater_than ( const Tensor & x , const Tensor & y ) 
 
 
 

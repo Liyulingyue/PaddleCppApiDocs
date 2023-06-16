@@ -3,7 +3,7 @@
 leaky_relu
 -------------------------------
 
-.. cpp:function:: Tensor leaky_relu ( const Tensor & x , float alpha ) ;
+.. cpp:function:: Tensor leaky_relu ( const Tensor & x , float alpha ) 
 
 
 

@@ -3,7 +3,7 @@
 assign_out_
 -------------------------------
 
-.. cpp:function:: Tensor & assign_out_ ( const Tensor & x , Tensor & output ) ;
+.. cpp:function:: Tensor & assign_out_ ( const Tensor & x , Tensor & output ) 
 
 
 

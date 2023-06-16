@@ -3,7 +3,7 @@
 add
 -------------------------------
 
-.. cpp:function:: Tensor add ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor add ( const Tensor & x , const Tensor & y ) 
 
 
 

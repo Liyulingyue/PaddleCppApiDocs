@@ -3,7 +3,7 @@
 minimum
 -------------------------------
 
-.. cpp:function:: Tensor minimum ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor minimum ( const Tensor & x , const Tensor & y ) 
 
 
 

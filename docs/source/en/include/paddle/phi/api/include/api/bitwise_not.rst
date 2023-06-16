@@ -3,7 +3,7 @@
 bitwise_not
 -------------------------------
 
-.. cpp:function:: Tensor bitwise_not ( const Tensor & x ) ;
+.. cpp:function:: Tensor bitwise_not ( const Tensor & x ) 
 
 
 

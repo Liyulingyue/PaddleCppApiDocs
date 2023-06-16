@@ -3,7 +3,7 @@
 clip
 -------------------------------
 
-.. cpp:function:: Tensor clip ( const Tensor & x , const Scalar & min , const Scalar & max ) ;
+.. cpp:function:: Tensor clip ( const Tensor & x , const Scalar & min , const Scalar & max ) 
 
 
 

@@ -3,7 +3,7 @@
 round
 -------------------------------
 
-.. cpp:function:: Tensor round ( const Tensor & x ) ;
+.. cpp:function:: Tensor round ( const Tensor & x ) 
 
 
 

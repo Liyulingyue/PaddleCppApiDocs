@@ -3,7 +3,7 @@
 stack
 -------------------------------
 
-.. cpp:function:: Tensor stack ( const std::vector<Tensor> & x , int axis = 0 ) ;
+.. cpp:function:: Tensor stack ( const std::vector<Tensor> & x , int axis = 0 ) 
 
 
 

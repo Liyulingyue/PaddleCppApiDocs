@@ -3,7 +3,7 @@
 maximum
 -------------------------------
 
-.. cpp:function:: Tensor maximum ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor maximum ( const Tensor & x , const Tensor & y ) 
 
 
 

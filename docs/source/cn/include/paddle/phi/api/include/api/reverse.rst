@@ -3,7 +3,7 @@
 reverse
 -------------------------------
 
-.. cpp:function:: Tensor reverse ( const Tensor & x , const IntArray & axis ) ;
+.. cpp:function:: Tensor reverse ( const Tensor & x , const IntArray & axis ) 
 
 
 

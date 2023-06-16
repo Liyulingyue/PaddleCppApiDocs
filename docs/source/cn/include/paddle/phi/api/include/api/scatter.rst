@@ -3,7 +3,7 @@
 scatter
 -------------------------------
 
-.. cpp:function:: Tensor scatter ( const Tensor & x , const Tensor & index , const Tensor & updates , bool overwrite = true ) ;
+.. cpp:function:: Tensor scatter ( const Tensor & x , const Tensor & index , const Tensor & updates , bool overwrite = true ) 
 
 
 

@@ -3,7 +3,7 @@
 divide
 -------------------------------
 
-.. cpp:function:: Tensor divide ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor divide ( const Tensor & x , const Tensor & y ) 
 
 
 

@@ -3,7 +3,7 @@
 subtract
 -------------------------------
 
-.. cpp:function:: Tensor subtract ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor subtract ( const Tensor & x , const Tensor & y ) 
 
 
 

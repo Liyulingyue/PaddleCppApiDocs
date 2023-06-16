@@ -3,7 +3,7 @@
 index_put_
 -------------------------------
 
-.. cpp:function:: Tensor & index_put_ ( Tensor & x , const std::vector<Tensor> & indices , const Tensor & value , bool accumulate = false ) ;
+.. cpp:function:: Tensor & index_put_ ( Tensor & x , const std::vector<Tensor> & indices , const Tensor & value , bool accumulate = false ) 
 
 
 

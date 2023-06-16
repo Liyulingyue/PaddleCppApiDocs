@@ -3,7 +3,7 @@
 floor_divide
 -------------------------------
 
-.. cpp:function:: Tensor floor_divide ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor floor_divide ( const Tensor & x , const Tensor & y ) 
 
 
 

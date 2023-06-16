@@ -3,7 +3,7 @@
 imag
 -------------------------------
 
-.. cpp:function:: Tensor imag ( const Tensor & x ) ;
+.. cpp:function:: Tensor imag ( const Tensor & x ) 
 
 
 

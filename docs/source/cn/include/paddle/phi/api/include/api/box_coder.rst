@@ -3,7 +3,7 @@
 box_coder
 -------------------------------
 
-.. cpp:function:: Tensor box_coder ( const Tensor & prior_box , const paddle::optional<Tensor> & prior_box_var , const Tensor & target_box , const std::string & code_type = "encode_center_size" , bool box_normalized = true , int axis = 0 , const std::vector<float> & variance = { } ) ;
+.. cpp:function:: Tensor box_coder ( const Tensor & prior_box , const paddle::optional<Tensor> & prior_box_var , const Tensor & target_box , const std::string & code_type = "encode_center_size" , bool box_normalized = true , int axis = 0 , const std::vector<float> & variance = { } ) 
 
 
 

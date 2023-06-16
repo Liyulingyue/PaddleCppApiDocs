@@ -3,7 +3,7 @@
 min
 -------------------------------
 
-.. cpp:function:: Tensor min ( const Tensor & x , const IntArray & axis = { } , bool keepdim = false ) ;
+.. cpp:function:: Tensor min ( const Tensor & x , const IntArray & axis = { } , bool keepdim = false ) 
 
 
 

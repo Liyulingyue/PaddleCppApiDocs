@@ -3,7 +3,7 @@
 kldiv_loss
 -------------------------------
 
-.. cpp:function:: Tensor kldiv_loss ( const Tensor & x , const Tensor & label , const std::string & reduction = "mean" ) ;
+.. cpp:function:: Tensor kldiv_loss ( const Tensor & x , const Tensor & label , const std::string & reduction = "mean" ) 
 
 
 

@@ -3,7 +3,7 @@
 expand
 -------------------------------
 
-.. cpp:function:: Tensor expand ( const Tensor & x , const IntArray & shape ) ;
+.. cpp:function:: Tensor expand ( const Tensor & x , const IntArray & shape ) 
 
 
 

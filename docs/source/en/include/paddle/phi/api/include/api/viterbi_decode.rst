@@ -3,7 +3,7 @@
 viterbi_decode
 -------------------------------
 
-.. cpp:function:: std::tuple<Tensor , Tensor> viterbi_decode ( const Tensor & potentials , const Tensor & transition_params , const Tensor & lengths , bool include_bos_eos_tag = true ) ;
+.. cpp:function:: std::tuple<Tensor , Tensor> viterbi_decode ( const Tensor & potentials , const Tensor & transition_params , const Tensor & lengths , bool include_bos_eos_tag = true ) 
 
 
 

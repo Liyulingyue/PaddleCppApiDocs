@@ -3,7 +3,7 @@
 cholesky
 -------------------------------
 
-.. cpp:function:: Tensor cholesky ( const Tensor & x , bool upper = false ) ;
+.. cpp:function:: Tensor cholesky ( const Tensor & x , bool upper = false ) 
 
 
 

@@ -3,7 +3,7 @@
 isclose
 -------------------------------
 
-.. cpp:function:: Tensor isclose ( const Tensor & x , const Tensor & y , const Scalar & rtol = "1e-5" , const Scalar & atol = "1e-8" , bool equal_nan = false ) ;
+.. cpp:function:: Tensor isclose ( const Tensor & x , const Tensor & y , const Scalar & rtol = "1e-5" , const Scalar & atol = "1e-8" , bool equal_nan = false ) 
 
 
 

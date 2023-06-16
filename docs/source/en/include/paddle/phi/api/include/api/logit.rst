@@ -3,7 +3,7 @@
 logit
 -------------------------------
 
-.. cpp:function:: Tensor logit ( const Tensor & x , float eps = 1e - 6f ) ;
+.. cpp:function:: Tensor logit ( const Tensor & x , float eps = 1e - 6f ) 
 
 
 

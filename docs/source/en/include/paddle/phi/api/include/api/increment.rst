@@ -3,7 +3,7 @@
 increment
 -------------------------------
 
-.. cpp:function:: Tensor increment ( const Tensor & x , float value = 1.0 ) ;
+.. cpp:function:: Tensor increment ( const Tensor & x , float value = 1.0 ) 
 
 
 

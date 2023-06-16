@@ -3,7 +3,7 @@
 tanh
 -------------------------------
 
-.. cpp:function:: Tensor tanh ( const Tensor & x ) ;
+.. cpp:function:: Tensor tanh ( const Tensor & x ) 
 
 
 

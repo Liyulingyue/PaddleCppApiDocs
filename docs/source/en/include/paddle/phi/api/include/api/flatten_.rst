@@ -3,7 +3,7 @@
 flatten_
 -------------------------------
 
-.. cpp:function:: Tensor & flatten_ ( Tensor & x , int start_axis = 1 , int stop_axis = 1 ) ;
+.. cpp:function:: Tensor & flatten_ ( Tensor & x , int start_axis = 1 , int stop_axis = 1 ) 
 
 
 

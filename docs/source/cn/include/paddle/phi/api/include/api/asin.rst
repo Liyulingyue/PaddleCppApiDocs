@@ -3,7 +3,7 @@
 asin
 -------------------------------
 
-.. cpp:function:: Tensor asin ( const Tensor & x ) ;
+.. cpp:function:: Tensor asin ( const Tensor & x ) 
 
 
 

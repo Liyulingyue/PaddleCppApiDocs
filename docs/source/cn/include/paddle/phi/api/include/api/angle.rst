@@ -3,7 +3,7 @@
 angle
 -------------------------------
 
-.. cpp:function:: Tensor angle ( const Tensor & x ) ;
+.. cpp:function:: Tensor angle ( const Tensor & x ) 
 
 
 

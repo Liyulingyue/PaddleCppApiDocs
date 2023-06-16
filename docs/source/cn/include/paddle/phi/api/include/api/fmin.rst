@@ -3,7 +3,7 @@
 fmin
 -------------------------------
 
-.. cpp:function:: Tensor fmin ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor fmin ( const Tensor & x , const Tensor & y ) 
 
 
 

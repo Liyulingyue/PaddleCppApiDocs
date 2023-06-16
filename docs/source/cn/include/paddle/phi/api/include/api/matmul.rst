@@ -3,7 +3,7 @@
 matmul
 -------------------------------
 
-.. cpp:function:: Tensor matmul ( const Tensor & x , const Tensor & y , bool transpose_x = false , bool transpose_y = false ) ;
+.. cpp:function:: Tensor matmul ( const Tensor & x , const Tensor & y , bool transpose_x = false , bool transpose_y = false ) 
 
 
 

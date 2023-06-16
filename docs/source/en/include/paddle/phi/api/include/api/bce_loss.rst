@@ -3,7 +3,7 @@
 bce_loss
 -------------------------------
 
-.. cpp:function:: Tensor bce_loss ( const Tensor & input , const Tensor & label ) ;
+.. cpp:function:: Tensor bce_loss ( const Tensor & input , const Tensor & label ) 
 
 
 

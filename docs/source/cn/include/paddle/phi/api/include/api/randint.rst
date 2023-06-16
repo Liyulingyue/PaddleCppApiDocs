@@ -3,7 +3,7 @@
 randint
 -------------------------------
 
-.. cpp:function:: Tensor randint ( int low , int high , const IntArray & shape , DataType dtype = DataType::INT64 , const Place & place = { } ) ;
+.. cpp:function:: Tensor randint ( int low , int high , const IntArray & shape , DataType dtype = DataType::INT64 , const Place & place = { } ) 
 
 
 

@@ -3,7 +3,7 @@
 bernoulli
 -------------------------------
 
-.. cpp:function:: Tensor bernoulli ( const Tensor & x ) ;
+.. cpp:function:: Tensor bernoulli ( const Tensor & x ) 
 
 
 

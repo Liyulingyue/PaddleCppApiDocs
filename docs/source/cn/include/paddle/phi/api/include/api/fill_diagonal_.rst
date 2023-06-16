@@ -3,7 +3,7 @@
 fill_diagonal_
 -------------------------------
 
-.. cpp:function:: Tensor & fill_diagonal_ ( Tensor & x , float value = 0 , int offset = 0 , bool wrap = false ) ;
+.. cpp:function:: Tensor & fill_diagonal_ ( Tensor & x , float value = 0 , int offset = 0 , bool wrap = false ) 
 
 
 

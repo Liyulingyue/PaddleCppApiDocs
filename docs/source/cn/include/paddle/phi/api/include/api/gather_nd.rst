@@ -3,7 +3,7 @@
 gather_nd
 -------------------------------
 
-.. cpp:function:: Tensor gather_nd ( const Tensor & x , const Tensor & index ) ;
+.. cpp:function:: Tensor gather_nd ( const Tensor & x , const Tensor & index ) 
 
 
 

@@ -3,7 +3,7 @@
 full
 -------------------------------
 
-.. cpp:function:: Tensor full ( const IntArray & shape , const Scalar & value , DataType dtype = DataType::FLOAT32 , const Place & place = CPUPlace ( ) ) ;
+.. cpp:function:: Tensor full ( const IntArray & shape , const Scalar & value , DataType dtype = DataType::FLOAT32 , const Place & place = CPUPlace ( ) ) 
 
 
 

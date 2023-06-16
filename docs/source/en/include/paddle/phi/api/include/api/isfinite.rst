@@ -3,7 +3,7 @@
 isfinite
 -------------------------------
 
-.. cpp:function:: Tensor isfinite ( const Tensor & x ) ;
+.. cpp:function:: Tensor isfinite ( const Tensor & x ) 
 
 
 

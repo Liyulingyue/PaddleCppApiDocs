@@ -3,7 +3,7 @@
 sign
 -------------------------------
 
-.. cpp:function:: Tensor sign ( const Tensor & x ) ;
+.. cpp:function:: Tensor sign ( const Tensor & x ) 
 
 
 

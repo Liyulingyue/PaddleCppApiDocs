@@ -3,7 +3,7 @@
 cos
 -------------------------------
 
-.. cpp:function:: Tensor cos ( const Tensor & x ) ;
+.. cpp:function:: Tensor cos ( const Tensor & x ) 
 
 
 

@@ -3,7 +3,7 @@
 send_uv
 -------------------------------
 
-.. cpp:function:: Tensor send_uv ( const Tensor & x , const Tensor & y , const Tensor & src_index , const Tensor & dst_index , const std::string & message_op = "ADD" ) ;
+.. cpp:function:: Tensor send_uv ( const Tensor & x , const Tensor & y , const Tensor & src_index , const Tensor & dst_index , const std::string & message_op = "ADD" ) 
 
 
 

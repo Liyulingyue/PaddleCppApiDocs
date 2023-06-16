@@ -3,7 +3,7 @@
 diagonal
 -------------------------------
 
-.. cpp:function:: Tensor diagonal ( const Tensor & x , int offset = 0 , int axis1 = 0 , int axis2 = 1 ) ;
+.. cpp:function:: Tensor diagonal ( const Tensor & x , int offset = 0 , int axis1 = 0 , int axis2 = 1 ) 
 
 
 

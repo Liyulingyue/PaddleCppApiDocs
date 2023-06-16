@@ -3,7 +3,7 @@
 empty
 -------------------------------
 
-.. cpp:function:: Tensor empty ( const IntArray & shape , const Place & place = CPUPlace ( ) ) ;
+.. cpp:function:: Tensor empty ( const IntArray & shape , const Place & place = CPUPlace ( ) ) 
 
 
 

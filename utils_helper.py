@@ -18,6 +18,9 @@ class func_helper(object):
         # 解析 api 信息
         self.func_name = self.function_dict["name"]
         self.api = self.function_dict["debug"].replace("PADDLE_API ", "")
+        # 删除最后一个字符;
+        if self.api.endswith(';'):
+            self.api = self.api[:-1]
         self.namespace = self.function_dict["namespace"].replace("::", "_")
         doxygen = (
             self.function_dict.get("doxygen", "")
@@ -227,6 +230,7 @@ class class_helper(object):
             ith_function = self.class_dict["methods"]["public"][i]
 
             function_name = ith_function['debug']
+            # if function_name.endswith('')
             # 获取描述
             funcs_doxygen = (
                 ith_function.get("doxygen", "")

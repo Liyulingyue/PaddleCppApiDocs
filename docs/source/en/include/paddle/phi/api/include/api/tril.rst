@@ -3,7 +3,7 @@
 tril
 -------------------------------
 
-.. cpp:function:: Tensor tril ( const Tensor & x , int diagonal ) ;
+.. cpp:function:: Tensor tril ( const Tensor & x , int diagonal ) 
 
 
 

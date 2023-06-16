@@ -3,7 +3,7 @@
 expm1
 -------------------------------
 
-.. cpp:function:: Tensor expm1 ( const Tensor & x ) ;
+.. cpp:function:: Tensor expm1 ( const Tensor & x ) 
 
 
 

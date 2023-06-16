@@ -3,7 +3,7 @@
 pow
 -------------------------------
 
-.. cpp:function:: Tensor pow ( const Tensor & x , const Scalar & y = 1.0 f ) ;
+.. cpp:function:: Tensor pow ( const Tensor & x , const Scalar & y = 1.0 f ) 
 
 
 

@@ -3,7 +3,7 @@
 equal
 -------------------------------
 
-.. cpp:function:: Tensor equal ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor equal ( const Tensor & x , const Tensor & y ) 
 
 
 

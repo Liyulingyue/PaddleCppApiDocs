@@ -3,7 +3,7 @@
 dot
 -------------------------------
 
-.. cpp:function:: Tensor dot ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor dot ( const Tensor & x , const Tensor & y ) 
 
 
 

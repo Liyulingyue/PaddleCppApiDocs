@@ -3,7 +3,7 @@
 erf
 -------------------------------
 
-.. cpp:function:: Tensor erf ( const Tensor & x ) ;
+.. cpp:function:: Tensor erf ( const Tensor & x ) 
 
 
 

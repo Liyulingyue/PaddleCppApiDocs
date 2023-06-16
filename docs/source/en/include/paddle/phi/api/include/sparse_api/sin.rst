@@ -3,7 +3,7 @@
 sin
 -------------------------------
 
-.. cpp:function:: Tensor sin ( const Tensor & x ) ;
+.. cpp:function:: Tensor sin ( const Tensor & x ) 
 
 
 

@@ -3,7 +3,7 @@
 elu
 -------------------------------
 
-.. cpp:function:: Tensor elu ( const Tensor & x , float alpha = 1.0 f ) ;
+.. cpp:function:: Tensor elu ( const Tensor & x , float alpha = 1.0 f ) 
 
 
 

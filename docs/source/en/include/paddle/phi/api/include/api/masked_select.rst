@@ -3,7 +3,7 @@
 masked_select
 -------------------------------
 
-.. cpp:function:: Tensor masked_select ( const Tensor & x , const Tensor & mask ) ;
+.. cpp:function:: Tensor masked_select ( const Tensor & x , const Tensor & mask ) 
 
 
 

@@ -3,7 +3,7 @@
 mv
 -------------------------------
 
-.. cpp:function:: Tensor mv ( const Tensor & x , const Tensor & vec ) ;
+.. cpp:function:: Tensor mv ( const Tensor & x , const Tensor & vec ) 
 
 
 

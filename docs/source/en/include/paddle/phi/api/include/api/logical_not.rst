@@ -3,7 +3,7 @@
 logical_not
 -------------------------------
 
-.. cpp:function:: Tensor logical_not ( const Tensor & x ) ;
+.. cpp:function:: Tensor logical_not ( const Tensor & x ) 
 
 
 

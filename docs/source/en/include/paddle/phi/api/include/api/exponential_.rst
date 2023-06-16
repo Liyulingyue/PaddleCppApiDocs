@@ -3,7 +3,7 @@
 exponential_
 -------------------------------
 
-.. cpp:function:: Tensor & exponential_ ( Tensor & x , float lam ) ;
+.. cpp:function:: Tensor & exponential_ ( Tensor & x , float lam ) 
 
 
 

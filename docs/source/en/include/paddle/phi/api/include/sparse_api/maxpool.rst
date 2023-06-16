@@ -3,7 +3,7 @@
 maxpool
 -------------------------------
 
-.. cpp:function:: Tensor maxpool ( const Tensor & x , const std::vector<int> & kernel_sizes , const std::vector<int> & paddings , const std::vector<int> & dilations , const std::vector<int> & strides ) ;
+.. cpp:function:: Tensor maxpool ( const Tensor & x , const std::vector<int> & kernel_sizes , const std::vector<int> & paddings , const std::vector<int> & dilations , const std::vector<int> & strides ) 
 
 
 

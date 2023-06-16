@@ -3,7 +3,7 @@
 is_empty
 -------------------------------
 
-.. cpp:function:: Tensor is_empty ( const Tensor & x ) ;
+.. cpp:function:: Tensor is_empty ( const Tensor & x ) 
 
 
 

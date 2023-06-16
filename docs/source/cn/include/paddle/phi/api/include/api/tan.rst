@@ -3,7 +3,7 @@
 tan
 -------------------------------
 
-.. cpp:function:: Tensor tan ( const Tensor & x ) ;
+.. cpp:function:: Tensor tan ( const Tensor & x ) 
 
 
 

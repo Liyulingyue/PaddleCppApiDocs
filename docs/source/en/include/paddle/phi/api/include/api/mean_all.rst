@@ -3,7 +3,7 @@
 mean_all
 -------------------------------
 
-.. cpp:function:: Tensor mean_all ( const Tensor & x ) ;
+.. cpp:function:: Tensor mean_all ( const Tensor & x ) 
 
 
 

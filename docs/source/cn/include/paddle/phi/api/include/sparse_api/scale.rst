@@ -3,7 +3,7 @@
 scale
 -------------------------------
 
-.. cpp:function:: Tensor scale ( const Tensor & x , float scale , float bias , bool bias_after_scale ) ;
+.. cpp:function:: Tensor scale ( const Tensor & x , float scale , float bias , bool bias_after_scale ) 
 
 
 

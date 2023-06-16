@@ -3,7 +3,7 @@
 log1p
 -------------------------------
 
-.. cpp:function:: Tensor log1p ( const Tensor & x ) ;
+.. cpp:function:: Tensor log1p ( const Tensor & x ) 
 
 
 

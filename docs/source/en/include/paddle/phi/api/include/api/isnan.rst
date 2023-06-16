@@ -3,7 +3,7 @@
 isnan
 -------------------------------
 
-.. cpp:function:: Tensor isnan ( const Tensor & x ) ;
+.. cpp:function:: Tensor isnan ( const Tensor & x ) 
 
 
 

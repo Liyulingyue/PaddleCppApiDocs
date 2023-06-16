@@ -3,7 +3,7 @@
 rsqrt
 -------------------------------
 
-.. cpp:function:: Tensor rsqrt ( const Tensor & x ) ;
+.. cpp:function:: Tensor rsqrt ( const Tensor & x ) 
 
 
 

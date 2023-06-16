@@ -3,7 +3,7 @@
 gather
 -------------------------------
 
-.. cpp:function:: Tensor gather ( const Tensor & x , const Tensor & index , const Scalar & axis = 0 ) ;
+.. cpp:function:: Tensor gather ( const Tensor & x , const Tensor & index , const Scalar & axis = 0 ) 
 
 
 

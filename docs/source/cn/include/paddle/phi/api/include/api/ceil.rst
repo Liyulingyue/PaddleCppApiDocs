@@ -3,7 +3,7 @@
 ceil
 -------------------------------
 
-.. cpp:function:: Tensor ceil ( const Tensor & x ) ;
+.. cpp:function:: Tensor ceil ( const Tensor & x ) 
 
 
 

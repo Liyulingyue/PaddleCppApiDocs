@@ -3,7 +3,7 @@
 concat
 -------------------------------
 
-.. cpp:function:: Tensor concat ( const std::vector<Tensor> & x , const Scalar & axis ) ;
+.. cpp:function:: Tensor concat ( const std::vector<Tensor> & x , const Scalar & axis ) 
 
 
 

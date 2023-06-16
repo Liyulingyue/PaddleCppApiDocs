@@ -3,7 +3,7 @@
 reshape_
 -------------------------------
 
-.. cpp:function:: Tensor & reshape_ ( Tensor & x , const IntArray & shape ) ;
+.. cpp:function:: Tensor & reshape_ ( Tensor & x , const IntArray & shape ) 
 
 
 

@@ -3,7 +3,7 @@
 greater_equal
 -------------------------------
 
-.. cpp:function:: Tensor greater_equal ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor greater_equal ( const Tensor & x , const Tensor & y ) 
 
 
 

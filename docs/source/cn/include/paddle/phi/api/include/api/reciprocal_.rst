@@ -3,7 +3,7 @@
 reciprocal_
 -------------------------------
 
-.. cpp:function:: Tensor & reciprocal_ ( Tensor & x ) ;
+.. cpp:function:: Tensor & reciprocal_ ( Tensor & x ) 
 
 
 

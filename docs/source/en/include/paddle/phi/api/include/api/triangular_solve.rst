@@ -3,7 +3,7 @@
 triangular_solve
 -------------------------------
 
-.. cpp:function:: Tensor triangular_solve ( const Tensor & x , const Tensor & y , bool upper = true , bool transpose = false , bool unitriangular = false ) ;
+.. cpp:function:: Tensor triangular_solve ( const Tensor & x , const Tensor & y , bool upper = true , bool transpose = false , bool unitriangular = false ) 
 
 
 

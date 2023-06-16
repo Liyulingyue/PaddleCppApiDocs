@@ -3,7 +3,7 @@
 where
 -------------------------------
 
-.. cpp:function:: Tensor where ( const Tensor & condition , const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor where ( const Tensor & condition , const Tensor & x , const Tensor & y ) 
 
 
 

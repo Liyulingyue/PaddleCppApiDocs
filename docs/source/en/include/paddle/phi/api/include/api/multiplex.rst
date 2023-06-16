@@ -3,7 +3,7 @@
 multiplex
 -------------------------------
 
-.. cpp:function:: Tensor multiplex ( const std::vector<Tensor> & inputs , const Tensor & index ) ;
+.. cpp:function:: Tensor multiplex ( const std::vector<Tensor> & inputs , const Tensor & index ) 
 
 
 

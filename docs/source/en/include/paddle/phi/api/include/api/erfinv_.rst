@@ -3,7 +3,7 @@
 erfinv_
 -------------------------------
 
-.. cpp:function:: Tensor & erfinv_ ( Tensor & x ) ;
+.. cpp:function:: Tensor & erfinv_ ( Tensor & x ) 
 
 
 

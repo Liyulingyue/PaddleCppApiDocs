@@ -3,7 +3,7 @@
 meshgrid
 -------------------------------
 
-.. cpp:function:: std::vector<Tensor> meshgrid ( const std::vector<Tensor> & inputs ) ;
+.. cpp:function:: std::vector<Tensor> meshgrid ( const std::vector<Tensor> & inputs ) 
 
 
 

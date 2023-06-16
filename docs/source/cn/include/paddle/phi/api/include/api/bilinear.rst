@@ -3,7 +3,7 @@
 bilinear
 -------------------------------
 
-.. cpp:function:: Tensor bilinear ( const Tensor & x , const Tensor & y , const Tensor & weight , const paddle::optional<Tensor> & bias ) ;
+.. cpp:function:: Tensor bilinear ( const Tensor & x , const Tensor & y , const Tensor & weight , const paddle::optional<Tensor> & bias ) 
 
 
 

@@ -3,7 +3,7 @@
 log_loss
 -------------------------------
 
-.. cpp:function:: Tensor log_loss ( const Tensor & input , const Tensor & label , float epsilon ) ;
+.. cpp:function:: Tensor log_loss ( const Tensor & input , const Tensor & label , float epsilon ) 
 
 
 

@@ -3,7 +3,7 @@
 renorm
 -------------------------------
 
-.. cpp:function:: Tensor renorm ( const Tensor & x , float p , int axis , float max_norm ) ;
+.. cpp:function:: Tensor renorm ( const Tensor & x , float p , int axis , float max_norm ) 
 
 
 

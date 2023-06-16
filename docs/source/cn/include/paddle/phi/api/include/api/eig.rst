@@ -3,7 +3,7 @@
 eig
 -------------------------------
 
-.. cpp:function:: std::tuple<Tensor , Tensor> eig ( const Tensor & x ) ;
+.. cpp:function:: std::tuple<Tensor , Tensor> eig ( const Tensor & x ) 
 
 
 

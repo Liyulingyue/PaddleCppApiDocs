@@ -3,7 +3,7 @@
 asinh
 -------------------------------
 
-.. cpp:function:: Tensor asinh ( const Tensor & x ) ;
+.. cpp:function:: Tensor asinh ( const Tensor & x ) 
 
 
 

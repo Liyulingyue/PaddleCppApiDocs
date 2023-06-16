@@ -3,7 +3,7 @@
 less_than
 -------------------------------
 
-.. cpp:function:: Tensor less_than ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor less_than ( const Tensor & x , const Tensor & y ) 
 
 
 

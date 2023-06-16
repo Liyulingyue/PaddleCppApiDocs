@@ -3,7 +3,7 @@
 bmm
 -------------------------------
 
-.. cpp:function:: Tensor bmm ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor bmm ( const Tensor & x , const Tensor & y ) 
 
 
 

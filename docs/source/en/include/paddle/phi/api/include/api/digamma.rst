@@ -3,7 +3,7 @@
 digamma
 -------------------------------
 
-.. cpp:function:: Tensor digamma ( const Tensor & x ) ;
+.. cpp:function:: Tensor digamma ( const Tensor & x ) 
 
 
 

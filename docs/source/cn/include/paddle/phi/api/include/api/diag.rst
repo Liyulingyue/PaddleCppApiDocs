@@ -3,7 +3,7 @@
 diag
 -------------------------------
 
-.. cpp:function:: Tensor diag ( const Tensor & x , int offset = 0 , float padding_value = 0.0 ) ;
+.. cpp:function:: Tensor diag ( const Tensor & x , int offset = 0 , float padding_value = 0.0 ) 
 
 
 

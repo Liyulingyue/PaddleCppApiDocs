@@ -3,7 +3,7 @@
 poisson
 -------------------------------
 
-.. cpp:function:: Tensor poisson ( const Tensor & x ) ;
+.. cpp:function:: Tensor poisson ( const Tensor & x ) 
 
 
 

@@ -3,7 +3,7 @@
 empty_like
 -------------------------------
 
-.. cpp:function:: Tensor empty_like ( const Tensor & x , DataType dtype = DataType::UNDEFINED , const Place & place = { } ) ;
+.. cpp:function:: Tensor empty_like ( const Tensor & x , DataType dtype = DataType::UNDEFINED , const Place & place = { } ) 
 
 
 

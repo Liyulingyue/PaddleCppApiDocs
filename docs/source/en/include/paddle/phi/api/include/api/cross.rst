@@ -3,7 +3,7 @@
 cross
 -------------------------------
 
-.. cpp:function:: Tensor cross ( const Tensor & x , const Tensor & y , int axis = 9 ) ;
+.. cpp:function:: Tensor cross ( const Tensor & x , const Tensor & y , int axis = 9 ) 
 
 
 

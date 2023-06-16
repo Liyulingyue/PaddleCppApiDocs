@@ -3,7 +3,7 @@
 conj
 -------------------------------
 
-.. cpp:function:: Tensor conj ( const Tensor & x ) ;
+.. cpp:function:: Tensor conj ( const Tensor & x ) 
 
 
 

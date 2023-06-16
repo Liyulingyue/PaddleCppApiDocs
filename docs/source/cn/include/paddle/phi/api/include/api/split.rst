@@ -3,7 +3,7 @@
 split
 -------------------------------
 
-.. cpp:function:: std::vector<Tensor> split ( const Tensor & x , const IntArray & sections , const Scalar & axis ) ;
+.. cpp:function:: std::vector<Tensor> split ( const Tensor & x , const IntArray & sections , const Scalar & axis ) 
 
 
 

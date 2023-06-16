@@ -3,7 +3,7 @@
 copy_to
 -------------------------------
 
-.. cpp:function:: Tensor copy_to ( const Tensor & x , const Place & place , bool blocking ) ;
+.. cpp:function:: Tensor copy_to ( const Tensor & x , const Place & place , bool blocking ) 
 
 
 

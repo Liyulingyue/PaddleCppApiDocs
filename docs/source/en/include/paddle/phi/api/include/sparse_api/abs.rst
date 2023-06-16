@@ -3,7 +3,7 @@
 abs
 -------------------------------
 
-.. cpp:function:: Tensor abs ( const Tensor & x ) ;
+.. cpp:function:: Tensor abs ( const Tensor & x ) 
 
 
 

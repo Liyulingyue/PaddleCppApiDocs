@@ -3,7 +3,7 @@
 solve
 -------------------------------
 
-.. cpp:function:: Tensor solve ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor solve ( const Tensor & x , const Tensor & y ) 
 
 
 

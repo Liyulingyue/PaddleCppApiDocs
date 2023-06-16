@@ -3,7 +3,7 @@
 put_along_axis
 -------------------------------
 
-.. cpp:function:: Tensor put_along_axis ( const Tensor & arr , const Tensor & indices , const Tensor & values , int axis , const std::string & reduce = "assign" ) ;
+.. cpp:function:: Tensor put_along_axis ( const Tensor & arr , const Tensor & indices , const Tensor & values , int axis , const std::string & reduce = "assign" ) 
 
 
 

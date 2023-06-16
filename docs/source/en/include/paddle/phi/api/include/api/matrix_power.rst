@@ -3,7 +3,7 @@
 matrix_power
 -------------------------------
 
-.. cpp:function:: Tensor matrix_power ( const Tensor & x , int n ) ;
+.. cpp:function:: Tensor matrix_power ( const Tensor & x , int n ) 
 
 
 

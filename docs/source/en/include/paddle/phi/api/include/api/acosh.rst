@@ -3,7 +3,7 @@
 acosh
 -------------------------------
 
-.. cpp:function:: Tensor acosh ( const Tensor & x ) ;
+.. cpp:function:: Tensor acosh ( const Tensor & x ) 
 
 
 

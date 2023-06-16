@@ -3,7 +3,7 @@
 sinh
 -------------------------------
 
-.. cpp:function:: Tensor sinh ( const Tensor & x ) ;
+.. cpp:function:: Tensor sinh ( const Tensor & x ) 
 
 
 

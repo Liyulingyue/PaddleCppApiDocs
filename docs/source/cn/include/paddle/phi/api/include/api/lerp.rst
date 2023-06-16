@@ -3,7 +3,7 @@
 lerp
 -------------------------------
 
-.. cpp:function:: Tensor lerp ( const Tensor & x , const Tensor & y , const Tensor & weight ) ;
+.. cpp:function:: Tensor lerp ( const Tensor & x , const Tensor & y , const Tensor & weight ) 
 
 
 

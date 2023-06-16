@@ -3,7 +3,7 @@
 kron
 -------------------------------
 
-.. cpp:function:: Tensor kron ( const Tensor & x , const Tensor & y ) ;
+.. cpp:function:: Tensor kron ( const Tensor & x , const Tensor & y ) 
 
 
 

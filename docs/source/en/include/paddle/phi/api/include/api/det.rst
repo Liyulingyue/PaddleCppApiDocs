@@ -3,7 +3,7 @@
 det
 -------------------------------
 
-.. cpp:function:: Tensor det ( const Tensor & x ) ;
+.. cpp:function:: Tensor det ( const Tensor & x ) 
 
 
 
