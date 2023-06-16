@@ -6,9 +6,10 @@ reshape_
 .. cpp:function:: Tensor & reshape_ ( Tensor & x , const IntArray & shape ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

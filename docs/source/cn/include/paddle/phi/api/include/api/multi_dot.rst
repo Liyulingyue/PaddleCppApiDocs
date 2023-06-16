@@ -6,11 +6,12 @@ multi_dot
 .. cpp:function:: Tensor multi_dot ( const std::vector<Tensor> & x ) ;
 
 
+
 本 API 与 Python API 对齐，详细用法可参考链接：[paddle.multi_dot](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/multi_dot_cn.html)
 
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 参数
 :::::::::::::::::::::

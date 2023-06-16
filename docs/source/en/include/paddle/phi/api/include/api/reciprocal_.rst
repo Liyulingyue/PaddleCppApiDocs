@@ -6,9 +6,10 @@ reciprocal_
 .. cpp:function:: Tensor & reciprocal_ ( Tensor & x ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

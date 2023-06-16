@@ -6,11 +6,12 @@ send_u_recv
 .. cpp:function:: Tensor send_u_recv ( const Tensor & x , const Tensor & src_index , const Tensor & dst_index , const std::string & reduce_op = "SUM" , const IntArray & out_size = { 0 } ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.send_u_recv](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/send_u_recv_en.html)
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

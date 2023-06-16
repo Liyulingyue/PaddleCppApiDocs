@@ -6,9 +6,10 @@ softplus
 .. cpp:function:: Tensor softplus ( const Tensor & x , float beta = 1.0 , float threshold = 20.0 f ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

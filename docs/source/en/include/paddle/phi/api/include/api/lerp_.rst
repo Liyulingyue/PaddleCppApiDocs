@@ -6,9 +6,10 @@ lerp_
 .. cpp:function:: Tensor & lerp_ ( Tensor & x , const Tensor & y , const Tensor & weight ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

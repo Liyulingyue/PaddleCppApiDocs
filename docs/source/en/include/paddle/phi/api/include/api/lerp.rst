@@ -6,11 +6,12 @@ lerp
 .. cpp:function:: Tensor lerp ( const Tensor & x , const Tensor & y , const Tensor & weight ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.lerp](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/lerp_en.html)
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

@@ -6,9 +6,10 @@ index_put_
 .. cpp:function:: Tensor & index_put_ ( Tensor & x , const std::vector<Tensor> & indices , const Tensor & value , bool accumulate = false ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 参数
 :::::::::::::::::::::

@@ -6,9 +6,10 @@ scatter_
 .. cpp:function:: Tensor & scatter_ ( Tensor & x , const Tensor & index , const Tensor & updates , bool overwrite = true ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

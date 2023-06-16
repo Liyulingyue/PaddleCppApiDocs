@@ -6,9 +6,10 @@ stanh
 .. cpp:function:: Tensor stanh ( const Tensor & x , float scale_a = 0.67 f , float scale_b = 1.7159 f ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

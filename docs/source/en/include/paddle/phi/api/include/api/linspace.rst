@@ -6,9 +6,10 @@ linspace
 .. cpp:function:: Tensor linspace ( const Tensor & start , const Tensor & stop , const Tensor & number , DataType dtype , const Place & place ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

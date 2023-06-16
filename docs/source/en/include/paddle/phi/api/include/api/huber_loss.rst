@@ -6,9 +6,10 @@ huber_loss
 .. cpp:function:: Tensor huber_loss ( const Tensor & input , const Tensor & label , float delta ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

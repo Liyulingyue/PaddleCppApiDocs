@@ -6,9 +6,10 @@ add_n
 .. cpp:function:: Tensor add_n ( const std::vector<Tensor> & inputs ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

@@ -6,11 +6,12 @@ logit
 .. cpp:function:: Tensor logit ( const Tensor & x , float eps = 1e - 6f ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.logit](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/logit_en.html)
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

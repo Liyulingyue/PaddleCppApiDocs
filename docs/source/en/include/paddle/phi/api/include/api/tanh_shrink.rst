@@ -6,9 +6,10 @@ tanh_shrink
 .. cpp:function:: Tensor tanh_shrink ( const Tensor & x ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

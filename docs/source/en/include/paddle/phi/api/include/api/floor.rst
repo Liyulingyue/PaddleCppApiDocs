@@ -6,11 +6,12 @@ floor
 .. cpp:function:: Tensor floor ( const Tensor & x ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.floor](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/floor_en.html)
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

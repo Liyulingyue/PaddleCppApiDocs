@@ -6,9 +6,10 @@ increment_
 .. cpp:function:: Tensor & increment_ ( Tensor & x , float value = 1.0 ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

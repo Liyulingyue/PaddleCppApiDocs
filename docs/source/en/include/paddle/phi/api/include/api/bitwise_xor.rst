@@ -6,9 +6,10 @@ bitwise_xor
 .. cpp:function:: Tensor bitwise_xor ( const Tensor & x , const Tensor & y ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

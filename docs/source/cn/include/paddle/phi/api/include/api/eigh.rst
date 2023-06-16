@@ -6,9 +6,10 @@ eigh
 .. cpp:function:: std::tuple<Tensor , Tensor> eigh ( const Tensor & x , const std::string & UPLO = "L" ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 参数
 :::::::::::::::::::::

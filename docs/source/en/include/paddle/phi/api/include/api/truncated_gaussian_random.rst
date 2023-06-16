@@ -6,9 +6,10 @@ truncated_gaussian_random
 .. cpp:function:: Tensor truncated_gaussian_random ( const std::vector<int> & shape , float mean , float std , int seed , DataType dtype = DataType::FLOAT32 , const Place & place = { } ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

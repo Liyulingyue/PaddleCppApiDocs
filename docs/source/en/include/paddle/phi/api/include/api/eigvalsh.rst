@@ -6,9 +6,10 @@ eigvalsh
 .. cpp:function:: std::tuple<Tensor , Tensor> eigvalsh ( const Tensor & x , const std::string & uplo = "L" , bool is_test = false ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

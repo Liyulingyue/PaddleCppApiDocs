@@ -6,11 +6,12 @@ empty_like
 .. cpp:function:: Tensor empty_like ( const Tensor & x , const Place & place = { } ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.empty_like](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/empty_like_en.html)
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/strings_api.h
+paddle\include\paddle\phi\api\include\strings_api.h
 
 Parameters
 :::::::::::::::::::::

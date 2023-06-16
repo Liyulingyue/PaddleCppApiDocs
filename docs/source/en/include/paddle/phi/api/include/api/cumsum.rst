@@ -6,9 +6,10 @@ cumsum
 .. cpp:function:: Tensor cumsum ( const Tensor & x , const Scalar & axis , bool flatten , bool exclusive , bool reverse ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

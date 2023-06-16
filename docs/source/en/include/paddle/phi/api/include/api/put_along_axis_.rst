@@ -6,9 +6,10 @@ put_along_axis_
 .. cpp:function:: Tensor & put_along_axis_ ( Tensor & arr , const Tensor & indices , const Tensor & values , int axis , const std::string & reduce = "assign" ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

@@ -6,9 +6,10 @@ trans_layout
 .. cpp:function:: Tensor trans_layout ( const Tensor & x , const std::vector<int> & perm ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

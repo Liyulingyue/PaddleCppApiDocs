@@ -6,9 +6,10 @@ multiplex
 .. cpp:function:: Tensor multiplex ( const std::vector<Tensor> & inputs , const Tensor & index ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

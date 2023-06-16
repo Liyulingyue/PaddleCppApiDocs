@@ -6,9 +6,10 @@ lstsq
 .. cpp:function:: std::tuple<Tensor , Tensor , Tensor , Tensor> lstsq ( const Tensor & x , const Tensor & y , const Scalar & rcond = 0.0 f , const std::string & driver = "gels" ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

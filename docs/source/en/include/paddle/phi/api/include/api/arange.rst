@@ -6,9 +6,10 @@ arange
 .. cpp:function:: Tensor arange ( const Tensor & start , const Tensor & end , const Tensor & step , DataType dtype , const Place & place = { } ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

@@ -6,9 +6,10 @@ nanmedian
 .. cpp:function:: Tensor nanmedian ( const Tensor & x , const IntArray & axis = { } , bool keepdim = true ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

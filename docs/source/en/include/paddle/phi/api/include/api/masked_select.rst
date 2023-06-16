@@ -6,11 +6,12 @@ masked_select
 .. cpp:function:: Tensor masked_select ( const Tensor & x , const Tensor & mask ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.masked_select](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/masked_select_en.html)
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

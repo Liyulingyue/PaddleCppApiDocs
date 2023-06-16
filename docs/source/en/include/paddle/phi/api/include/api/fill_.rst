@@ -6,9 +6,10 @@ fill_
 .. cpp:function:: Tensor & fill_ ( Tensor & x , const Scalar & value ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

@@ -6,9 +6,10 @@ channel_shuffle
 .. cpp:function:: Tensor channel_shuffle ( const Tensor & x , int groups , const std::string & data_format = "NCHW" ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

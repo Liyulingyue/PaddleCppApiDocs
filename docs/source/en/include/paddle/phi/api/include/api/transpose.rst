@@ -6,9 +6,10 @@ transpose
 .. cpp:function:: Tensor transpose ( const Tensor & x , const std::vector<int> & perm ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

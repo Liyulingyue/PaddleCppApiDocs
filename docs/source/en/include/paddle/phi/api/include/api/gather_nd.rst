@@ -6,11 +6,12 @@ gather_nd
 .. cpp:function:: Tensor gather_nd ( const Tensor & x , const Tensor & index ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.gather_nd](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/gather_nd_en.html)
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

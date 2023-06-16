@@ -6,11 +6,12 @@ hardswish
 .. cpp:function:: Tensor hardswish ( const Tensor & x ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.hardswish](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/hardswish_en.html)
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

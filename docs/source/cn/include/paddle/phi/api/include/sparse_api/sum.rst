@@ -6,9 +6,10 @@ sum
 .. cpp:function:: Tensor sum ( const Tensor & x , const IntArray & axis = { } , DataType dtype = DataType::UNDEFINED , bool keepdim = false ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/sparse_api.h
+paddle\include\paddle\phi\api\include\sparse_api.h
 
 参数
 :::::::::::::::::::::

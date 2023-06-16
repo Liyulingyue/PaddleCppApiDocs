@@ -4,12 +4,13 @@ GetAllocator
 -------------------------------
 
 .. cpp:function:: phi::Allocator * GetAllocator ( const phi::Place & place ) ;
+
  Get the Allocator for the passed place.
 
 
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/context_pool.h
+paddle\include\paddle\phi\api\include\context_pool.h
 
 参数
 :::::::::::::::::::::

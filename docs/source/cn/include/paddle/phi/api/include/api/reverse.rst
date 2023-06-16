@@ -6,9 +6,10 @@ reverse
 .. cpp:function:: Tensor reverse ( const Tensor & x , const IntArray & axis ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 参数
 :::::::::::::::::::::

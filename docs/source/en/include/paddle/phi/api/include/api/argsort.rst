@@ -6,11 +6,12 @@ argsort
 .. cpp:function:: std::tuple<Tensor , Tensor> argsort ( const Tensor & x , int axis = - 1 , bool descending = false ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.argsort](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/argsort_en.html)
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

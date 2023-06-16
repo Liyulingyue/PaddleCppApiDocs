@@ -6,9 +6,10 @@ bitwise_not
 .. cpp:function:: Tensor bitwise_not ( const Tensor & x ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

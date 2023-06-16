@@ -6,35 +6,20 @@ Overview
 本文档的应用场景为 C++ 训练，并主要在自定义算子开发时使用。本文档内容持续迭代中，在下个版本可能会有不兼容的升级，如果不介意随下一版本升级的话，可以使用，追求稳定的话则不建议使用。
 
 ## 头文件索引
-### [init_phi.h](paddle/include/paddle/fluid/platform/init_phi.h)
+### [init_phi.h](paddle\include\paddle\fluid\platform\init_phi.h)
 #### classes
 - InitPhi
 
-### [device_context.h](paddle/include/paddle/phi/core/device_context.h)
+### [op_meta_info.h](paddle\include\paddle\phi\api\ext\op_meta_info.h)
 #### classes
-- DeviceContext
-
-### [gpu_context.h](paddle/include/paddle/phi/backends/gpu/gpu_context.h)
-#### classes
-- GPUContext
-
-### [cpu_context.h](paddle/include/paddle/phi/backends/cpu/cpu_context.h)
-#### classes
-- CPUContext
-
-### [place.h](paddle/include/paddle/phi/common/place.h)
-#### classes
-- Place
+- CustomOpKernelContext
+- OpMetaInfo
+- OpMetaInfoMap
+- OpMetaInfoBuilder
 #### functions
-- operator==
-- operator==
-- DefaultGPUPlace
+- AssignTensorImpl
 
-### [tensor_utils.h](paddle/include/paddle/phi/api/include/tensor_utils.h)
-#### functions
-- from_blob
-
-### [api.h](paddle/include/paddle/phi/api/include/api.h)
+### [api.h](paddle\include\paddle\phi\api\include\api.h)
 #### functions
 - abs
 - accuracy
@@ -135,7 +120,6 @@ Overview
 - flip
 - floor
 - floor_
-- fmax
 - fold
 - frame
 - gather_nd
@@ -353,12 +337,12 @@ Overview
 - fill
 - fill_
 - floor_divide
+- fmax
 - fmin
 - frobenius_norm
 - full
 - full_
 - full_batch_size_like
-- full_int_array
 - full_like
 - fused_adam_
 - gather
@@ -435,23 +419,21 @@ Overview
 - zeros
 - zeros_like
 
-### [strings_api.h](paddle/include/paddle/phi/api/include/strings_api.h)
-#### functions
-- empty
-- empty_like
-- lower
-- upper
-
-### [context_pool.h](paddle/include/paddle/phi/api/include/context_pool.h)
+### [context_pool.h](paddle\include\paddle\phi\api\include\context_pool.h)
 #### classes
 - DeviceContextPool
 #### functions
 - GetAllocator
 - GetCurrentCUDAStream
 
-### [dll_decl.h](paddle/include/paddle/phi/api/include/dll_decl.h)
+### [dll_decl.h](paddle\include\paddle\phi\api\include\dll_decl.h)
 
-### [sparse_api.h](paddle/include/paddle/phi/api/include/sparse_api.h)
+### [fused_api.h](paddle\include\paddle\phi\api\include\fused_api.h)
+#### functions
+- fused_dropout_add
+- fused_linear_param_grad_add
+
+### [sparse_api.h](paddle\include\paddle\phi\api\include\sparse_api.h)
 #### functions
 - abs
 - acos
@@ -502,12 +484,14 @@ Overview
 - mv
 - slice
 
-### [fused_api.h](paddle/include/paddle/phi/api/include/fused_api.h)
+### [strings_api.h](paddle\include\paddle\phi\api\include\strings_api.h)
 #### functions
-- fused_dropout_add
-- fused_linear_param_grad_add
+- empty
+- empty_like
+- lower
+- upper
 
-### [tensor.h](paddle/include/paddle/phi/api/include/tensor.h)
+### [tensor.h](paddle\include\paddle\phi\api\include\tensor.h)
 #### classes
 - Tensor
 #### functions
@@ -516,22 +500,38 @@ Overview
 - operator*
 - operator/
 
-### [op_meta_info.h](paddle/include/paddle/phi/api/ext/op_meta_info.h)
-#### classes
-- CustomOpKernelContext
-- OpMetaInfo
-- OpMetaInfoMap
-- OpMetaInfoBuilder
+### [tensor_utils.h](paddle\include\paddle\phi\api\include\tensor_utils.h)
 #### functions
-- AssignTensorImpl
+- from_blob
+
+### [cpu_context.h](paddle\include\paddle\phi\backends\cpu\cpu_context.h)
+#### classes
+- CPUContext
+
+### [gpu_context.h](paddle\include\paddle\phi\backends\gpu\gpu_context.h)
+#### classes
+- GPUContext
+
+### [place.h](paddle\include\paddle\phi\common\place.h)
+#### classes
+- Place
+#### functions
+- operator==
+- operator==
+- DefaultGPUPlace
+
+### [device_context.h](paddle\include\paddle\phi\core\device_context.h)
+#### classes
+- DeviceContext
 
 ## 命名空间索引
 ### paddle::
 - InitPhi
-- operator==
-- operator==
-- DefaultGPUPlace
-- from_blob
+- CustomOpKernelContext
+- OpMetaInfo
+- OpMetaInfoMap
+- OpMetaInfoBuilder
+- AssignTensorImpl
 - GetAllocator
 - GetCurrentCUDAStream
 - Tensor
@@ -539,17 +539,10 @@ Overview
 - operator-
 - operator*
 - operator/
-- CustomOpKernelContext
-- OpMetaInfo
-- OpMetaInfoMap
-- OpMetaInfoBuilder
-- AssignTensorImpl
-
-### phi::
-- DeviceContext
-- GPUContext
-- CPUContext
-- Place
+- from_blob
+- operator==
+- operator==
+- DefaultGPUPlace
 
 ### paddle::experimental::
 - abs
@@ -651,7 +644,6 @@ Overview
 - flip
 - floor
 - floor_
-- fmax
 - fold
 - frame
 - gather_nd
@@ -869,12 +861,12 @@ Overview
 - fill
 - fill_
 - floor_divide
+- fmax
 - fmin
 - frobenius_norm
 - full
 - full_
 - full_batch_size_like
-- full_int_array
 - full_like
 - fused_adam_
 - gather
@@ -954,12 +946,6 @@ Overview
 - fused_dropout_add
 - fused_linear_param_grad_add
 
-### paddle::experimental::strings::
-- empty
-- empty_like
-- lower
-- upper
-
 ### paddle::experimental::sparse::
 - abs
 - acos
@@ -1009,4 +995,16 @@ Overview
 - maxpool
 - mv
 - slice
+
+### paddle::experimental::strings::
+- empty
+- empty_like
+- lower
+- upper
+
+### phi::
+- CPUContext
+- GPUContext
+- Place
+- DeviceContext
 

@@ -6,9 +6,10 @@ bilinear
 .. cpp:function:: Tensor bilinear ( const Tensor & x , const Tensor & y , const Tensor & weight , const paddle::optional<Tensor> & bias ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

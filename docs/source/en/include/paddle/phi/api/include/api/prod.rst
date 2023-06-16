@@ -6,9 +6,10 @@ prod
 .. cpp:function:: Tensor prod ( const Tensor & x , const IntArray & dims , bool keep_dim , bool reduce_all ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

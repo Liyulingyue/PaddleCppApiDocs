@@ -6,9 +6,10 @@ unstack
 .. cpp:function:: std::vector<Tensor> unstack ( const Tensor & x , int axis = 0 , int num = 0 ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

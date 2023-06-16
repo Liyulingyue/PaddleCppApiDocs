@@ -6,9 +6,10 @@ log_softmax
 .. cpp:function:: Tensor log_softmax ( const Tensor & x , int axis = - 1 ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

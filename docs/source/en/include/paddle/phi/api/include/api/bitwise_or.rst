@@ -6,9 +6,10 @@ bitwise_or
 .. cpp:function:: Tensor bitwise_or ( const Tensor & x , const Tensor & y ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

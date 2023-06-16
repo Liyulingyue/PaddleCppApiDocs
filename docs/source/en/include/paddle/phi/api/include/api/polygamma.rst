@@ -6,9 +6,10 @@ polygamma
 .. cpp:function:: Tensor polygamma ( const Tensor & x , int n ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

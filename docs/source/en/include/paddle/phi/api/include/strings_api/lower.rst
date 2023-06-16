@@ -6,9 +6,10 @@ lower
 .. cpp:function:: Tensor lower ( const Tensor & x , bool use_utf8_encoding ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/strings_api.h
+paddle\include\paddle\phi\api\include\strings_api.h
 
 Parameters
 :::::::::::::::::::::

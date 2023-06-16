@@ -6,9 +6,10 @@ rrelu
 .. cpp:function:: Tensor rrelu ( const Tensor & x , float lower , float upper , bool is_test ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

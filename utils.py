@@ -49,6 +49,8 @@ def get_parameters(parameters):
         # special progress for none parameter name case
         if i['name'] == '&':
             continue
+        elif i['name'] == '':
+            continue
         else:
             parameter_dict[i['name']] = {
                 'type': parameter_type_tmp,

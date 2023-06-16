@@ -6,9 +6,10 @@ einsum
 .. cpp:function:: std::tuple<Tensor , std::vector<Tensor> , std::vector<Tensor> > einsum ( const std::vector<Tensor> & x , const std::string & equation ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 参数
 :::::::::::::::::::::

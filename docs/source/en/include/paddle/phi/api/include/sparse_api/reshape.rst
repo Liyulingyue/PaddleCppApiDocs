@@ -6,11 +6,12 @@ reshape
 .. cpp:function:: Tensor reshape ( const Tensor & x , const IntArray & shape ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.reshape](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/reshape_en.html)
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/sparse_api.h
+paddle\include\paddle\phi\api\include\sparse_api.h
 
 Parameters
 :::::::::::::::::::::

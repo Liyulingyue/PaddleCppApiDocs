@@ -1,14 +1,15 @@
 .. _en_api_OpMetaInfo:
 
-OpMetaInfo `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/include/paddle/phi/api/ext/op_meta_info.h>`_
+OpMetaInfo `source <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\api\ext\op_meta_info.h>`_
 -------------------------------
 
 .. cpp:class:: OpMetaInfo
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/ext/op_meta_info.h
+paddle\include\paddle\phi\api\ext\op_meta_info.h
 
 Methods
 :::::::::::::::::::::

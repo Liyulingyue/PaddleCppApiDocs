@@ -6,9 +6,10 @@ check_finite_and_unscale_
 .. cpp:function:: std::tuple<std::vector<Tensor> & , Tensor> check_finite_and_unscale_ ( std::vector<Tensor> & x , const Tensor & scale ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

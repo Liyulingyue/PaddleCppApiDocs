@@ -6,9 +6,10 @@ fill_diagonal_
 .. cpp:function:: Tensor & fill_diagonal_ ( Tensor & x , float value = 0 , int offset = 0 , bool wrap = false ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 参数
 :::::::::::::::::::::

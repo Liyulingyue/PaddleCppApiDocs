@@ -6,11 +6,12 @@ remainder
 .. cpp:function:: Tensor remainder ( const Tensor & x , const Tensor & y ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.remainder](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/remainder_en.html)
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

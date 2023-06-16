@@ -6,9 +6,10 @@ merge_selected_rows
 .. cpp:function:: Tensor merge_selected_rows ( const Tensor & x ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

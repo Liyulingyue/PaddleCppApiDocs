@@ -6,9 +6,10 @@ conv3d
 .. cpp:function:: Tensor conv3d ( const Tensor & x , const Tensor & kernel , const std::vector<int> & paddings , const std::vector<int> & dilations , const std::vector<int> & strides , int groups , bool subm , const std::string & key = "" ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/sparse_api.h
+paddle\include\paddle\phi\api\include\sparse_api.h
 
 Parameters
 :::::::::::::::::::::

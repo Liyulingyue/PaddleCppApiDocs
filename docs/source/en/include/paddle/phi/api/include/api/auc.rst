@@ -6,9 +6,10 @@ auc
 .. cpp:function:: std::tuple<Tensor , Tensor , Tensor> auc ( const Tensor & x , const Tensor & label , const Tensor & stat_pos , const Tensor & stat_neg , const paddle::optional<Tensor> & ins_tag_weight , const std::string & curve = "ROC" , int num_thresholds = ( 2 << 12 ) - 1 , int slide_steps = 1 ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

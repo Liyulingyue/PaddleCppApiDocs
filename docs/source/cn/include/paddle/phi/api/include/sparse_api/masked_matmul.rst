@@ -6,9 +6,10 @@ masked_matmul
 .. cpp:function:: Tensor masked_matmul ( const Tensor & x , const Tensor & y , const Tensor & mask ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/sparse_api.h
+paddle\include\paddle\phi\api\include\sparse_api.h
 
 参数
 :::::::::::::::::::::

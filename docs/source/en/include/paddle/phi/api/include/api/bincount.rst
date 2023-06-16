@@ -6,9 +6,10 @@ bincount
 .. cpp:function:: Tensor bincount ( const Tensor & x , const paddle::optional<Tensor> & weights , const Scalar & minlength = 0 ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

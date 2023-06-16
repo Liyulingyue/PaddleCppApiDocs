@@ -6,9 +6,10 @@ slice
 .. cpp:function:: Tensor slice ( const Tensor & x , const IntArray & axes , const IntArray & starts , const IntArray & ends ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/sparse_api.h
+paddle\include\paddle\phi\api\include\sparse_api.h
 
 Parameters
 :::::::::::::::::::::

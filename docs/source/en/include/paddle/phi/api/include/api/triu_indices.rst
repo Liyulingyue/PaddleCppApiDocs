@@ -6,9 +6,10 @@ triu_indices
 .. cpp:function:: Tensor triu_indices ( int row , int col , int offset , DataType dtype , const Place & place = { } ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

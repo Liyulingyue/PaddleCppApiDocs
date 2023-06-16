@@ -6,11 +6,12 @@ empty
 .. cpp:function:: Tensor empty ( const IntArray & shape , const Place & place = CPUPlace ( ) ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.empty](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/empty_en.html)
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/strings_api.h
+paddle\include\paddle\phi\api\include\strings_api.h
 
 Parameters
 :::::::::::::::::::::

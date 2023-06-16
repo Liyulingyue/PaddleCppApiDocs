@@ -6,11 +6,12 @@ acosh
 .. cpp:function:: Tensor acosh ( const Tensor & x ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.acosh](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/acosh_en.html)
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/sparse_api.h
+paddle\include\paddle\phi\api\include\sparse_api.h
 
 Parameters
 :::::::::::::::::::::

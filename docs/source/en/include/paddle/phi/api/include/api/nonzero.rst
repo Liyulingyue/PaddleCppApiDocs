@@ -6,9 +6,10 @@ nonzero
 .. cpp:function:: Tensor nonzero ( const Tensor & condition ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

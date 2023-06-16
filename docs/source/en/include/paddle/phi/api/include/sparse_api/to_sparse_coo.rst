@@ -6,9 +6,10 @@ to_sparse_coo
 .. cpp:function:: Tensor to_sparse_coo ( const Tensor & x , int64_t sparse_dim ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/sparse_api.h
+paddle\include\paddle\phi\api\include\sparse_api.h
 
 Parameters
 :::::::::::::::::::::

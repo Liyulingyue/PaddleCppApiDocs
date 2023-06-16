@@ -6,11 +6,12 @@ cholesky_solve
 .. cpp:function:: Tensor cholesky_solve ( const Tensor & x , const Tensor & y , bool upper = false ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.cholesky_solve](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/cholesky_solve_en.html)
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

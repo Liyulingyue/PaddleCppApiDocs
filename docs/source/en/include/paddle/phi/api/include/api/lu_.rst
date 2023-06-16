@@ -6,9 +6,10 @@ lu_
 .. cpp:function:: std::tuple<Tensor & , Tensor , Tensor> lu_ ( Tensor & x , bool pivot = true ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

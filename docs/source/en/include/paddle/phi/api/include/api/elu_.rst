@@ -6,9 +6,10 @@ elu_
 .. cpp:function:: Tensor & elu_ ( Tensor & x , float alpha = 1.0 f ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

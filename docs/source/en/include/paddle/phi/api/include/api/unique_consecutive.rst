@@ -6,9 +6,10 @@ unique_consecutive
 .. cpp:function:: std::tuple<Tensor , Tensor , Tensor> unique_consecutive ( const Tensor & x , bool return_inverse = false , bool return_counts = false , const std::vector<int> & axis = { } , int dtype = 5 ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

@@ -6,35 +6,20 @@ In this version, PaddlePaddle has made many optimizations to the C++ APIs. You c
 The application scenario of this document is C++training and is mainly used in the development of custom operators. The content of this document is continuously iterating, and there may be incompatible upgrades in the next version. If you don’t mind upgrading with the next version, you can use it. Otherwise, it is not recommended to use it.
 
 ## Index by header file
-### [init_phi.h](paddle/include/paddle/fluid/platform/init_phi.h)
+### [init_phi.h](paddle\include\paddle\fluid\platform\init_phi.h)
 #### classes
 - InitPhi
 
-### [device_context.h](paddle/include/paddle/phi/core/device_context.h)
+### [op_meta_info.h](paddle\include\paddle\phi\api\ext\op_meta_info.h)
 #### classes
-- DeviceContext
-
-### [gpu_context.h](paddle/include/paddle/phi/backends/gpu/gpu_context.h)
-#### classes
-- GPUContext
-
-### [cpu_context.h](paddle/include/paddle/phi/backends/cpu/cpu_context.h)
-#### classes
-- CPUContext
-
-### [place.h](paddle/include/paddle/phi/common/place.h)
-#### classes
-- Place
+- CustomOpKernelContext
+- OpMetaInfo
+- OpMetaInfoMap
+- OpMetaInfoBuilder
 #### functions
-- operator==
-- operator==
-- DefaultGPUPlace
+- AssignTensorImpl
 
-### [tensor_utils.h](paddle/include/paddle/phi/api/include/tensor_utils.h)
-#### functions
-- from_blob
-
-### [api.h](paddle/include/paddle/phi/api/include/api.h)
+### [api.h](paddle\include\paddle\phi\api\include\api.h)
 #### functions
 - abs
 - accuracy
@@ -135,7 +120,6 @@ The application scenario of this document is C++training and is mainly used in t
 - flip
 - floor
 - floor_
-- fmax
 - fold
 - frame
 - gather_nd
@@ -353,12 +337,12 @@ The application scenario of this document is C++training and is mainly used in t
 - fill
 - fill_
 - floor_divide
+- fmax
 - fmin
 - frobenius_norm
 - full
 - full_
 - full_batch_size_like
-- full_int_array
 - full_like
 - fused_adam_
 - gather
@@ -435,23 +419,21 @@ The application scenario of this document is C++training and is mainly used in t
 - zeros
 - zeros_like
 
-### [strings_api.h](paddle/include/paddle/phi/api/include/strings_api.h)
-#### functions
-- empty
-- empty_like
-- lower
-- upper
-
-### [context_pool.h](paddle/include/paddle/phi/api/include/context_pool.h)
+### [context_pool.h](paddle\include\paddle\phi\api\include\context_pool.h)
 #### classes
 - DeviceContextPool
 #### functions
 - GetAllocator
 - GetCurrentCUDAStream
 
-### [dll_decl.h](paddle/include/paddle/phi/api/include/dll_decl.h)
+### [dll_decl.h](paddle\include\paddle\phi\api\include\dll_decl.h)
 
-### [sparse_api.h](paddle/include/paddle/phi/api/include/sparse_api.h)
+### [fused_api.h](paddle\include\paddle\phi\api\include\fused_api.h)
+#### functions
+- fused_dropout_add
+- fused_linear_param_grad_add
+
+### [sparse_api.h](paddle\include\paddle\phi\api\include\sparse_api.h)
 #### functions
 - abs
 - acos
@@ -502,12 +484,14 @@ The application scenario of this document is C++training and is mainly used in t
 - mv
 - slice
 
-### [fused_api.h](paddle/include/paddle/phi/api/include/fused_api.h)
+### [strings_api.h](paddle\include\paddle\phi\api\include\strings_api.h)
 #### functions
-- fused_dropout_add
-- fused_linear_param_grad_add
+- empty
+- empty_like
+- lower
+- upper
 
-### [tensor.h](paddle/include/paddle/phi/api/include/tensor.h)
+### [tensor.h](paddle\include\paddle\phi\api\include\tensor.h)
 #### classes
 - Tensor
 #### functions
@@ -516,22 +500,38 @@ The application scenario of this document is C++training and is mainly used in t
 - operator*
 - operator/
 
-### [op_meta_info.h](paddle/include/paddle/phi/api/ext/op_meta_info.h)
-#### classes
-- CustomOpKernelContext
-- OpMetaInfo
-- OpMetaInfoMap
-- OpMetaInfoBuilder
+### [tensor_utils.h](paddle\include\paddle\phi\api\include\tensor_utils.h)
 #### functions
-- AssignTensorImpl
+- from_blob
+
+### [cpu_context.h](paddle\include\paddle\phi\backends\cpu\cpu_context.h)
+#### classes
+- CPUContext
+
+### [gpu_context.h](paddle\include\paddle\phi\backends\gpu\gpu_context.h)
+#### classes
+- GPUContext
+
+### [place.h](paddle\include\paddle\phi\common\place.h)
+#### classes
+- Place
+#### functions
+- operator==
+- operator==
+- DefaultGPUPlace
+
+### [device_context.h](paddle\include\paddle\phi\core\device_context.h)
+#### classes
+- DeviceContext
 
 ## Index by namespace
 ### paddle::
 - InitPhi
-- operator==
-- operator==
-- DefaultGPUPlace
-- from_blob
+- CustomOpKernelContext
+- OpMetaInfo
+- OpMetaInfoMap
+- OpMetaInfoBuilder
+- AssignTensorImpl
 - GetAllocator
 - GetCurrentCUDAStream
 - Tensor
@@ -539,17 +539,10 @@ The application scenario of this document is C++training and is mainly used in t
 - operator-
 - operator*
 - operator/
-- CustomOpKernelContext
-- OpMetaInfo
-- OpMetaInfoMap
-- OpMetaInfoBuilder
-- AssignTensorImpl
-
-### phi::
-- DeviceContext
-- GPUContext
-- CPUContext
-- Place
+- from_blob
+- operator==
+- operator==
+- DefaultGPUPlace
 
 ### paddle::experimental::
 - abs
@@ -651,7 +644,6 @@ The application scenario of this document is C++training and is mainly used in t
 - flip
 - floor
 - floor_
-- fmax
 - fold
 - frame
 - gather_nd
@@ -869,12 +861,12 @@ The application scenario of this document is C++training and is mainly used in t
 - fill
 - fill_
 - floor_divide
+- fmax
 - fmin
 - frobenius_norm
 - full
 - full_
 - full_batch_size_like
-- full_int_array
 - full_like
 - fused_adam_
 - gather
@@ -954,12 +946,6 @@ The application scenario of this document is C++training and is mainly used in t
 - fused_dropout_add
 - fused_linear_param_grad_add
 
-### paddle::experimental::strings::
-- empty
-- empty_like
-- lower
-- upper
-
 ### paddle::experimental::sparse::
 - abs
 - acos
@@ -1009,4 +995,16 @@ The application scenario of this document is C++training and is mainly used in t
 - maxpool
 - mv
 - slice
+
+### paddle::experimental::strings::
+- empty
+- empty_like
+- lower
+- upper
+
+### phi::
+- CPUContext
+- GPUContext
+- Place
+- DeviceContext
 

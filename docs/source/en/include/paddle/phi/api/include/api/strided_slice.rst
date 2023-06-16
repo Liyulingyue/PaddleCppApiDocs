@@ -6,11 +6,12 @@ strided_slice
 .. cpp:function:: Tensor strided_slice ( const Tensor & x , const std::vector<int> & axes , const IntArray & starts , const IntArray & ends , const IntArray & strides ) ;
 
 
+
 This API is aligned with Python API, more details are shown in [paddle.strided_slice](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/strided_slice_en.html)
 
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

@@ -6,9 +6,10 @@ min
 .. cpp:function:: Tensor min ( const Tensor & x , const IntArray & axis = { } , bool keepdim = false ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

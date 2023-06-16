@@ -6,9 +6,10 @@ searchsorted
 .. cpp:function:: Tensor searchsorted ( const Tensor & sorted_sequence , const Tensor & values , bool out_int32 = false , bool right = false ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 参数
 :::::::::::::::::::::

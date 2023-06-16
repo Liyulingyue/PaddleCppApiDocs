@@ -6,9 +6,10 @@ mean_all
 .. cpp:function:: Tensor mean_all ( const Tensor & x ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

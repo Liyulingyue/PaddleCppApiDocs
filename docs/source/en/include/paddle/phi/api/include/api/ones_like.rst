@@ -6,9 +6,10 @@ ones_like
 .. cpp:function:: Tensor ones_like ( const Tensor & x , DataType dtype = DataType::UNDEFINED , const Place & place = { } ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

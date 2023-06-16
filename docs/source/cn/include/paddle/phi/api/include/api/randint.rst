@@ -6,9 +6,10 @@ randint
 .. cpp:function:: Tensor randint ( int low , int high , const IntArray & shape , DataType dtype = DataType::INT64 , const Place & place = { } ) ;
 
 
+
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 参数
 :::::::::::::::::::::

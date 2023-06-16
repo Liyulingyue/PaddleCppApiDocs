@@ -6,9 +6,10 @@ shape
 .. cpp:function:: Tensor shape ( const Tensor & input ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

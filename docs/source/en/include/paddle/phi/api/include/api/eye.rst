@@ -6,9 +6,10 @@ eye
 .. cpp:function:: Tensor eye ( const Scalar & num_rows , const Scalar & num_columns , DataType dtype = DataType::FLOAT32 , const Place & place = { } ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

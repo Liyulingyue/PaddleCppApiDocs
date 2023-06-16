@@ -6,11 +6,12 @@ cosh
 .. cpp:function:: Tensor cosh ( const Tensor & x ) ;
 
 
+
 本 API 与 Python API 对齐，详细用法可参考链接：[paddle.cosh](https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/cosh_cn.html)
 
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 参数
 :::::::::::::::::::::

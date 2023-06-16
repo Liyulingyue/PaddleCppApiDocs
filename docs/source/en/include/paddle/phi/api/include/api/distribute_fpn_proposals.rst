@@ -6,9 +6,10 @@ distribute_fpn_proposals
 .. cpp:function:: std::tuple<std::vector<Tensor> , std::vector<Tensor> , Tensor> distribute_fpn_proposals ( const Tensor & fpn_rois , const paddle::optional<Tensor> & rois_num , int min_level , int max_level , int refer_level , int refer_scale , bool pixel_offset ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

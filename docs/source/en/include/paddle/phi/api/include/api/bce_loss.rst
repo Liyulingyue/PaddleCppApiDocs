@@ -6,9 +6,10 @@ bce_loss
 .. cpp:function:: Tensor bce_loss ( const Tensor & input , const Tensor & label ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

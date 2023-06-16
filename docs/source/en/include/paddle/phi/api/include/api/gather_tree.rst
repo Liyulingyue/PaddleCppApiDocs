@@ -6,9 +6,10 @@ gather_tree
 .. cpp:function:: Tensor gather_tree ( const Tensor & ids , const Tensor & parents ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::

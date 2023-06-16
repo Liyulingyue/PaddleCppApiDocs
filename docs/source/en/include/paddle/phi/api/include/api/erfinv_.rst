@@ -6,9 +6,10 @@ erfinv_
 .. cpp:function:: Tensor & erfinv_ ( Tensor & x ) ;
 
 
+
 Path
 :::::::::::::::::::::
-paddle/include/paddle/phi/api/include/api.h
+paddle\include\paddle\phi\api\include\api.h
 
 Parameters
 :::::::::::::::::::::
