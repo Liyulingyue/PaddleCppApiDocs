@@ -285,12 +285,15 @@ class class_helper(object):
 
     def create_and_write_file_cn(self, save_dir, language):
         with open(save_dir, 'w', encoding='utf8') as f:
+            # replace file_path to enhance sphinx
+            _file_path = self.file_path.replace("\\","/")
+
             head_text = f'.. _{language}_api_{self.class_name}:\n' \
                         f'\n'
             f.write(head_text)
 
             name_and_intro_text = (
-                f'{self.class_name} `源代码 <https://github.com/PaddlePaddle/Paddle/blob/{self.branch}/{self.file_path}>`_\n'
+                f'{self.class_name} `源代码 <https://github.com/PaddlePaddle/Paddle/blob/{self.branch}/{_file_path}>`_\n'
                 f'-------------------------------\n'
                 f'\n'
                 f'.. cpp:class:: {self.init_func}\n'
@@ -304,8 +307,6 @@ class class_helper(object):
                 note_text = f'..note::\n' f'\t{self.note}\n' f'\n'
                 f.write(note_text)
 
-            # replace to enhance sphinx
-            _file_path = self.file_path.replace("\\","/")
             define_path_text = (
                 f'定义目录\n' f':::::::::::::::::::::\n' 
                 f'{_file_path}\n' 
