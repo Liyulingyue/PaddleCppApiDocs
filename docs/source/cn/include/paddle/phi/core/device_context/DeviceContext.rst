@@ -1,6 +1,6 @@
 .. _cn_api_DeviceContext:
 
-DeviceContext `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/include/paddle/phi/core/device_context.h>`_
+DeviceContext `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/paddle\include\paddle\phi\core\device_context.h>`_
 -------------------------------
 
 .. cpp:class:: DeviceContext
@@ -10,7 +10,7 @@ DeviceContext `源代码 <https://github.com/PaddlePaddle/Paddle/blob/develop/pa
 
 定义目录
 :::::::::::::::::::::
-paddle/include/paddle/phi/core/device_context.h
+paddle\include\paddle\phi\core\device_context.h
 
 方法
 :::::::::::::::::::::
@@ -53,41 +53,26 @@ void SetAllocator ( const Allocator * ) ;
 '''''''''''
 Set the device-related Allocator object. 
 
-**参数**
-'''''''''''
-	- **** (const Allocator*)
 
 void SetHostAllocator ( const Allocator * ) ;
 '''''''''''
 Set the host Allocator object. 
 
-**参数**
-'''''''''''
-	- **** (const Allocator*)
 
 void SetZeroAllocator ( const Allocator * ) ;
 '''''''''''
 Set the zero-size Allocator object. 
 
-**参数**
-'''''''''''
-	- **** (const Allocator*)
 
 void SetHostZeroAllocator ( const Allocator * ) ;
 '''''''''''
 Set the zero-size host Allocator object. 
 
-**参数**
-'''''''''''
-	- **** (const Allocator*)
 
 void SetPinnedAllocator ( const Allocator * ) ;
 '''''''''''
 Set the zero-size Allocator object. 
 
-**参数**
-'''''''''''
-	- **** (const Allocator*)
 
 const Allocator & GetAllocator ( ) const ;
 '''''''''''
@@ -140,9 +125,6 @@ void SetCUDAGraphAllocator ( const Allocator * ) ;
 '''''''''''
 Set the CUDA graph Allocator object. 
 
-**参数**
-'''''''''''
-	- **** (const Allocator*)
 
 const Allocator & GetCUDAGraphAllocator ( ) const ;
 '''''''''''
@@ -171,7 +153,6 @@ Allocate device memory for tensor.
 
 **参数**
 '''''''''''
-	- **** (TensorBase*)
 	- **dtype** (DataType)
 	- **requested_size** (size_t)
 	- **pinned** (bool)
@@ -236,9 +217,6 @@ void SetGenerator ( Generator * ) ;
 '''''''''''
 Set the generator for special op. 
 
-**参数**
-'''''''''''
-	- **** (Generator*)
 
 Generator * GetGenerator ( ) const ;
 '''''''''''
@@ -254,9 +232,6 @@ void SetHostGenerator ( Generator * ) ;
 '''''''''''
 Set the host generator for special op. 
 
-**参数**
-'''''''''''
-	- **** (Generator*)
 
 Generator * GetHostGenerator ( ) const ;
 '''''''''''

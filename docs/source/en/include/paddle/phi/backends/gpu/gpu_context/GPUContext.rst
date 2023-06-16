@@ -335,6 +335,5 @@ void SetCUDAStream ( CUDAStream * , bool clear = true ) ;
 
 **Parameters**
 '''''''''''
-	- **** (CUDAStream*)
 	- **clear** (bool)
 
