@@ -1,2 +1,3 @@
 robotpy-cppheaderparser==5.1.0
+sphinx-rtd-theme
 # paddle
